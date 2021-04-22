@@ -4,7 +4,6 @@
 
 `Guinsoo Lab, redefine data.`
 
-
 <br/>
 
 ## Guinsoo Lab Atlas
@@ -13,7 +12,6 @@
 - [guinsoo/pad](https://github.com/GuinsooLab/guinsoopad)
 - [guinsoo/db](https://github.com/GuinsooLab/guinsoodb)
 - [guinsoo/vm](https://github.com/GuinsooLab/guinsoovm)
-
 
 <br/>
 
