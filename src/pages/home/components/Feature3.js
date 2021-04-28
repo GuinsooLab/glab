@@ -36,7 +36,7 @@ const SubSystemsInfo = [
   {
     id: 3,
     icon: <AssessmentIcon color={"primary"} fontSize={"large"} />,
-    title: "Guisooo.Min",
+    title: "Guinsoo.Min",
     longDesc: "Min is a High Performance Object Storage released under Apache License v2.0. It is API compatible with Amazon S3 cloud storage service. Use Min to build high performance infrastructure for machine learning, analytics and application data workloads.",
     systemPic: MainFeature3,
     link: "https://guinsoolab.github.io/guinsoomin/",
