@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/styles";
 import Hidden from "@material-ui/core/Hidden";
 
 // pictures
-import HomeImagExample from "../../../images/example.png";
+import HomeMainBg from "../../../images/home-main-bg-1.png";
 import Divider from "@material-ui/core/Divider";
 
 const useStyles = makeStyles(theme => ({
@@ -131,7 +131,7 @@ export default function Feature1(props) {
           <Hidden mdDown>
             <div className={classes.pageRight}>
               <img
-                src={HomeImagExample}
+                src={HomeMainBg}
                 className={classes.homeImg}
                 alt="home-img"
               />
