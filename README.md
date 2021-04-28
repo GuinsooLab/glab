@@ -6,13 +6,10 @@
 modern SaaS tool.`
 
 <br/>
-<br/>
 
-[GLab Home page](https://guinsoolab.github.io/).
+[GLab Home](https://guinsoolab.github.io/glab)
 
 <br/>
-<br/>
-
 
 © GLib. All right reserved. GLib and GLib feature logo are trademarks of Guinsoo. 
 This is maintained by [cius.ji](https://github.com/ciusji).
