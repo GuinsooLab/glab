@@ -1,6 +1,6 @@
 {
-  "name": "psite",
-  "homepage": "https://ciusji.github.io/psite/",
+  "name": "glib",
+  "homepage": "https://guinsoolab.github.io/glab/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
