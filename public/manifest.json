@@ -1,6 +1,7 @@
 {
   "short_name": "GLib",
   "name": "Guinsoo Lab",
+  "description": "GLib - survive anything, thrive everywhere.",
   "icons": [
     {
       "src": "favicon.ico",
