@@ -14,11 +14,11 @@ export default function Home() {
   return (
     <div>
       <Feature1 />
-      <Feature3 />
-      <Feature4 />
-      <ActionFeature />
-      <Feature5 />
-      <Footer/>
+      {/*<Feature3 />*/}
+      {/*<Feature4 />*/}
+      {/*<ActionFeature />*/}
+      {/*<Feature5 />*/}
+      {/*<Footer/>*/}
     </div>
   );
 }

@@ -30,7 +30,7 @@ function Layout() {
   return (
     <div className={classes.root}>
       <UserRoleContext.Provider value={role}>
-        <Header ctx={{role, handleSetRole}}/>
+        {/*<Header ctx={{role, handleSetRole}}/>*/}
         <Switch>
           <Route path="/app/home" component={Home} />
           {/*<Route path="/app/about" component={About} />*/}
