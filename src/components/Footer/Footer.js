@@ -26,7 +26,7 @@ export default function Footer() {
               <img
                 src={GLabLogoFooter}
                 className={classes.logo}
-                alt="glib-logo-footer"
+                alt="glab-logo-footer"
               />
               <Typography className={classes.logoBody}>
                 redefine your data

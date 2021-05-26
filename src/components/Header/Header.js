@@ -54,7 +54,7 @@ export default function Header() {
         <img
           src={GLabLogo}
           className={classes.logo}
-          alt="glib-logo"
+          alt="glab-logo"
           onClick={() => window.open("#/app/home", "_self")}
         />
         <div className={classes.grow} />
