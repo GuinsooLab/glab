@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/glab/static/js/main.f5b5c921.chunk.js",
+    "main.js.map": "/glab/static/js/main.f5b5c921.chunk.js.map",
+    "runtime~main.js": "/glab/static/js/runtime~main.f96971e2.js",
+    "runtime~main.js.map": "/glab/static/js/runtime~main.f96971e2.js.map",
+    "static/js/2.482b74ce.chunk.js": "/glab/static/js/2.482b74ce.chunk.js",
+    "static/js/2.482b74ce.chunk.js.map": "/glab/static/js/2.482b74ce.chunk.js.map",
+    "index.html": "/glab/index.html",
+    "precache-manifest.13d605f7c8564c022c915b6dd80df33a.js": "/glab/precache-manifest.13d605f7c8564c022c915b6dd80df33a.js",
+    "service-worker.js": "/glab/service-worker.js",
+    "static/media/bg-main.svg": "/glab/static/media/bg-main.8c1f2977.svg",
+    "static/media/bg-secondary.svg": "/glab/static/media/bg-secondary.801842b7.svg",
+    "static/media/ff_1.svg": "/glab/static/media/ff_1.be791b58.svg",
+    "static/media/ff_2.svg": "/glab/static/media/ff_2.57c7d916.svg",
+    "static/media/ff_3.svg": "/glab/static/media/ff_3.f6c0c8d6.svg",
+    "static/media/ff_4.svg": "/glab/static/media/ff_4.333d0b60.svg",
+    "static/media/github.svg": "/glab/static/media/github.2d7ee4e2.svg",
+    "static/media/glab-logo-footer.svg": "/glab/static/media/glab-logo-footer.136d42aa.svg",
+    "static/media/glab-logo.svg": "/glab/static/media/glab-logo.2f76e2dc.svg",
+    "static/media/laptop.png": "/glab/static/media/laptop.f4c3fbab.png",
+    "static/media/linkedin.svg": "/glab/static/media/linkedin.b5ed5d9d.svg",
+    "static/media/main-ground.svg": "/glab/static/media/main-ground.351cd6df.svg"
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="4826px" height="653px" viewBox="0 0 4826 653" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg-secondary</title>
+    <defs>
+        <linearGradient x1="131.214836%" y1="53.5888723%" x2="1.63242616%" y2="49.0845772%" id="linearGradient-1">
+            <stop stop-color="#32C5FF" offset="0%"></stop>
+            <stop stop-color="#B620E0" offset="51.2583893%"></stop>
+            <stop stop-color="#F7B500" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="bg-secondary" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="4826" height="653"></rect>
+    </g>
+</svg>
