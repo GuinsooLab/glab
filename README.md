@@ -16,12 +16,12 @@ modern SaaS tool.`
 
 ## Main Apps
 
-* [GuinsooPad](https://guinsoolab.github.io/guinsoopad/)
-* [GuinsooDB](https://guinsoolab.github.io/guinsoodb/)
-* [GuinsooMin](https://guinsoolab.github.io/guinsoomin/)
-* [GuinsooVM](https://guinsoolab.github.io/guinsoovm/)
-* [GuinsooSearch](https://guinsoolab.github.io/guinsoosearch/)
-* [GuinsooGraph](https://guinsoolab.github.io/guinsoograph/)
+* [Guinsoo Pad](https://guinsoolab.github.io/guinsoopad/)
+* [Guinsoo DB](https://guinsoolab.github.io/guinsoodb/)
+* [Guinsoo Min](https://guinsoolab.github.io/guinsoomin/)
+* [Guinsoo VM](https://guinsoolab.github.io/guinsoovm/)
+* [Guinsoo Search](https://guinsoolab.github.io/guinsoosearch/)
+* [Guinsoo Graph](https://guinsoolab.github.io/guinsoograph/)
 
 
 <br/>
