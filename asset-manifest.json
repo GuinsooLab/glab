@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/glab/static/js/main.5a88daf3.chunk.js",
-    "main.js.map": "/glab/static/js/main.5a88daf3.chunk.js.map",
+    "main.js": "/glab/static/js/main.6195a657.chunk.js",
+    "main.js.map": "/glab/static/js/main.6195a657.chunk.js.map",
     "runtime~main.js": "/glab/static/js/runtime~main.f96971e2.js",
     "runtime~main.js.map": "/glab/static/js/runtime~main.f96971e2.js.map",
     "static/js/2.482b74ce.chunk.js": "/glab/static/js/2.482b74ce.chunk.js",
     "static/js/2.482b74ce.chunk.js.map": "/glab/static/js/2.482b74ce.chunk.js.map",
     "index.html": "/glab/index.html",
-    "precache-manifest.e529ef235963e7f0b4227dab6e989554.js": "/glab/precache-manifest.e529ef235963e7f0b4227dab6e989554.js",
+    "precache-manifest.abbf6c259c409c6d436d0a3f273496ea.js": "/glab/precache-manifest.abbf6c259c409c6d436d0a3f273496ea.js",
     "service-worker.js": "/glab/service-worker.js",
     "static/media/bg-main.svg": "/glab/static/media/bg-main.8c1f2977.svg",
     "static/media/bg-secondary.svg": "/glab/static/media/bg-secondary.801842b7.svg",
