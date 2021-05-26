@@ -27,7 +27,7 @@ modern SaaS tool.`
 <br/>
 <br/>
 
-© GLib. All right reserved. GLib and GLib feature logo are trademarks of Guinsoo.
+© GLab. All right reserved. GLab and GLab feature logo are trademarks of Guinsoo.
 This is maintained by [cius.ji](https://github.com/ciusji).
 <br/>
 <br/>
