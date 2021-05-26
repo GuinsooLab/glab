@@ -40,7 +40,7 @@ export default function Footer() {
                   <b className={classes.title2}>GLab</b>
                   <p className={classes.body2} onClick={() => window.open("https://github.com/GuinsooLab", "_target")}>About Us</p>
                   <p className={classes.body2} onClick={() => window.open("https://github.com/GuinsooLab/glab/blob/main/LICENSE", "_target")}>License</p>
-                  <p className={classes.body2} onClick={() => window.open("https://github.com/ciusji", "_target")}>Blog</p>
+                  <p className={classes.body2} onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/", "_target")}>Docs</p>
                 </Grid>
                 <Grid item xs={3} className={classes.footerBody}>
                   <b className={classes.title2}>Community</b>

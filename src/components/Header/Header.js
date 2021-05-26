@@ -88,8 +88,9 @@ export default function Header() {
         </Menu>
         <p
           className={classes.subTitle}
+          onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/", "_target")}
         >
-          Blog
+          Docs
         </p>
         <p
           className={classes.subTitle}
