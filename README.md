@@ -1,6 +1,6 @@
 # GLab-Web
 
-![logo](./src/images/guinsoolab.svg)
+![logo](./src/images/guinsoolab2.svg)
 
 `GLab is the perfect calculation-container for developers, analyst and entrepreneurs who need a sleek,
 modern SaaS tool.`

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="658px" height="413px" viewBox="0 0 658 413" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <defs>
+        <linearGradient x1="79.9797316%" y1="100%" x2="42.1916356%" y2="27.1451362%" id="linearGradient-1">
+            <stop stop-color="#32C5FF" offset="0%"></stop>
+            <stop stop-color="#B620E0" offset="51.2583893%"></stop>
+            <stop stop-color="#F7B500" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo_black" transform="translate(32.000000, 0.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M129.319856,0 L129.319856,137.141842 L129.431251,151.767936 L129.18382,151.791576 L125.613668,152.173141 L123.67217,152.400374 L123.369501,152.440371 C63.8846492,160.717919 19.057663,211.87098 19.057663,272.597549 C19.057663,339.599973 73.299389,393.916172 140.209949,393.916172 C172.320907,393.916172 202.422263,381.360908 224.899049,359.351719 L226.016508,358.243399 L239.514023,371.715924 C213.382332,397.968017 177.973271,413 140.209949,413 C62.7741325,413 0,350.13968 0,272.597549 C0,205.928047 46.6746119,149.238657 110.261941,135.404769 L110.262193,19.0838282 L85.7594834,19.0838282 L85.7594834,0 L129.319856,0 Z M194.660415,0 L194.660415,19.0838282 L170.156323,19.0838282 L170.158688,135.438834 C195.731521,141.016428 219.132064,153.669206 237.873353,171.896374 L239.088851,173.092862 L225.647376,186.621453 C206.872506,167.916225 182.529803,155.799202 156.053081,152.335788 L154.140276,152.102094 L151.203887,151.812893 L151.06599,151.799312 L151.09866,138.984795 L151.100042,0 L194.660415,0 Z" id="Combined-Shape"></path>
+        </g>
+        <text id="GuinsooLab" font-family="LucidaGrande-Bold, Lucida Grande" font-size="91" font-weight="bold" fill="#000000">
+            <tspan x="97.3303223" y="303">G</tspan>
+            <tspan x="165.18042" y="303" font-family="LucidaGrande, Lucida Grande" font-weight="normal">uinsooLab</tspan>
+        </text>
+    </g>
+</svg>
