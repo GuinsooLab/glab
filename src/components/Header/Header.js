@@ -94,7 +94,9 @@ export default function Header() {
         </p>
         <p
           className={classes.subTitle}
+          onClick={() => { window.open("https://ciusji.gitbook.io/guinsooblog/", "_target")}}
         >
+          Blog
         </p>
         <div className={classes.gap} />
       </Toolbar>
