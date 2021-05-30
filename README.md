@@ -2,6 +2,8 @@
 
 # GLab-Web
 
+[![license](https://img.shields.io/github/v/tag/GuinsooLab/glab)](https://github.com/GuinsooLab/glab/releases/tag/v1.0.0)
+[![license](https://img.shields.io/github/repo-size/GuinsooLab/glab)](https://github.com/GuinsooLab/glab)
 [![license](https://img.shields.io/github/license/GuinsooLab/glab)](https://github.com/GuinsooLab/glab/blob/main/LICENSE)
 
 `GLab is the perfect calculation-container for developers, analyst and entrepreneurs who need a sleek,
