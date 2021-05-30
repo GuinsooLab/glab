@@ -38,7 +38,7 @@ export default function Footer() {
               <Grid container>
                 <Grid item xs={3} className={classes.footerBody}>
                   <b className={classes.title2}>GLab</b>
-                  <p className={classes.body2} onClick={() => window.open("https://spotrix.github.io/spotrix-web/", "_target")}>Spotrix 🔥</p>
+                  <p className={classes.body2} onClick={() => window.open("https://spotrix.github.io/spotrix-web/", "_target")}>Spotrix&nbsp;<span role={"img"}  aria-label={"img"}>🔥</span></p>
                   <p className={classes.body2} onClick={() => window.open("https://github.com/GuinsooLab", "_target")}>About Us</p>
                   <p className={classes.body2} onClick={() => window.open("https://github.com/GuinsooLab/glab/blob/main/LICENSE", "_target")}>License</p>
                   <p className={classes.body2} onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/", "_target")}>Docs</p>

@@ -71,20 +71,51 @@ export default function Header() {
           anchorEl={appMenu}
           onClose={() => setAppMenu(null)}
           className={classes.headerMenu}
+          PaperProps={{
+            style: {
+              width: "30vw"
+            },
+          }}
         >
-          {Products.map(it => (
-            <Grid container spacing={2} key={it.name}>
-              <Grid item xs={12}>
-                <p
-                  className={classes.productTitle}
-                  onClick={() => window.open(it.link, "_target")}
-                >
-                  {it.name}
-                </p>
-                <p className={classes.productDesc}>{it.desc}</p>
+          <Grid container>
+            <Grid item xs={6}>
+              <Grid container spacing={2}>
+                <Grid item xs={12}>
+                  <p
+                    className={classes.productTitle}
+                    onClick={() => window.open("https://spotrix.github.io/spotrix-web/", "_target")}
+                  >
+                    Spotrix&nbsp;<span role={"img"}  aria-label={"img"}>🔥</span>
+                  </p>
+                  <p className={classes.productDesc}>Explore insights for everyone</p>
+                </Grid>
+                <Grid item xs={12}>
+                  <p
+                    className={classes.productTitle}
+                  >
+                    Lux&nbsp;<span role={"img"}  aria-label={"img"}>🔐</span>
+                  </p>
+                  <p className={classes.productDesc}>Intelligent visual data</p>
+                </Grid>
               </Grid>
             </Grid>
-          ))}
+            <Grid item xs={6}>
+              {Products.map(it => (
+                <Grid container spacing={2} key={it.name}>
+                  <Grid item xs={12}>
+                    <p
+                      className={classes.productTitle}
+                      onClick={() => window.open(it.link, "_target")}
+                    >
+                      {it.name}
+                    </p>
+                    <p className={classes.productDesc}>{it.desc}</p>
+                  </Grid>
+                </Grid>
+              ))}
+            </Grid>
+          </Grid>
+
         </Menu>
         <p
           className={classes.subTitle}
