@@ -94,7 +94,7 @@ const useStyles = makeStyles(theme => ({
 export default function Feature1(props) {
   const classes = useStyles();
 
-  const defaultSystemName = "Guinsoo Lab";
+  const defaultSystemName = "GuinsooLab";
 
   const sloganBody = "GLab is the perfect calculation-container for developers, analyst and entrepreneurs who need a sleek, modern SaaS tool.";
 

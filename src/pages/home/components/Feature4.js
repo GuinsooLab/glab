@@ -39,14 +39,14 @@ export default function Feature4() {
           </Grid>
           <Grid item xs={8}>
             <Grid container>
-              <Grid item xs={12}>
+              <Grid item xs={9}>
                 <img src={TrixLogo} width={"100%"} alt="comma"/>
               </Grid>
-              {/*<Grid item xs={3}>*/}
-              {/*  <p className={classes.content}>*/}
-              {/*    Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.*/}
-              {/*  </p>*/}
-              {/*</Grid>*/}
+              <Grid item xs={3}>
+                <p className={classes.content}>
+                  Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
+                </p>
+              </Grid>
             </Grid>
           </Grid>
           <Grid item xs={2}>

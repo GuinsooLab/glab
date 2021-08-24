@@ -48,7 +48,7 @@ export default function ActionFeature() {
         <Grid item xs={3} />
         <Grid item xs={5}>
           <p className={classes.title}>Ready to get started?</p>
-          <p className={classes.body}>Just try it for free.</p>
+          <p className={classes.body}>Try the GuinsooLab community edition for free.</p>
         </Grid>
         <Grid item xs={2}>
           <Button className={classes.button} onClick={() => window.open("https://github.com/GuinsooLab", "_target")}>

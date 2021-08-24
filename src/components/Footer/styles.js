@@ -16,7 +16,7 @@ export default makeStyles((theme) => ({
     [theme.breakpoints.down("md")]: {
       display: "none",
     },
-    height: 34,
+    height: 48,
   },
   logoBody: {
     marginTop: theme.spacing(3),

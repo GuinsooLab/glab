@@ -184,7 +184,7 @@ export default function Feature3() {
                   className={classes.learnMore}
                   onClick={() => window.open(systemInfo.link, "_target")}
                 >
-                  Know More
+                  Learn More
                 </Button>
               </Grid>
               <Grid item xs={7} className={classes.subSystemPic}>
