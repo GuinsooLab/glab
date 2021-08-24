@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 600,
   },
   content: {
-    color: theme.palette.text.disabled,
+    color: theme.palette.text.secondary,
   },
 }));
 

@@ -10,7 +10,7 @@ export default makeStyles(theme => ({
   featureTitle: {
     color: theme.palette.text.primary,
     fontWeight: 500,
-    fontSize: 30,
+    fontSize: 38,
     display: "flex",
     justifyContent: "center",
     marginBottom: 0,
