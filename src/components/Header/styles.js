@@ -10,15 +10,15 @@ export default makeStyles(theme => {
         easing: theme.transitions.easing.sharp,
         duration: theme.transitions.duration.leavingScreen,
       }),
-      backgroundColor: "white",
-      color: theme.palette.primary.main,
+      backgroundColor: "#000000",
+      color: "white",
     },
     toolbar: {
       paddingLeft: theme.spacing(2),
       paddingRight: theme.spacing(2),
     },
     logo: {
-      marginLeft: theme.spacing(34),
+      marginLeft: theme.spacing(10),
       [theme.breakpoints.down("md")]: {
         display: "none",
       },
@@ -28,13 +28,12 @@ export default makeStyles(theme => {
       flexGrow: 1,
     },
     subTitle: {
-      width: 150,
+      width: 120,
       color: theme.palette.text.secondary,
-      fontSize: 15,
-      fontWeight: 600,
+      fontSize: 14,
       "&:hover": {
         cursor: "pointer",
-        color: theme.palette.primary.main,
+        color: theme.palette.text.hint,
       }
     },
     gap: {

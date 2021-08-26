@@ -66,6 +66,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     marginBottom: theme.spacing(5),
     marginTop: theme.spacing(5),
+    backgroundColor: "#161616",
   },
   items: {
     display: "flex",
@@ -76,7 +77,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(2),
   },
   appName: {
-    color: "black",
+    color: theme.palette.text.hint,
     fontSize: 28,
     fontWeight: 600,
     marginTop: theme.spacing(1),
@@ -84,7 +85,7 @@ const useStyles = makeStyles((theme) => ({
   },
   featureLongDesc: {
     marginTop: theme.spacing(2),
-    color: theme.palette.text.primary,
+    color: theme.palette.text.secondary,
     lineHeight: 2,
   },
   subSystemPic: {
@@ -105,7 +106,7 @@ const useStyles = makeStyles((theme) => ({
   subSystemCard: {
     display: "flex",
     flexDirection: "column",
-    backgroundColor: "#f2f2f3",
+    backgroundColor: "#000000",
     padding: theme.spacing(1),
     height: "30vh",
   },
@@ -117,6 +118,10 @@ const useStyles = makeStyles((theme) => ({
     textTransform: "Capitalize",
     fontWeight: 600,
     borderWidth: 2,
+    color: theme.palette.text.primary,
+    "&:hover": {
+      color: theme.palette.primary.main,
+    }
   },
   buttonLink: {
     marginTop: theme.spacing(5),
@@ -125,12 +130,12 @@ const useStyles = makeStyles((theme) => ({
     margin: "0px 8px",
     borderRadius: 4,
     "&:hover": {
-      backgroundColor: theme.palette.primary.main,
+      backgroundColor: theme.palette.text.hint,
       color: "white",
     },
   },
   divider: {
-    backgroundColor: theme.palette.primary.main,
+    backgroundColor: theme.palette.text.hint,
     height: 2,
     width: 40,
   },
@@ -165,7 +170,6 @@ export default function Feature3() {
                       {systemInfo.longDesc}
                     </p>
                     <Button
-                      color={"primary"}
                       endIcon={<ArrowRightAltIcon />}
                       className={classes.learnMore}
                       onClick={() => window.open(systemInfo.link, "_target")}

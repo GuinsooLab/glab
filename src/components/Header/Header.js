@@ -9,7 +9,7 @@ import Grid from "@material-ui/core/Grid";
 import useStyles from "./styles";
 
 // pictures
-import GLabLogo from "../../images/glab-logo.svg";
+import GLabLogo from "../../images/guinsoolab2.png";
 import Menu from "@material-ui/core/Menu";
 
 const Products = [
@@ -115,7 +115,6 @@ export default function Header() {
               ))}
             </Grid>
           </Grid>
-
         </Menu>
         <p
           className={classes.subTitle}

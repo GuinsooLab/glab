@@ -8,19 +8,22 @@ export default makeStyles(theme => ({
     flexDirection: "column",
   },
   featureTitle: {
-    color: theme.palette.text.primary,
+    color: "white",
     fontWeight: 800,
     fontSize: 38,
     display: "flex",
     justifyContent: "center",
-    marginBottom: 0,
+    marginTop: theme.spacing(4),
+    marginBottom: theme.spacing(2),
   },
   featureTip: {
     display: "flex",
     justifyContent: "center",
     textAlign: "center",
     width: "100vw",
-    color: theme.palette.text.secondary,
+    color: theme.palette.text.hint,
+    fontSize: 18,
+    marginBottom: theme.spacing(8)
   },
   tip: {
     width: 600,

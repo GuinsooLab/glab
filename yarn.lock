@@ -9313,6 +9313,11 @@ react-google-maps@^9.4.5:
     scriptjs "^2.5.8"
     warning "^3.0.0"
 
+react-image-gallery@^1.2.7:
+  version "1.2.7"
+  resolved "https://registry.nlark.com/react-image-gallery/download/react-image-gallery-1.2.7.tgz?cache=0&sync_timestamp=1628654499657&other_urls=https%3A%2F%2Fregistry.nlark.com%2Freact-image-gallery%2Fdownload%2Freact-image-gallery-1.2.7.tgz#2dfb83c52f32828a5340ca565f91bca58241fcfe"
+  integrity sha1-LfuDxS8ygopTQMpWX5G8pYJB/P4=
+
 react-is@^16.13.1, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
   resolved "https://registry.nlark.com/react-is/download/react-is-16.13.1.tgz?cache=0&sync_timestamp=1621960061701&other_urls=https%3A%2F%2Fregistry.nlark.com%2Freact-is%2Fdownload%2Freact-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"

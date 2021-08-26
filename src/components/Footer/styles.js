@@ -4,19 +4,16 @@ export default makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     display: "flex",
-    backgroundColor: "#2d303a",
-    color: fade("#fff", 0.9),
+    backgroundColor: "#000000",
+    color: theme.palette.secondary,
     paddingTop: theme.spacing(3),
   },
   logo: {
-    marginTop: theme.spacing(6),
     display: "flex",
-    width: "100%",
-    justifyContent: "center",
+    alignItems: "center",
     [theme.breakpoints.down("md")]: {
       display: "none",
     },
-    height: 48,
   },
   logoBody: {
     marginTop: theme.spacing(3),
@@ -26,7 +23,6 @@ export default makeStyles((theme) => ({
     color: theme.palette.text.hint,
     "&:hover": {
       color: "white",
-      fontWeight: 600,
     },
   },
   footerPos: {
@@ -51,7 +47,7 @@ export default makeStyles((theme) => ({
   title2: {
     fontSize: 16,
     marginBottom: theme.spacing(2),
-    color: "white",
+    color: theme.palette.text.hint,
     fontWeight: 800,
   },
   body2: {
@@ -59,7 +55,6 @@ export default makeStyles((theme) => ({
     marginBottom: theme.spacing(1),
     "&:hover": {
       color: "white",
-      fontWeight: 600,
       cursor: "pointer",
     },
   },
@@ -99,12 +94,16 @@ export default makeStyles((theme) => ({
   },
   input: {
     marginTop: theme.spacing(2),
-    backgroundColor: "white",
-    padding: theme.spacing(1),
+    backgroundColor: theme.palette.text.secondary,
+    padding: 4,
     borderRadius: 4,
+    "&:hover, &:focus": {
+      backgroundColor: "white",
+      color: theme.palette.primary.main,
+    }
   },
   button: {
-    width: 150,
+    width: 120,
     padding: theme.spacing(1),
     marginTop: theme.spacing(2),
     marginBottom: theme.spacing(2),
@@ -113,8 +112,8 @@ export default makeStyles((theme) => ({
     textTransform: "Capitalize",
     "&:hover": {
       backgroundColor: theme.palette.primary.main,
-      fontWeight: 800,
       cursor: "pointer",
+      fontWeight: 600,
     },
   },
   items: {
@@ -127,8 +126,8 @@ export default makeStyles((theme) => ({
   copyright: {
     display: "flex",
     width: "100%",
-    justifyContent: "center",
-    color: theme.palette.text.hint,
-    marginBottom: theme.spacing(5),
+    paddingLeft: theme.spacing(3),
+    color: theme.palette.text.primary,
+    marginBottom: theme.spacing(15),
   },
 }));

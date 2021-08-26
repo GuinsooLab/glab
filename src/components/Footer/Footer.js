@@ -10,7 +10,7 @@ import InputBase from "@material-ui/core/InputBase";
 import useStyles from "./styles";
 
 // pictures
-import GLabLogoFooter from "../../images/glab-logo-footer.svg";
+import GLabLogoFooter from "../../images/guinsoolab2.png";
 import GitHubLogo from "../../images/github.svg";
 import LinkedInLogo from "../../images/linkedin.svg";
 
@@ -22,15 +22,13 @@ export default function Footer() {
       <div className={classes.root}>
         <Container maxWidth="lg">
           <Grid container className={classes.footerPos}>
-            <Grid item xs={2}>
+            <Grid item xs={2} className={classes.logo}>
               <img
                 src={GLabLogoFooter}
-                className={classes.logo}
+                width={70}
+                height={70}
                 alt="glab-logo-footer"
               />
-              <Typography className={classes.logoBody}>
-                redefine your data
-              </Typography>
             </Grid>
             <Grid item xs={1}>
             </Grid>
@@ -49,10 +47,6 @@ export default function Footer() {
                     <img src={GitHubLogo} width={14} alt="github-logo"/>
                     &nbsp;&nbsp;GitHub
                   </p>
-                  <p className={classes.body2} onClick={() => window.open("https://www.linkedin.com/in/ciusji/", "_target")}>
-                    <img src={LinkedInLogo} width={14} alt="linkedin-logo"/>
-                    &nbsp;&nbsp;LinkedIn
-                  </p>
                 </Grid>
                 <Grid item xs={5} className={classes.footerBody}>
                   <b className={classes.title2}>Subscribe</b>
@@ -67,7 +61,7 @@ export default function Footer() {
           {/* divider */}
           <Divider className={classes.appDivider} />
           <Typography className={classes.copyright}>
-            © GLab. All right reserved. GLab and GLab feature logo are trademarks of Guinsoo.
+            © GuinsooLab. All right reserved. GuinsooLab and GuinsooLab feature logo are trademarks of Guinsoo.
           </Typography>
         </Container>
       </div>
