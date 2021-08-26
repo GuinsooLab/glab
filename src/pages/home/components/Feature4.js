@@ -4,9 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 // components
 import Title from "../../../components/Title";
-
-// images
-import TrixLogo from "../../../images/laptop.png"
+import DataFlow from "../../../components/DataFlow";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -23,6 +21,10 @@ const useStyles = makeStyles((theme) => ({
     width: theme.spacing(7),
     height: theme.spacing(7),
   },
+  dataFlow: {
+    height: "60vh",
+    cursor: "pointer"
+  }
 }));
 
 export default function Feature4() {
@@ -39,13 +41,8 @@ export default function Feature4() {
           </Grid>
           <Grid item xs={8}>
             <Grid container>
-              <Grid item xs={9}>
-                <img src={TrixLogo} width={"100%"} alt="comma"/>
-              </Grid>
-              <Grid item xs={3}>
-                <p className={classes.content}>
-                  Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-                </p>
+              <Grid item xs={12} className={classes.dataFlow}>
+                <DataFlow />
               </Grid>
             </Grid>
           </Grid>

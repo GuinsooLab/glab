@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginBottom: theme.spacing(5),
+    backgroundColor: "#f2f2f3",
   },
   img: {
     display: "flex",

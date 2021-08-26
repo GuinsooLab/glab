@@ -9,7 +9,7 @@ export default makeStyles(theme => ({
   },
   featureTitle: {
     color: theme.palette.text.primary,
-    fontWeight: 500,
+    fontWeight: 800,
     fontSize: 38,
     display: "flex",
     justifyContent: "center",
@@ -23,6 +23,6 @@ export default makeStyles(theme => ({
     color: theme.palette.text.secondary,
   },
   tip: {
-    width: 400,
+    width: 600,
   },
 }));
