@@ -12,7 +12,6 @@ import useStyles from "./styles";
 // pictures
 import GLabLogoFooter from "../../images/guinsoolab2.png";
 import GitHubLogo from "../../images/github.svg";
-import LinkedInLogo from "../../images/linkedin.svg";
 
 export default function Footer() {
   const classes = useStyles();

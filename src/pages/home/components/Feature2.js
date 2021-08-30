@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
   },
   cardBody: {
     textAlign: "center",
+    borderRadius: 4,
     "&:hover": {
       color: "white",
       backgroundColor: "#000000",

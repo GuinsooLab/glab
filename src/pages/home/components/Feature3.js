@@ -109,10 +109,12 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#000000",
     padding: theme.spacing(1),
     height: "30vh",
+    borderRadius: 4,
   },
   learnMore: {
     marginTop: theme.spacing(4),
     display: "flex",
+    paddingLeft: 0,
     paddingBottom: theme.spacing(1),
     paddingTop: theme.spacing(1),
     textTransform: "Capitalize",
