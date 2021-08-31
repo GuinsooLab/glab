@@ -126,7 +126,7 @@ export default makeStyles((theme) => ({
   copyright: {
     display: "flex",
     width: "100%",
-    paddingLeft: theme.spacing(3),
+    paddingLeft: theme.spacing(1),
     color: theme.palette.text.primary,
     marginBottom: theme.spacing(15),
   },

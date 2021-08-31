@@ -161,7 +161,7 @@ export default function Feature3() {
               <Grid item xs={6} className={classes.subSystemInfo} id={systemInfo.id}>
                 <Grid container className={classes.subSystemCard}>
                   <Grid item xs={4}>
-                    <img src={systemInfo.icon} width={66} alt="icon"  />
+                    <img src={systemInfo.icon} width={40} alt="icon" />
                   </Grid>
                   <Grid item xs={8}>
                     <p className={classes.appName}>

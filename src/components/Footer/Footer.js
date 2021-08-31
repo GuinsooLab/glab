@@ -10,7 +10,7 @@ import InputBase from "@material-ui/core/InputBase";
 import useStyles from "./styles";
 
 // pictures
-import GLabLogoFooter from "../../images/guinsoolab2.png";
+import GLabLogoFooter from "../../images/logo.svg";
 import GitHubLogo from "../../images/github.svg";
 
 export default function Footer() {
@@ -24,8 +24,8 @@ export default function Footer() {
             <Grid item xs={2} className={classes.logo}>
               <img
                 src={GLabLogoFooter}
-                width={70}
-                height={70}
+                width={40}
+                height={40}
                 alt="glab-logo-footer"
               />
             </Grid>
@@ -34,7 +34,7 @@ export default function Footer() {
             <Grid item xs={9} >
               <Grid container>
                 <Grid item xs={3} className={classes.footerBody}>
-                  <b className={classes.title2}>GLab</b>
+                  <b className={classes.title2}>GuinsooLab</b>
                   <p className={classes.body2} onClick={() => window.open("https://spotrix.github.io/spotrix-web/", "_target")}>Spotrix&nbsp;<span role={"img"}  aria-label={"img"}>🔥</span></p>
                   <p className={classes.body2} onClick={() => window.open("https://github.com/GuinsooLab", "_target")}>About Us</p>
                   <p className={classes.body2} onClick={() => window.open("https://github.com/GuinsooLab/glab/blob/main/LICENSE", "_target")}>License</p>

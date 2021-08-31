@@ -9,7 +9,7 @@ import Grid from "@material-ui/core/Grid";
 import useStyles from "./styles";
 
 // pictures
-import GLabLogo from "../../images/guinsoolab2.png";
+import GLabLogo from "../../images/logo.svg";
 import Menu from "@material-ui/core/Menu";
 
 const Products = [

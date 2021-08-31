@@ -22,7 +22,7 @@ export default makeStyles(theme => {
       [theme.breakpoints.down("md")]: {
         display: "none",
       },
-      height: 58,
+      height: 40,
     },
     grow: {
       flexGrow: 1,
