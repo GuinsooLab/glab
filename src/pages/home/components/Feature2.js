@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    height: "20vh",
+    height: "10vh",
     backgroundColor: "#000000",
   }
 }));

@@ -9,7 +9,7 @@ const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
     width: "100vw",
-    height: "80vh",
+    height: "90vh",
     backgroundColor: "#000000",
   },
   mainPart: {
@@ -17,7 +17,7 @@ const useStyles = makeStyles(theme => ({
     width: "100%",
   },
   paperLeft: {
-    height: "80vh",
+    height: "90vh",
     marginTop: theme.spacing(2),
     display: "flex",
     justifyContent: "center",
@@ -25,7 +25,7 @@ const useStyles = makeStyles(theme => ({
     flexDirection: "column",
   },
   pageRight: {
-    height: "80vh",
+    height: "90vh",
     padding: theme.spacing(2),
     display: "flex",
     justifyContent: "center",
