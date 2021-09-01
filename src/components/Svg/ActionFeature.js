@@ -33,6 +33,11 @@ const useStyles = makeStyles(theme => ({
       borderColor: "white",
     }
   },
+  rightPart: {
+    height: "35vh",
+    backgroundImage: 'url(' + require('../../images/hero-right.svg') + ')',
+    backgroundRepeat: "no-repeat",
+  }
 }));
 
 export default function ActionFeature() {
@@ -55,7 +60,7 @@ export default function ActionFeature() {
         <Grid item xs={2}>
           <img src={EBook} height={260} alt="ebook-for-GuinsooLab"/>
         </Grid>
-        <Grid item xs={2} />
+        <Grid item xs={2} className={classes.rightPart} />
       </Grid>
     </div>
   );

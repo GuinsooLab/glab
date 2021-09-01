@@ -4,7 +4,8 @@ import { makeStyles } from "@material-ui/core/styles";
 
 // components
 import Title from "../../../components/Title";
-import DataFlow from "../../../components/DataFlow";
+
+import DataFlowDiagram from "../../../images/home_diagram.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -42,7 +43,7 @@ export default function Feature4() {
           <Grid item xs={8}>
             <Grid container>
               <Grid item xs={12} className={classes.dataFlow}>
-                <DataFlow />
+                <img src={DataFlowDiagram} width={"100%"} alt="data-flow-diagram"/>
               </Grid>
             </Grid>
           </Grid>
