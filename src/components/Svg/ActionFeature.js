@@ -12,6 +12,9 @@ const useStyles = makeStyles(theme => ({
     height: "35vh",
     backgroundColor: "#262626",
     color: theme.palette.text.hint,
+    "&:hover": {
+      color: "white",
+    }
   },
   title: {
     fontSize: 38,

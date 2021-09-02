@@ -77,7 +77,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(2),
   },
   appName: {
-    color: theme.palette.text.hint,
+    // color: theme.palette.text.hint,
     fontSize: 28,
     fontWeight: 600,
     marginTop: theme.spacing(1),
@@ -110,6 +110,10 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(1),
     height: "30vh",
     borderRadius: 4,
+    color: theme.palette.text.hint,
+    "&:hover": {
+      color: "white",
+    }
   },
   learnMore: {
     marginTop: theme.spacing(4),
