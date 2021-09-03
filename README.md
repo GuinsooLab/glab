@@ -1,4 +1,6 @@
-# ![logo](./src/images/guinsoo-logo2.svg)
+<div align="center">
+    <img src="./src/images/guinsoo-logo2.svg" width="30%" alt="logo" />
+</div>
 
 # GLab-Web
 
