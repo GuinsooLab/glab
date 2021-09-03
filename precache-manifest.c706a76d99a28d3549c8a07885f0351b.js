@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c0cf9ffa2179cc15747f4143e5c8460",
+    "revision": "0c7a601a34bfd70c158cda4d6051a108",
     "url": "/glab/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/glab/static/js/2.a5f93f11.chunk.js"
   },
   {
-    "revision": "f67362fe6b5e4c9526ca",
-    "url": "/glab/static/js/main.c595a289.chunk.js"
+    "revision": "9ee8a4916975c77a5035",
+    "url": "/glab/static/js/main.c13f7fc7.chunk.js"
   },
   {
     "revision": "61752386bf41c5f2ff2b",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/glab/static/media/ebook.e173dfe3.png"
   },
   {
-    "revision": "19d3f7892141404530fb7eeab6eddd3b",
-    "url": "/glab/static/media/gdp-new.19d3f789.svg"
+    "revision": "de4b7cc7571a1728a6cec391e7705226",
+    "url": "/glab/static/media/gdp-new.de4b7cc7.svg"
   },
   {
     "revision": "458e54693005cd3cb6ccb6af7943d4c8",
