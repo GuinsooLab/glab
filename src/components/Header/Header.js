@@ -86,9 +86,12 @@ export default function Header() {
           className={classes.headerMenu}
         >
           <Grid container>
+            <Grid item xs={1} />
             <Grid item xs={4} className={classes.mainTitle}>GUINSOOLAB BI</Grid>
             <Grid item xs={4} className={classes.mainTitle}>GUINSOOLAB PLATFORM</Grid>
-            <Grid item xs={4} />
+            <Grid item xs={3} />
+            {/* --- */}
+            <Grid item xs={1} />
             <Grid item xs={4}>
               <Grid container spacing={2}>
                 <Grid item xs={12}>
@@ -128,7 +131,7 @@ export default function Header() {
                 </Grid>
               ))}
             </Grid>
-            <Grid item xs={4} alignItems={"center"} className={classes.gridCover}>
+            <Grid item xs={3} alignItems={"center"} className={classes.gridCover}>
               <div className={classes.gridContent}>
                 <img src={HomeCover} width={"100%"} alt="pic"/>
               </div>

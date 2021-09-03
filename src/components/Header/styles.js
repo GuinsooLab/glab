@@ -77,7 +77,7 @@ export default makeStyles(theme => {
       marginTop: theme.spacing(5),
       color: theme.palette.text.hint,
       "&:hover": {
-        color: "white",
+        color: theme.palette.primary.main,
       }
     },
     gridCover: {
