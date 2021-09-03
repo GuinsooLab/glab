@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(7),
   },
   dataFlow: {
-    height: "60vh",
+    height: "80vh",
     cursor: "pointer",
     padding: theme.spacing(2),
   }
