@@ -40,8 +40,12 @@ export default makeStyles(theme => {
       marginRight: theme.spacing(10),
     },
     headerMenu: {
-      marginTop: theme.spacing(7),
-      padding: theme.spacing(2),
+      position: "absolute",
+      marginLeft: "15%",
+      marginRight: "15%",
+      top: theme.spacing(7),
+      width: "70%",
+      backgroundColor: "#161616",
     },
     productTitle: {
       paddingLeft: theme.spacing(2),

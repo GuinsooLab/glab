@@ -162,7 +162,7 @@ export default function Feature3() {
         <Grid item xs={8}>
           <Grid container className={classes.featureContainer} justify={"flex-start"}>
             {SubSystemsInfo.map(systemInfo => (
-              <Grid item xs={6} className={classes.subSystemInfo} id={systemInfo.id}>
+              <Grid item xs={6} className={classes.subSystemInfo} key={systemInfo.id}>
                 <Grid container className={classes.subSystemCard}>
                   <Grid item xs={4}>
                     <img src={systemInfo.icon} width={40} alt="icon" />

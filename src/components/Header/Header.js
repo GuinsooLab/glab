@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   AppBar,
   Toolbar,
@@ -10,7 +10,7 @@ import useStyles from "./styles";
 
 // pictures
 import GLabLogo from "../../images/logo.svg";
-import Menu from "@material-ui/core/Menu";
+import Card from "@material-ui/core/Card";
 
 const Products = [
   {
@@ -45,6 +45,15 @@ export default function Header() {
 
   const [appMenu, setAppMenu] = useState(null);
 
+  const handleClearAppMenu = () => {
+    setAppMenu(null)
+  };
+
+  useEffect(() => {
+    appMenu && window.addEventListener('click', handleClearAppMenu);
+    return () => window.removeEventListener('click', handleClearAppMenu);
+  });
+
   return (
     <AppBar
       id="attr"
@@ -66,16 +75,9 @@ export default function Header() {
         >
           Products
         </p>
-        <Menu
-          open={Boolean(appMenu)}
-          anchorEl={appMenu}
-          onClose={() => setAppMenu(null)}
+        <Card
+          hidden={!Boolean(appMenu)}
           className={classes.headerMenu}
-          PaperProps={{
-            style: {
-              width: "30vw"
-            },
-          }}
         >
           <Grid container>
             <Grid item xs={6}>
@@ -115,7 +117,7 @@ export default function Header() {
               ))}
             </Grid>
           </Grid>
-        </Menu>
+        </Card>
         <p
           className={classes.subTitle}
           onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/", "_target")}
