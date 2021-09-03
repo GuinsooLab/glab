@@ -1,4 +1,4 @@
-# ![logo](./src/images/guinsoolab2.svg)
+# ![logo](./src/images/guinsoo-logo2.svg)
 
 # GLab-Web
 

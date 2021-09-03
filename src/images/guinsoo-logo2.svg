@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2429px" height="2295px" viewBox="0 0 2429 2295" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>guinsoo-logo</title>
+    <g id="guinsoo-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="none" x="0" y="0" width="2429" height="2295"></rect>
+        <text id="G" font-family="PermanentMarker-Regular, Permanent Marker" font-size="1200" font-weight="normal" fill="#000000">
+            <tspan x="748.0625" y="1331">G</tspan>
+        </text>
+        <text id="GuinsooLab" font-family="OriyaMN, Oriya MN" font-size="400" font-weight="normal" fill="#000000" fill-opacity="0.3">
+            <tspan x="82.4492188" y="2052">GuinsooLab</tspan>
+        </text>
+    </g>
+</svg>

@@ -34,7 +34,9 @@ export default makeStyles(theme => {
       "&:hover": {
         cursor: "pointer",
         color: theme.palette.text.hint,
-      }
+      },
+      display: "flex",
+      alignItems: "center",
     },
     gap: {
       marginRight: theme.spacing(10),
@@ -46,23 +48,49 @@ export default makeStyles(theme => {
       top: theme.spacing(7),
       width: "70%",
       backgroundColor: "#161616",
+      padding: theme.spacing(2),
     },
     productTitle: {
-      paddingLeft: theme.spacing(2),
-      paddingRight: theme.spacing(2),
-      color: theme.palette.text.primary,
-      fontSize: 15,
-      fontWeight: 600,
+      color: theme.palette.text.hint,
+      fontSize: 14,
+      fontWeight: 500,
       "&:hover": {
         cursor: "pointer",
-        color: theme.palette.primary.main,
+        color: "white",
+        borderBottomStyle: "solid",
+        borderBottomWidth: "1px",
+        borderBottomColor: theme.palette.primary.main,
+        width: "50%"
       }
     },
     productDesc: {
-      paddingLeft: theme.spacing(2),
-      paddingRight: theme.spacing(2),
       color: theme.palette.text.secondary,
-      fontSize: 13,
-    }
+      fontSize: 12,
+    },
+    mainTitle: {
+      color: "white",
+      fontSize: 16,
+      fontWeight: 800,
+      marginBottom: theme.spacing(3),
+    },
+    visitButton: {
+      marginTop: theme.spacing(5),
+      color: theme.palette.text.hint,
+      "&:hover": {
+        color: "white",
+      }
+    },
+    gridCover: {
+      padding: theme.spacing(2),
+    },
+    gridContent: {
+      backgroundColor: "#262626",
+      paddingBottom: theme.spacing(2),
+    },
+    divider: {
+      marginTop: theme.spacing(1),
+      marginBottom: theme.spacing(1),
+      backgroundColor: theme.palette.text.primary,
+    },
   });
 });

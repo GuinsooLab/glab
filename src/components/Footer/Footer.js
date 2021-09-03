@@ -10,7 +10,7 @@ import InputBase from "@material-ui/core/InputBase";
 import useStyles from "./styles";
 
 // pictures
-import GLabLogoFooter from "../../images/logo.svg";
+import GLabLogoFooter from "../../images/guinsoo-logo.svg";
 import GitHubLogo from "../../images/github.svg";
 
 export default function Footer() {
@@ -24,8 +24,7 @@ export default function Footer() {
             <Grid item xs={2} className={classes.logo}>
               <img
                 src={GLabLogoFooter}
-                width={40}
-                height={40}
+                height={80}
                 alt="glab-logo-footer"
               />
             </Grid>

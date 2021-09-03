@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // components
 import Title from "../../../components/Title";
 
-import DataFlowDiagram from "../../../images/home_diagram.png";
+import DataFlowDiagram from "../../../images/gdp-new.svg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -24,7 +24,8 @@ const useStyles = makeStyles((theme) => ({
   },
   dataFlow: {
     height: "60vh",
-    cursor: "pointer"
+    cursor: "pointer",
+    padding: theme.spacing(2),
   }
 }));
 
@@ -34,8 +35,8 @@ export default function Feature4() {
   return (
       <div className={classes.root}>
         <Title
-          name="Tech Lab"
-          tip="Aliquam malesuada ligula eget est fringilla blandit. Integer finibus semper libero id sodales."
+          name="GuinsooLab Data Platform"
+          tip="Free & Open & Safe"
         />
         <Grid container>
           <Grid item xs={2}>
