@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b8472ec831072dcaced735d9493d524",
+    "revision": "41643fdaf2b95733fbc25c0bd55de776",
     "url": "/glab/index.html"
   },
   {
-    "revision": "b7b752bc33e7ab527940",
-    "url": "/glab/static/js/2.a5f93f11.chunk.js"
+    "revision": "25c4ce9b0a1f250112e7",
+    "url": "/glab/static/js/2.f7aee331.chunk.js"
   },
   {
-    "revision": "1da8cc288f4e343047cb",
-    "url": "/glab/static/js/main.4988b991.chunk.js"
+    "revision": "d7528acceae8fd2b42a5",
+    "url": "/glab/static/js/main.999950ce.chunk.js"
   },
   {
     "revision": "61752386bf41c5f2ff2b",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/glab/static/media/github.458e5469.svg"
   },
   {
-    "revision": "d1459b515e9515b9bb3468962595b669",
-    "url": "/glab/static/media/guinsoo-logo.d1459b51.svg"
+    "revision": "5f1d555ff441faf8219399332b8d0254",
+    "url": "/glab/static/media/guinsoo-logo.5f1d555f.svg"
   },
   {
     "revision": "ba16a6d621b7791641512969ffe2352e",
@@ -68,7 +68,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/glab/static/media/home-footer.87ad5501.svg"
   },
   {
-    "revision": "bd3de2e7d494759fd0ec411a9807a83c",
-    "url": "/glab/static/media/logo.bd3de2e7.svg"
+    "revision": "fa9f5704ea0fc3e397ed3f22d0dcc22c",
+    "url": "/glab/static/media/logo.fa9f5704.svg"
   }
 ]);

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/glab/static/js/main.4988b991.chunk.js",
-    "main.js.map": "/glab/static/js/main.4988b991.chunk.js.map",
+    "main.js": "/glab/static/js/main.999950ce.chunk.js",
+    "main.js.map": "/glab/static/js/main.999950ce.chunk.js.map",
     "runtime~main.js": "/glab/static/js/runtime~main.f96971e2.js",
     "runtime~main.js.map": "/glab/static/js/runtime~main.f96971e2.js.map",
-    "static/js/2.a5f93f11.chunk.js": "/glab/static/js/2.a5f93f11.chunk.js",
-    "static/js/2.a5f93f11.chunk.js.map": "/glab/static/js/2.a5f93f11.chunk.js.map",
+    "static/js/2.f7aee331.chunk.js": "/glab/static/js/2.f7aee331.chunk.js",
+    "static/js/2.f7aee331.chunk.js.map": "/glab/static/js/2.f7aee331.chunk.js.map",
     "index.html": "/glab/index.html",
-    "precache-manifest.69407cfe00e34cb3cb39f21b5100d96e.js": "/glab/precache-manifest.69407cfe00e34cb3cb39f21b5100d96e.js",
+    "precache-manifest.c6f521e3e159eb52387ad151aa5175b1.js": "/glab/precache-manifest.c6f521e3e159eb52387ad151aa5175b1.js",
     "service-worker.js": "/glab/service-worker.js",
     "static/media/GuinsooDB.svg": "/glab/static/media/GuinsooDB.0dd792a7.svg",
     "static/media/GuinsooGraph.svg": "/glab/static/media/GuinsooGraph.cf73aebe.svg",
@@ -18,10 +18,10 @@
     "static/media/ebook.png": "/glab/static/media/ebook.e173dfe3.png",
     "static/media/gdp-new.svg": "/glab/static/media/gdp-new.de4b7cc7.svg",
     "static/media/github.svg": "/glab/static/media/github.458e5469.svg",
-    "static/media/guinsoo-logo.svg": "/glab/static/media/guinsoo-logo.d1459b51.svg",
+    "static/media/guinsoo-logo.svg": "/glab/static/media/guinsoo-logo.5f1d555f.svg",
     "static/media/hero-right.svg": "/glab/static/media/hero-right.ba16a6d6.svg",
     "static/media/home-cover.png": "/glab/static/media/home-cover.b63d4179.png",
     "static/media/home-footer.svg": "/glab/static/media/home-footer.87ad5501.svg",
-    "static/media/logo.svg": "/glab/static/media/logo.bd3de2e7.svg"
+    "static/media/logo.svg": "/glab/static/media/logo.fa9f5704.svg"
   }
 }
