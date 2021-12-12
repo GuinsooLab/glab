@@ -7,14 +7,10 @@ import EBook from "../../images/ebook.png"
 
 const useStyles = makeStyles(theme => ({
   root: {
-    flexGrow: 1,
     width: "100vw",
-    height: "35vh",
-    backgroundColor: "#262626",
-    color: theme.palette.text.hint,
-    "&:hover": {
-      color: "white",
-    }
+    height: "45vh",
+    backgroundColor: "#ffffff",
+    color: theme.palette.primary.main,
   },
   title: {
     fontSize: 38,
@@ -26,10 +22,6 @@ const useStyles = makeStyles(theme => ({
     color: theme.palette.text.primary,
   },
   button: {
-    color: theme.palette.text.hint,
-    weight: 600,
-    borderColor: theme.palette.text.hint,
-    borderRadius: 4,
     textTransform: "Capitalize",
     "&:hover": {
       color: "white",
@@ -54,14 +46,15 @@ export default function ActionFeature() {
           <p className={classes.title}>Ready to get started?</p>
           <p className={classes.body}>Try the GuinsooLab community edition for free.</p>
           <Button
-            variant={"outlined"}
+            variant={"contained"}
+            color={"primary"}
             className={classes.button}
             onClick={() => window.open("https://github.com/GuinsooLab", "_target")}>
             Try GuinsooLab for Free
           </Button>
         </Grid>
         <Grid item xs={2}>
-          <img src={EBook} height={260} alt="ebook-for-GuinsooLab"/>
+          <img src={EBook} height={260} alt="ebook-for-GuinsooLab" style={{boxShadow: "5px 5px 2px #aaaaaa"}} />
         </Grid>
         <Grid item xs={2} className={classes.rightPart} />
       </Grid>

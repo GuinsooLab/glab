@@ -37,7 +37,7 @@ export default function Footer() {
                   <p className={classes.body2} onClick={() => window.open("https://spotrix.github.io/spotrix-web/", "_target")}>Spotrix&nbsp;<span role={"img"}  aria-label={"img"}>🔥</span></p>
                   <p className={classes.body2} onClick={() => window.open("https://github.com/GuinsooLab", "_target")}>About Us</p>
                   <p className={classes.body2} onClick={() => window.open("https://github.com/GuinsooLab/glab/blob/main/LICENSE", "_target")}>License</p>
-                  <p className={classes.body2} onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/", "_target")}>Docs</p>
+                  <p className={classes.body2} onClick={() => window.open("https://ciusji.gitbook.io/guinsooblog/", "_target")}>Resource</p>
                 </Grid>
                 <Grid item xs={3} className={classes.footerBody}>
                   <b className={classes.title2}>Community</b>
@@ -59,7 +59,8 @@ export default function Footer() {
           {/* divider */}
           <Divider className={classes.appDivider} />
           <Typography className={classes.copyright}>
-            © GuinsooLab. All right reserved. GuinsooLab and GuinsooLab feature logo are trademarks of Guinsoo.
+            © GuinsooLab. All right reserved.<br/>
+            GuinsooLab and GuinsooLab feature logo are trademarks of Guinsoo.
           </Typography>
         </Container>
       </div>

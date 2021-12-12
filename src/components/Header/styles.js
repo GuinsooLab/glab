@@ -4,13 +4,14 @@ export default makeStyles(theme => {
   return ({
     appBar: {
       width: "100vw",
-      paddingTop: theme.spacing(1),
+      // paddingTop: theme.spacing(1),
       zIndex: theme.zIndex.drawer + 1,
       transition: theme.transitions.create(["margin"], {
         easing: theme.transitions.easing.sharp,
         duration: theme.transitions.duration.leavingScreen,
       }),
-      backgroundColor: "#000000",
+      backgroundColor: "#ffffff",
+      height: 64,
       color: "white",
     },
     toolbar: {
@@ -29,38 +30,34 @@ export default makeStyles(theme => {
     },
     subTitle: {
       width: 120,
-      color: theme.palette.text.secondary,
+      color: theme.palette.text.primary,
       fontSize: 14,
+      fontWeight: 600,
       "&:hover": {
         cursor: "pointer",
-        color: theme.palette.text.hint,
+        color: "#000000",
       },
       display: "flex",
       alignItems: "center",
     },
     gap: {
-      marginRight: theme.spacing(10),
+      marginLeft: "12%",
     },
     headerMenu: {
       position: "absolute",
-      marginLeft: "15%",
-      marginRight: "15%",
-      top: theme.spacing(7),
-      width: "70%",
-      backgroundColor: "#161616",
+      left: 0,
+      top: 64,
+      width: "100vw",
+      backgroundColor: "#ffffff",
       padding: theme.spacing(2),
+      borderRadius: 0,
     },
     productTitle: {
-      color: theme.palette.text.hint,
+      color: "#000000",
       fontSize: 14,
       fontWeight: 500,
       "&:hover": {
         cursor: "pointer",
-        color: "white",
-        borderBottomStyle: "solid",
-        borderBottomWidth: "1px",
-        borderBottomColor: theme.palette.primary.main,
-        width: "50%"
       }
     },
     productDesc: {
@@ -75,9 +72,9 @@ export default makeStyles(theme => {
     },
     visitButton: {
       marginTop: theme.spacing(5),
-      color: theme.palette.text.hint,
+      color: "#ffffff",
       "&:hover": {
-        color: theme.palette.primary.main,
+        fontWeight: 600,
       }
     },
     gridCover: {
@@ -90,7 +87,6 @@ export default makeStyles(theme => {
     divider: {
       marginTop: theme.spacing(1),
       marginBottom: theme.spacing(1),
-      backgroundColor: theme.palette.text.primary,
     },
   });
 });

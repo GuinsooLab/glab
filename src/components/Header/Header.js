@@ -16,7 +16,6 @@ import useStyles from "./styles";
 
 // pictures
 import GLabLogo from "../../images/logo.svg";
-import GLabLogoFooter from "../../images/guinsoo-logo.svg";
 import HomeCover from "../../images/home-cover.png";
 
 const Products = [
@@ -73,7 +72,7 @@ export default function Header() {
           alt="glab-logo"
           onClick={() => window.open("#/app/home", "_self")}
         />
-        <div className={classes.grow} />
+        <div className={classes.gap} />
         <p
           className={classes.subTitle}
           onClick={(event) => setAppMenu(event.currentTarget)}
@@ -81,18 +80,23 @@ export default function Header() {
           Products
           { !Boolean(appMenu) ? <ExpandMoreIcon fontSize={"small"} /> : <ExpandLessIcon fontSize={"small"} />}
         </p>
+        <p className={classes.subTitle}>
+          Solutions
+        </p>
+        <div className={classes.grow} />
         <Card
           hidden={!Boolean(appMenu)}
           className={classes.headerMenu}
         >
           <Grid container>
             <Grid item xs={1} />
-            <Grid item xs={4} className={classes.mainTitle}>GUINSOOLAB BI</Grid>
+            <Grid item xs={3} className={classes.mainTitle}>GUINSOOLAB BI</Grid>
+            <Grid item xs={1} />
             <Grid item xs={4} className={classes.mainTitle}>GUINSOOLAB PLATFORM</Grid>
             <Grid item xs={3} />
             {/* --- */}
             <Grid item xs={1} />
-            <Grid item xs={4}>
+            <Grid item xs={3}>
               <Grid container spacing={2}>
                 <Grid item xs={12}>
                   <p
@@ -112,9 +116,21 @@ export default function Header() {
                   <p className={classes.productDesc}>Intelligent visual data</p>
                 </Grid>
                 <Grid item xs={12}>
-                  <Button endIcon={<ArrowRightAltIcon />} size={"small"} className={classes.visitButton}>Visit GuinsooLab</Button>
+                  <Button
+                    variant={"contained"}
+                    endIcon={<ArrowRightAltIcon />}
+                    size={"small"}
+                    className={classes.visitButton}
+                    color={"primary"}
+                    onClick={() => window.open("https://github.com/GuinsooLab", "_target")}
+                  >
+                    Join GuinsooLab
+                  </Button>
                 </Grid>
               </Grid>
+            </Grid>
+            <Grid item xs={1}>
+              <Divider orientation={"vertical"} />
             </Grid>
             <Grid item xs={4}>
               {Products.map(it => (
@@ -138,7 +154,7 @@ export default function Header() {
             </Grid>
             <Grid item xs={12}>
               <Divider className={classes.divider}/>
-              <img src={GLabLogoFooter} height={50} alt="logo"/>
+              <p>GuinsooLab</p>
             </Grid>
           </Grid>
         </Card>
@@ -152,9 +168,8 @@ export default function Header() {
           className={classes.subTitle}
           onClick={() => { window.open("https://ciusji.gitbook.io/guinsooblog/", "_target")}}
         >
-          Blog
+          Resources
         </p>
-        <div className={classes.gap} />
       </Toolbar>
     </AppBar>
   );

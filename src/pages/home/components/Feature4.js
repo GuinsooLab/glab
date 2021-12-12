@@ -12,6 +12,8 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     marginBottom: theme.spacing(5),
     marginTop: theme.spacing(5),
+    backgroundColor: "#161616",
+    color: "#ffffff",
   },
   content: {
     height: "15vh",

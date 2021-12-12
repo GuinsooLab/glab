@@ -5,7 +5,7 @@ export default makeStyles((theme) => ({
     flexGrow: 1,
     display: "flex",
     backgroundColor: "#000000",
-    color: theme.palette.secondary,
+    color: theme.palette.text.hint,
     paddingTop: theme.spacing(3),
   },
   logo: {
@@ -20,7 +20,6 @@ export default makeStyles((theme) => ({
     display: "flex",
     width: "100%",
     justifyContent: "center",
-    color: theme.palette.text.hint,
     "&:hover": {
       color: "white",
     },
@@ -47,7 +46,7 @@ export default makeStyles((theme) => ({
   title2: {
     fontSize: 16,
     marginBottom: theme.spacing(2),
-    color: theme.palette.text.hint,
+    color: "#ffffff",
     fontWeight: 800,
   },
   body2: {
@@ -127,7 +126,7 @@ export default makeStyles((theme) => ({
     display: "flex",
     width: "100%",
     paddingLeft: theme.spacing(1),
-    color: theme.palette.text.primary,
-    marginBottom: theme.spacing(15),
+    color: theme.palette.text.hint,
+    marginBottom: theme.spacing(5),
   },
 }));

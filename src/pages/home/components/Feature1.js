@@ -9,7 +9,7 @@ const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
     width: "100vw",
-    height: "90vh",
+    height: "85vh",
     backgroundColor: "#000000",
   },
   mainPart: {
@@ -17,7 +17,7 @@ const useStyles = makeStyles(theme => ({
     width: "100%",
   },
   paperLeft: {
-    height: "90vh",
+    height: "85vh",
     marginTop: theme.spacing(2),
     display: "flex",
     justifyContent: "center",
@@ -25,7 +25,8 @@ const useStyles = makeStyles(theme => ({
     flexDirection: "column",
   },
   pageRight: {
-    height: "90vh",
+    height: "85vh",
+    width: "100%",
     padding: theme.spacing(2),
     display: "flex",
     justifyContent: "center",
@@ -39,7 +40,7 @@ const useStyles = makeStyles(theme => ({
     fontWeight: 500,
     marginTop: theme.spacing(1),
     marginBottom: theme.spacing(5),
-    color: theme.palette.text.hint,
+    color: "#ffffff",
   },
   divider: {
     backgroundColor: theme.palette.primary.main,
@@ -49,13 +50,13 @@ const useStyles = makeStyles(theme => ({
   logoBody: {
     fontSize: 16,
     fontWeight: 450,
-    color: theme.palette.text.secondary,
+    color: theme.palette.text.hint,
   },
   buttonInfoToMore: {
     fontSize: 16,
     marginTop: theme.spacing(5),
-    borderColor: theme.palette.text.secondary,
-    color: theme.palette.text.secondary,
+    borderColor: theme.palette.text.hint,
+    color: theme.palette.text.hint,
     paddingLeft: theme.spacing(3),
     paddingRight: theme.spacing(3),
     paddingTop: theme.spacing(1),
@@ -84,9 +85,9 @@ export default function Feature1(props) {
   return (
     <div className={classes.root}>
       <Grid container spacing={1} className={classes.mainPart}>
-        <Grid item xs={2}>
+        <Grid item xs={1}>
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={4}>
           <div className={classes.paperLeft}>
             <div>
               <p className={classes.logoSlogan} id="slogan">

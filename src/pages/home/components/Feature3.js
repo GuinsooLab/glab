@@ -66,7 +66,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     marginBottom: theme.spacing(5),
     marginTop: theme.spacing(5),
-    backgroundColor: "#161616",
+    backgroundColor: "#ffffff",
   },
   items: {
     display: "flex",
@@ -77,7 +77,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(2),
   },
   appName: {
-    // color: theme.palette.text.hint,
+    color: theme.palette.text.primary,
     fontSize: 28,
     fontWeight: 600,
     marginTop: theme.spacing(1),
@@ -106,7 +106,7 @@ const useStyles = makeStyles((theme) => ({
   subSystemCard: {
     display: "flex",
     flexDirection: "column",
-    backgroundColor: "#000000",
+    backgroundColor: "#f2f2f3",
     padding: theme.spacing(1),
     height: "30vh",
     borderRadius: 4,
@@ -141,7 +141,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   divider: {
-    backgroundColor: theme.palette.text.hint,
+    backgroundColor: theme.palette.primary.main,
     height: 2,
     width: 40,
   },

@@ -8,7 +8,6 @@ export default makeStyles(theme => ({
     flexDirection: "column",
   },
   featureTitle: {
-    color: "white",
     fontWeight: 800,
     fontSize: 38,
     display: "flex",
@@ -21,7 +20,6 @@ export default makeStyles(theme => ({
     justifyContent: "center",
     textAlign: "center",
     width: "100vw",
-    color: theme.palette.text.hint,
     fontSize: 18,
     marginBottom: theme.spacing(8)
   },

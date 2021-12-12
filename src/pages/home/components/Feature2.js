@@ -6,40 +6,35 @@ import HomeFooterImg from "../../../images/home-footer.svg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1,
-    marginBottom: theme.spacing(5),
-    backgroundColor: "#161616",
-    color: theme.palette.text.hint,
+    backgroundColor: "#ffffff",
+    color: theme.palette.text.primary,
   },
   img: {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    marginTop: theme.spacing(5),
   },
   cardBody: {
     textAlign: "center",
-    borderRadius: 4,
     "&:hover": {
       color: "white",
-      backgroundColor: "#000000",
+      backgroundColor: theme.palette.primary.main,
     }
   },
   title: {
-    fontSize: 22,
+    fontSize: 24,
     fontWeight: 600,
-    paddingTop: theme.spacing(10),
+    paddingTop: theme.spacing(3),
   },
   content: {
+    fontSize: 15,
     paddingTop: theme.spacing(3),
     paddingBottom: theme.spacing(5),
-    color: theme.palette.text.hint,
   },
   homeFooter: {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    height: "10vh",
     backgroundColor: "#000000",
   }
 }));
@@ -72,14 +67,12 @@ export default function Feature2() {
 
   return (
     <div className={classes.root}>
-      <Grid container>
+      <Grid container spacing={0}>
         <Grid item xs={12} className={classes.homeFooter}>
           <img src={HomeFooterImg} alt="home-footer-img"/>
         </Grid>
-        <Grid item xs={1}>
-        </Grid>
-        <Grid item xs={10}>
-          <Grid container spacing={3}>
+        <Grid item xs={12}>
+          <Grid container spacing={1}>
             {
               ConfigData.map(item => (
                 <Grid
@@ -95,8 +88,6 @@ export default function Feature2() {
               ))
             }
           </Grid>
-        </Grid>
-        <Grid item xs={1}>
         </Grid>
       </Grid>
     </div>
