@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/glab/static/js/main.999950ce.chunk.js",
-    "main.js.map": "/glab/static/js/main.999950ce.chunk.js.map",
+    "main.js": "/glab/static/js/main.0e8c82fc.chunk.js",
+    "main.js.map": "/glab/static/js/main.0e8c82fc.chunk.js.map",
     "runtime~main.js": "/glab/static/js/runtime~main.f96971e2.js",
     "runtime~main.js.map": "/glab/static/js/runtime~main.f96971e2.js.map",
-    "static/js/2.f7aee331.chunk.js": "/glab/static/js/2.f7aee331.chunk.js",
-    "static/js/2.f7aee331.chunk.js.map": "/glab/static/js/2.f7aee331.chunk.js.map",
+    "static/js/2.7978e2bd.chunk.js": "/glab/static/js/2.7978e2bd.chunk.js",
+    "static/js/2.7978e2bd.chunk.js.map": "/glab/static/js/2.7978e2bd.chunk.js.map",
     "index.html": "/glab/index.html",
-    "precache-manifest.c6f521e3e159eb52387ad151aa5175b1.js": "/glab/precache-manifest.c6f521e3e159eb52387ad151aa5175b1.js",
+    "precache-manifest.baefa66f83efcac31e0867c57b3617d2.js": "/glab/precache-manifest.baefa66f83efcac31e0867c57b3617d2.js",
     "service-worker.js": "/glab/service-worker.js",
     "static/media/GuinsooDB.svg": "/glab/static/media/GuinsooDB.0dd792a7.svg",
     "static/media/GuinsooGraph.svg": "/glab/static/media/GuinsooGraph.cf73aebe.svg",
@@ -17,11 +17,11 @@
     "static/media/GuinsooVM.svg": "/glab/static/media/GuinsooVM.11a4a64a.svg",
     "static/media/ebook.png": "/glab/static/media/ebook.e173dfe3.png",
     "static/media/gdp-new.svg": "/glab/static/media/gdp-new.de4b7cc7.svg",
-    "static/media/github.svg": "/glab/static/media/github.458e5469.svg",
-    "static/media/guinsoo-logo.svg": "/glab/static/media/guinsoo-logo.5f1d555f.svg",
+    "static/media/github.svg": "/glab/static/media/github.00a68133.svg",
+    "static/media/guinsoo-logo.svg": "/glab/static/media/guinsoo-logo.98d00d22.svg",
     "static/media/hero-right.svg": "/glab/static/media/hero-right.ba16a6d6.svg",
     "static/media/home-cover.png": "/glab/static/media/home-cover.b63d4179.png",
     "static/media/home-footer.svg": "/glab/static/media/home-footer.87ad5501.svg",
-    "static/media/logo.svg": "/glab/static/media/logo.fa9f5704.svg"
+    "static/media/logo.svg": "/glab/static/media/logo.e831b53a.svg"
   }
 }
