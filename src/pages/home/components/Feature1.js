@@ -3,7 +3,8 @@ import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/styles";
 import Divider from "@material-ui/core/Divider";
-import CorpFeature from "../../../components/Svg/CorpFeature";
+
+import MainImg from "../../../images/main-ground.svg";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -27,10 +28,10 @@ const useStyles = makeStyles(theme => ({
   pageRight: {
     height: "85vh",
     width: "100%",
-    padding: theme.spacing(2),
     display: "flex",
     justifyContent: "center",
-    alignItems: "center",
+    alignItems: "flex-end",
+
   },
   smallLogo: {
     height: 23,
@@ -48,7 +49,7 @@ const useStyles = makeStyles(theme => ({
     width: 40,
   },
   logoBody: {
-    fontSize: 16,
+    fontSize: 18,
     fontWeight: 450,
     color: theme.palette.text.hint,
   },
@@ -75,29 +76,33 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function Feature1(props) {
+export default function Feature1() {
   const classes = useStyles();
 
   const defaultSystemName = "GuinsooLab";
 
-  const sloganBody = "GuinsooLab is the perfect calculation-container for developers, analyst and entrepreneurs who need a sleek, modern SaaS tool.";
+  const sloganBody1 = "One Platform"
+  const sloganBody2 = "Limitless Possibilities"
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={1} className={classes.mainPart}>
-        <Grid item xs={1}>
+      <Grid container className={classes.mainPart}>
+        <Grid item xs={2}>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={3}>
           <div className={classes.paperLeft}>
             <div>
               <p className={classes.logoSlogan} id="slogan">
-                {props.isSubsystem ? props.item.name : defaultSystemName}
+                {defaultSystemName}
               </p>
             </div>
             <div>
               <Divider className={classes.divider} />
               <p className={classes.logoBody}>
-                {sloganBody}
+                {sloganBody1}
+              </p>
+              <p className={classes.logoBody}>
+                {sloganBody2}
               </p>
             </div>
             <div>
@@ -111,12 +116,10 @@ export default function Feature1(props) {
             </div>
           </div>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={7}>
           <div className={classes.pageRight}>
-            <CorpFeature />
+            <img src={MainImg} height={"100%"} alt="main-img" />
           </div>
-        </Grid>
-        <Grid item xs={1}>
         </Grid>
       </Grid>
     </div>

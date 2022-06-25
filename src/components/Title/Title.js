@@ -14,7 +14,7 @@ export default function Title(props) {
         <p className={classes.tip}>
           {props.tip}
         </p>
-        </div>
+      </div>
     </div>
   );
 }

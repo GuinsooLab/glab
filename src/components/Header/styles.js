@@ -4,14 +4,13 @@ export default makeStyles(theme => {
   return ({
     appBar: {
       width: "100vw",
-      // paddingTop: theme.spacing(1),
+      height: 64,
       zIndex: theme.zIndex.drawer + 1,
       transition: theme.transitions.create(["margin"], {
         easing: theme.transitions.easing.sharp,
         duration: theme.transitions.duration.leavingScreen,
       }),
       backgroundColor: "#ffffff",
-      height: 64,
       color: "white",
     },
     toolbar: {
@@ -28,6 +27,9 @@ export default makeStyles(theme => {
     grow: {
       flexGrow: 1,
     },
+    titleSpace: {
+      marginLeft: theme.spacing(10),
+    },
     subTitle: {
       width: 120,
       color: theme.palette.text.primary,
@@ -35,13 +37,13 @@ export default makeStyles(theme => {
       fontWeight: 600,
       "&:hover": {
         cursor: "pointer",
-        color: "#000000",
+        fontWeight: 800,
       },
       display: "flex",
       alignItems: "center",
     },
     gap: {
-      marginLeft: "12%",
+      marginRight: theme.spacing(10),
     },
     headerMenu: {
       position: "absolute",
@@ -53,40 +55,105 @@ export default makeStyles(theme => {
       borderRadius: 0,
     },
     productTitle: {
+      display: "flex",
+      alignItems: "center",
       color: "#000000",
-      fontSize: 14,
-      fontWeight: 500,
+      fontSize: 12,
       "&:hover": {
         cursor: "pointer",
+      },
+      "& img": {
+        width: 18,
+        height: 18,
       }
     },
     productDesc: {
       color: theme.palette.text.secondary,
       fontSize: 12,
     },
+    toolName: {
+      display: "flex",
+      alignItems: "center",
+      textAlign: "center",
+      color: theme.palette.text.primary,
+      fontSize: 14,
+
+      "&:hover": {
+        cursor: "pointer",
+      },
+      "& img": {
+        width: 18,
+        height: 18,
+      },
+      "& span": {
+        backgroundColor: "#000000",
+        color: "#ffffff",
+        fontSize: 12,
+        fontWeight: 400,
+      }
+    },
+    toolNameX: {
+      display: "flex",
+      alignItems: "center",
+      textAlign: "center",
+      color: theme.palette.text.hint,
+      fontSize: 12,
+      fontWeight: 600,
+      "&:hover": {
+        cursor: "not-allowed",
+      },
+      "& img": {
+        width: 18,
+        height: 18,
+      }
+    },
     mainTitle: {
-      color: "white",
+      color: "#000000",
       fontSize: 16,
       fontWeight: 800,
       marginBottom: theme.spacing(3),
     },
     visitButton: {
-      marginTop: theme.spacing(5),
+      "& span": {
+        textTransform: "Capitalize",
+      },
+      backgroundColor: "#000000",
       color: "#ffffff",
       "&:hover": {
-        fontWeight: 600,
+        backgroundColor: "#ffffff",
+        color: "#000000",
       }
-    },
-    gridCover: {
-      padding: theme.spacing(2),
-    },
-    gridContent: {
-      backgroundColor: "#262626",
-      paddingBottom: theme.spacing(2),
     },
     divider: {
       marginTop: theme.spacing(1),
       marginBottom: theme.spacing(1),
     },
+    platformTag: {
+      fontSize: 12,
+      color: theme.palette.text.secondary,
+    },
+    solutionPart: {
+      minHeight: "30vh",
+      display: "flex",
+    },
+    solutionName: {
+      display: "flex",
+      alignItems: "center",
+      textAlign: "center",
+      color: theme.palette.text.primary,
+      fontWeight: 600,
+      "&:hover": {
+        cursor: "not-allowed",
+      },
+    },
+    solutionButton: {
+      textTransform: "Capitalize",
+      paddingLeft: 0,
+      "&:hover": {
+        "& svg": {
+          marginLeft: theme.spacing(1),
+        }
+      }
+    }
   });
 });

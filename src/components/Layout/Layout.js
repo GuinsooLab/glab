@@ -14,6 +14,7 @@ import Header from "../Header";
 // pages
 import Home from "../../pages/home";
 import About from "../../pages/about";
+import Subsystem from "../../pages/subsystem";
 
 import { UserRoleContext } from "../../context/UserContext";
 
@@ -35,7 +36,7 @@ function Layout() {
         <Switch>
           <Route path="/app/home" component={Home} />
           <Route path="/app/about" component={About} />
-          {/*<Route path="/app/:name" component={Subsystem} />*/}
+          <Route path="/app/:name" component={Subsystem} />
         </Switch>
       </UserRoleContext.Provider>
     </div>

@@ -3,69 +3,78 @@ import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
-import Divider from "@material-ui/core/Divider";
+import { Avatar } from "@material-ui/core";
 
 // components
 import Title from "../../../components/Title";
 
-// Icons
-import GuinsooPad from "../../../images/GuinsooPad.svg";
-import GuinsooDB from "../../../images/GuinsooDB.svg";
-import GuinsooSearch from "../../../images/GuinsooSearch.svg";
-import GuinsooGraph from "../../../images/GuinsooGraph.svg";
-import GuinsooMin from "../../../images/GuinsooMin.svg";
-import GuinsooVM from "../../../images/GuinsooVM.svg";
+// icons
+import DiscoveryIcon from "../../../images/toolsets/discovery.svg";
+import QueryIcon from "../../../images/toolsets/query.svg";
+import StorageIcon from "../../../images/toolsets/storage.svg";
+import FlowIcon from "../../../images/toolsets/flow.svg";
+import ProcessIcon from "../../../images/toolsets/process.svg";
+import ObserveIcon from "../../../images/toolsets/observe.svg";
+
 
 const SubSystemsInfo = [
   {
     id: 1,
-    icon: GuinsooPad,
-    title: "Guinsoo.Pad",
-    longDesc: "A web app for writing and running SQL queries and visualizing the results ...",
-    link: "https://guinsoolab.github.io/guinsoopad/",
+    title: "Data Discovery",
+    longDesc: "Data discovery is a data discovery and metadata engine for improving the productivity of data " +
+      "analysts, data scientists and engineers when interacting with data. It does that today by " +
+      "indexing data resources ...",
+    link: "https://ciusji.gitbook.io/guinsoolab/products/data-discovery",
+    icon: DiscoveryIcon,
   },
   {
     id: 2,
-    icon: GuinsooDB,
-    title: "Guinsoo.DB",
-    longDesc: "Only for one-size-fits all database system, not only fast ...",
-    link: "https://guinsoolab.github.io/guinsoodb/",
+    title: "Query Engine",
+    longDesc: "Mixed real-time and ad-hoc database to power modern analytics applications. It's Easy integration " +
+      "with your existing data pipelines but fast and consistent queries at high concurrency ...",
+    link: "https://ciusji.gitbook.io/guinsoolab/products/query-engine",
+    icon: QueryIcon,
   },
   {
     id: 3,
-    icon: GuinsooGraph,
-    title: "Guinsooo.Graph",
-    longDesc: "a high performance graph store with all the features expected of a mature ...",
-    link: "https://github.com/GuinsooLab/guinsoograph/",
+    title: "Data Storage",
+    longDesc: "Data Storage offers high-performance, S3 compatible object storage. Native to Kubernetes, also is the " +
+      "only object storage suite available on every public cloud, every Kubernetes distribution, the private cloud ...",
+    link: "https://ciusji.gitbook.io/guinsoolab/products/data-storage",
+    icon: StorageIcon,
   },
   {
     id: 4,
-    icon: GuinsooSearch,
-    title: "Guinsooo.Search",
-    longDesc: "Lightning Fast, Ultra Relevant, and Typo-Tolerant Search Engine ...",
-    link: "https://github.com/GuinsooLab/guinsoosearch",
+    title: "Process Engine",
+    longDesc: "Includes a cost-based optimizer, columnar storage and code generation to make queries fast. At the same " +
+      "time, it scales to thousands of nodes and multi hour queries using the process engine, which provides full " +
+      "mid-query fault tolerance... ",
+    link: "https://ciusji.gitbook.io/guinsoolab/products/process-engine",
+    icon: ProcessIcon,
   },
   {
     id: 5,
-    icon: GuinsooMin,
-    title: "Guinsooo.Min",
-    longDesc: "High performance OSS storage platform, it supports the widest range ...",
-    link: "https://guinsoolab.github.io/guinsoomin/",
+    title: "Data Flow",
+    longDesc: "Scheduler executes your tasks on an array of workers while following the specified dependencies. Rich " +
+      "command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy " +
+      "to visualize pipelines ...",
+    link: "https://ciusji.gitbook.io/guinsoolab/products/data-flow",
+    icon: FlowIcon,
   },
   {
     id: 6,
-    icon: GuinsooVM,
-    title: "Guinsooo.VM",
-    longDesc: "High performance VM platform, can supports Linux, MacOS, Widows ...",
-    link: "https://guinsoolab.github.io/guinsoovm/",
+    title: "Data Observability",
+    longDesc: "Removes the blind spots in your data pipelines, providing full-stack visibility and AI-powered " +
+      "recommendations to drive more reliable performance in your modern data applications, wherever it’s deployed ...",
+    link: "https://ciusji.gitbook.io/guinsoolab/products/data-observability",
+    icon: ObserveIcon,
   },
 ];
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    marginBottom: theme.spacing(5),
-    marginTop: theme.spacing(5),
+    paddingBottom: theme.spacing(10),
     backgroundColor: "#ffffff",
   },
   items: {
@@ -76,26 +85,27 @@ const useStyles = makeStyles((theme) => ({
   featureContainer: {
     marginTop: theme.spacing(2),
   },
+  appLogo: {
+    // backgroundColor: theme.palette.secondary.main,
+    marginLeft: theme.spacing(1),
+    marginTop: theme.spacing(1),
+    padding: theme.spacing(1),
+    "& img": {
+      width: 32,
+    }
+  },
   appName: {
     color: theme.palette.text.primary,
-    fontSize: 28,
+    fontSize: 24,
     fontWeight: 600,
     marginTop: theme.spacing(1),
-    marginBottom: theme.spacing(3),
+    marginBottom: theme.spacing(5),
   },
   featureLongDesc: {
     marginTop: theme.spacing(2),
     color: theme.palette.text.secondary,
     lineHeight: 2,
-  },
-  subSystemPic: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    "& > img": {
-      width: "34vw",
-      height: "34vw",
-    },
+    height: 100,
   },
   subSystemInfo: {
     display: "flex",
@@ -108,12 +118,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     backgroundColor: "#f2f2f3",
     padding: theme.spacing(1),
-    height: "30vh",
-    borderRadius: 4,
     color: theme.palette.text.hint,
-    "&:hover": {
-      color: "white",
-    }
   },
   learnMore: {
     marginTop: theme.spacing(4),
@@ -124,7 +129,7 @@ const useStyles = makeStyles((theme) => ({
     textTransform: "Capitalize",
     fontWeight: 600,
     borderWidth: 2,
-    color: theme.palette.text.primary,
+    color: "#000000",
     "&:hover": {
       color: theme.palette.primary.main,
     }
@@ -140,11 +145,6 @@ const useStyles = makeStyles((theme) => ({
       color: "white",
     },
   },
-  divider: {
-    backgroundColor: theme.palette.primary.main,
-    height: 2,
-    width: 40,
-  },
 }));
 
 export default function Feature3() {
@@ -157,28 +157,27 @@ export default function Feature3() {
         tip={"Better Together, GuinsooLab stack"}
       />
       <Grid container>
-        <Grid item xs={2}>
+        <Grid item xs={1}>
         </Grid>
-        <Grid item xs={8}>
+        <Grid item xs={10}>
           <Grid container className={classes.featureContainer} justify={"flex-start"}>
             {SubSystemsInfo.map(systemInfo => (
               <Grid item xs={6} className={classes.subSystemInfo} key={systemInfo.id}>
                 <Grid container className={classes.subSystemCard}>
-                  <Grid item xs={4}>
-                    <img src={systemInfo.icon} width={40} alt="icon" />
+                  <Grid item xs={3}>
+                    <Avatar className={classes.appLogo} src={systemInfo.icon} />
                   </Grid>
-                  <Grid item xs={8}>
+                  <Grid item xs={9}>
                     <p className={classes.appName}>
                       {systemInfo.title}
                     </p>
-                    <Divider className={classes.divider} />
                     <p className={classes.featureLongDesc}>
                       {systemInfo.longDesc}
                     </p>
                     <Button
                       endIcon={<ArrowRightAltIcon />}
                       className={classes.learnMore}
-                      onClick={() => window.open(systemInfo.link, "_target")}
+                      onClick={() => window.open(systemInfo.link, "_blank")}
                     >
                       Explore {systemInfo.title}
                     </Button>
@@ -188,7 +187,7 @@ export default function Feature3() {
             ))}
           </Grid>
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={1}>
         </Grid>
       </Grid>
     </div>
