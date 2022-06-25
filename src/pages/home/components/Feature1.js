@@ -4,7 +4,6 @@ import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/styles";
 import Divider from "@material-ui/core/Divider";
 
-import MainImg from "../../../images/main-ground.svg";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -31,7 +30,8 @@ const useStyles = makeStyles(theme => ({
     display: "flex",
     justifyContent: "center",
     alignItems: "flex-end",
-
+    backgroundImage: 'url(' + require('../../../images/main-ground.svg') + ')',
+    backgroundRepeat: "no-repeat",
   },
   smallLogo: {
     height: 23,
@@ -118,7 +118,6 @@ export default function Feature1() {
         </Grid>
         <Grid item xs={7}>
           <div className={classes.pageRight}>
-            <img src={MainImg} height={"100%"} alt="main-img" />
           </div>
         </Grid>
       </Grid>
