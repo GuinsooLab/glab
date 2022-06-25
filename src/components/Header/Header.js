@@ -190,7 +190,6 @@ export default function Header() {
                     className={classes.solutionButton}
                     variant={"text"}
                     endIcon={<ArrowRightAlt />}
-                    onClick={() => window.open("https://confluence.idgcapital.com/display/HOL/Solutions", "_blank")}
                   >
                     View all customer stories
                   </Button>
@@ -200,7 +199,7 @@ export default function Header() {
             <Grid item xs={1} />
             <Grid item xs={12}>
               <Divider className={classes.divider} />
-              <p className={classes.platformTag}>IDG Data Platform</p>
+              <p className={classes.platformTag}>GuinsooLab 2020-2022</p>
             </Grid>
           </Grid>
         </Card>
