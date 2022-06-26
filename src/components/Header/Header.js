@@ -16,7 +16,8 @@ import useStyles from "./styles";
 
 // pictures
 import GLabLogo from "../../images/logo.svg";
-import EBook from "../../images/gusinsoo-ebook.png";
+import GLabFinance from "../../images/gusinsoo-finance.png";
+import GLabSecurity from "../../images/gusinsoo-security.png";
 
 import { Apps, Tools, AppLogo } from "../../context/UserContext";
 
@@ -98,10 +99,10 @@ export default function Header() {
             <Grid item xs={1}>
               <Divider orientation={"vertical"} />
             </Grid>
-            <Grid item xs={7}>
+            <Grid item xs={5}>
               {Tools.map(it => (
                 <Grid container alignItems={"center"} spacing={2} key={it.category}>
-                  <Grid item xs={3}>
+                  <Grid item xs={2}>
                     <p className={classes.productTitle}>{it.category}</p>
                   </Grid>
                   {it.apps.map(app => (
@@ -125,6 +126,9 @@ export default function Header() {
                   ))}
                 </Grid>
               ))}
+            </Grid>
+            <Grid item xs={2}>
+              <img src={GLabSecurity} height={260} alt="ebook-for-security" />
             </Grid>
             <Grid item xs={1} />
             <Grid item xs={12}>
@@ -155,7 +159,7 @@ export default function Header() {
             <Grid item xs={2}>
               <Grid container spacing={2}>
                 <Grid item xs={12}>
-                  <img src={EBook} height={260} alt="ebook-for-platform" />
+                  <img src={GLabFinance} height={260} alt="ebook-for-finance" />
                 </Grid>
               </Grid>
             </Grid>
@@ -164,32 +168,57 @@ export default function Header() {
             </Grid>
             <Grid item xs={7}>
               <Grid container className={classes.solutionPart}>
-                <Grid item xs={12}>
-                  <p className={classes.solutionName}>Financial services</p>
+                <Grid item xs={4}>
+                  <p className={classes.solutionName}>Private Market Intelligence</p>
+                  <span className={classes.solutionDetail}>
+                    Gain actionable insight on the flow of capital across VC, PE and M&A
+                  </span>
                 </Grid>
-                <Grid item xs={12}>
-                  <p className={classes.solutionName}>Healthcare</p>
+                <Grid item xs={4}>
+                  <p className={classes.solutionName}>Fundraising</p>
+                  <span className={classes.solutionDetail}>
+                    Raise a fund efficiently with data-informed peer groups, benchmarks and investors
+                  </span>
                 </Grid>
-                <Grid item xs={12}>
-                  <p className={classes.solutionName}>Electronic Commerce</p>
+                <Grid item xs={4} />
+                <Grid item xs={4}>
+                  <p className={classes.solutionName}>Deal Sourcing</p>
+                  <span className={classes.solutionDetail}>
+                    Discover companies that are a strategic fit, seeking funding or primed for acquisition
+                  </span>
                 </Grid>
-                <Grid item xs={12}>
-                  <p className={classes.solutionName}>Retail</p>
+                <Grid item xs={4}>
+                  <p className={classes.solutionName}>Due Diligence</p>
+                  <span className={classes.solutionDetail}>
+                    Create the perfect pitch using valuable intel on companies, funds and financial sponsors
+                  </span>
                 </Grid>
-                <Grid item xs={12}>
-                  <p className={classes.solutionName}>Manufacturing</p>
+                <Grid item xs={4} />
+                <Grid item xs={4}>
+                  <p className={classes.solutionName}>Business Development</p>
+                  <span className={classes.solutionDetail}>
+                    Grow your business by targeting opportunities within the private and public markets
+                  </span>
                 </Grid>
-                <Grid item xs={12}>
-                  <p className={classes.solutionName}>Technology</p>
+                <Grid item xs={4}>
+                  <p className={classes.solutionName}>Networking</p>
+                  <span className={classes.solutionDetail}>
+                    See how 1.9 million pros operate across the industry and grow your connections
+                  </span>
                 </Grid>
-                <Grid item xs={12}>
-                  <p className={classes.solutionName} />
+                <Grid item xs={4} />
+                <Grid item xs={4}>
+                  <p className={classes.solutionName}>Deal Execution</p>
+                  <span className={classes.solutionDetail}>
+                    Build data-backed comps, buyer and investor lists with technology designed to save time
+                  </span>
                 </Grid>
                 <Grid item xs={12}>
                   <Button
                     className={classes.solutionButton}
                     variant={"text"}
                     endIcon={<ArrowRightAlt />}
+                    onClick={() => window.open("https://ciusji.gitbook.io/irelia/", "_blank")}
                   >
                     View all customer stories
                   </Button>
@@ -203,7 +232,10 @@ export default function Header() {
             </Grid>
           </Grid>
         </Card>
-        <p className={classes.subTitle}>
+        <p
+          className={classes.subTitle}
+          onClick={() => window.open("https://ciusji.gitbook.io/guinsooblog/", "_blank")}
+        >
           Events
         </p>
         <div className={classes.grow} />
@@ -214,7 +246,10 @@ export default function Header() {
         >
           Resources
         </p>
-        <p className={classes.subTitle}>
+        <p
+          className={classes.subTitle}
+          onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/appendix/support", "_blank")}
+        >
           Support
         </p>
         <Button

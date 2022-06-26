@@ -137,16 +137,20 @@ export default makeStyles(theme => {
       display: "flex",
     },
     solutionName: {
-      display: "flex",
-      alignItems: "center",
-      textAlign: "center",
       color: theme.palette.text.primary,
       fontWeight: 600,
       "&:hover": {
         cursor: "not-allowed",
       },
     },
+    solutionDetail: {
+      color: theme.palette.text.secondary,
+      fontSize: 12,
+      paddingRight: theme.spacing(2),
+      marginBottom: theme.spacing(1),
+    },
     solutionButton: {
+      marginTop: theme.spacing(4),
       textTransform: "Capitalize",
       paddingLeft: 0,
       "&:hover": {
