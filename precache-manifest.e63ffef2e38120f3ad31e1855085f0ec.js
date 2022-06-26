@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9229577d280a22f6fc556752ed06e63d",
+    "revision": "34c5a8da2a198670cec347322e7c984e",
     "url": "/glab/index.html"
   },
   {
-    "revision": "d60860c50cd442f6146e",
-    "url": "/glab/static/js/2.26667cc6.chunk.js"
+    "revision": "587b336a7cc2633e1ccd",
+    "url": "/glab/static/js/2.b5363416.chunk.js"
   },
   {
-    "revision": "80ac4a840b70cbd58aec",
-    "url": "/glab/static/js/main.d04b3536.chunk.js"
+    "revision": "b33d5c1986852afc9fa7",
+    "url": "/glab/static/js/main.abdda801.chunk.js"
   },
   {
     "revision": "61752386bf41c5f2ff2b",
@@ -74,6 +74,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5d25ce52cbeff75c2c719d2f33373793",
     "url": "/glab/static/media/gusinsoo-ebook.5d25ce52.png"
+  },
+  {
+    "revision": "78a4b1f92d58d66f22111c1da79c0e93",
+    "url": "/glab/static/media/gusinsoo-finance.78a4b1f9.png"
+  },
+  {
+    "revision": "7abad4ab6d4adfdaf4d4b846b80def0c",
+    "url": "/glab/static/media/gusinsoo-security.7abad4ab.png"
   },
   {
     "revision": "ba16a6d621b7791641512969ffe2352e",
