@@ -32,6 +32,7 @@ const useStyles = makeStyles(theme => ({
     alignItems: "flex-end",
     backgroundImage: 'url(' + require('../../../images/main-ground.svg') + ')',
     backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
   },
   smallLogo: {
     height: 23,
