@@ -101,12 +101,12 @@ export default function Header() {
             </Grid>
             <Grid item xs={5}>
               {Tools.map(it => (
-                <Grid container alignItems={"center"} spacing={2} key={it.category}>
-                  <Grid item xs={2}>
+                <Grid container alignItems={"center"} key={it.category}>
+                  <Grid item xs={3}>
                     <p className={classes.productTitle}>{it.category}</p>
                   </Grid>
                   {it.apps.map(app => (
-                    <Grid item xs={2} key={app.name}>
+                    <Grid item xs={3} key={app.name}>
                       {
                         app.state >= 1 ?
                           <p
@@ -167,47 +167,47 @@ export default function Header() {
               <Divider orientation={"vertical"} />
             </Grid>
             <Grid item xs={7}>
-              <Grid container className={classes.solutionPart}>
-                <Grid item xs={4}>
+              <Grid container spacing={2} className={classes.solutionPart}>
+                <Grid item xs={5}>
                   <p className={classes.solutionName}>Private Market Intelligence</p>
                   <span className={classes.solutionDetail}>
                     Gain actionable insight on the flow of capital across VC, PE and M&A
                   </span>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={5}>
                   <p className={classes.solutionName}>Fundraising</p>
                   <span className={classes.solutionDetail}>
                     Raise a fund efficiently with data-informed peer groups, benchmarks and investors
                   </span>
                 </Grid>
-                <Grid item xs={4} />
-                <Grid item xs={4}>
+                <Grid item xs={2} />
+                <Grid item xs={5}>
                   <p className={classes.solutionName}>Deal Sourcing</p>
                   <span className={classes.solutionDetail}>
                     Discover companies that are a strategic fit, seeking funding or primed for acquisition
                   </span>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={5}>
                   <p className={classes.solutionName}>Due Diligence</p>
                   <span className={classes.solutionDetail}>
                     Create the perfect pitch using valuable intel on companies, funds and financial sponsors
                   </span>
                 </Grid>
-                <Grid item xs={4} />
-                <Grid item xs={4}>
+                <Grid item xs={2} />
+                <Grid item xs={5}>
                   <p className={classes.solutionName}>Business Development</p>
                   <span className={classes.solutionDetail}>
                     Grow your business by targeting opportunities within the private and public markets
                   </span>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={5}>
                   <p className={classes.solutionName}>Networking</p>
                   <span className={classes.solutionDetail}>
                     See how 1.9 million pros operate across the industry and grow your connections
                   </span>
                 </Grid>
-                <Grid item xs={4} />
-                <Grid item xs={4}>
+                <Grid item xs={2} />
+                <Grid item xs={5}>
                   <p className={classes.solutionName}>Deal Execution</p>
                   <span className={classes.solutionDetail}>
                     Build data-backed comps, buyer and investor lists with technology designed to save time
