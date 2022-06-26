@@ -11,10 +11,16 @@ import MortalmeshLogo from "../assets/mortalmesh.svg";
 import DuskbladesqlLogo from "../assets/duskbladesql.svg";
 import SheenflowLogo from "../assets/sheenflow.svg";
 import StealthwardLogo from "../assets/stealward.svg";
-
 import SpotrixGround from "../images/spotrix-ground.svg";
 import IreliaGround from "../images/irelia-ground.svg";
 import ElixirNoteGround from "../images/elixirnote-ground.svg";
+import DarksealGround from "../images/darkseal-ground.svg";
+import HuricanedbGround from "../images/huricanedb-ground.svg";
+import WitdbGround from "../images/witdb-ground.svg";
+import MortalmeshGround from "../images/mortalmesh-ground.svg";
+import DuskbaldeSQLGround from "../images/duskbladesql-ground.svg";
+import SheenflowGround from "../images/sheenflow-ground.svg";
+import StealthwardGround from "../images/stealthward-ground.svg";
 
 export const UserRoleContext = React.createContext(undefined);
 
@@ -36,38 +42,38 @@ const Tools = [
   {
     category: "Data Discovery",
     apps: [
-      {name: "Darkseal", href: "#/app/darkseal", link: "", doc: "", pic: "", state: 1},
+      {name: "Darkseal", href: "#/app/darkseal", link: "", doc: "", pic: DarksealGround, state: 1},
     ],
   },
   {
     category: "Query Engine",
     apps: [
-      {name: "WitDB", href: "#/app/witDB", link: "", doc: "", pic: "", state: 1},
-      {name: "HurricaneDB", href: "#/app/hurricaneDB", link: "", doc: "", pic: "", state: 1},
+      {name: "WitDB", href: "#/app/witDB", link: "", doc: "", pic: WitdbGround, state: 1},
+      {name: "HurricaneDB", href: "#/app/hurricaneDB", link: "", doc: "", pic: HuricanedbGround, state: 1},
     ],
   },
   {
     category: "Data Storage",
     apps: [
-      {name: "MortalMesh", href: "#/app/mortalmesh", link: "", doc: "", pic: "", state: 2},
+      {name: "MortalMesh", href: "#/app/mortalmesh", link: "", doc: "", pic: MortalmeshGround, state: 2},
     ],
   },
   {
     category: "Process Engine",
     apps: [
-      {name: "DuskbladeSQL", href: "#/app/duskbladeSQL", link: "", doc: "", pic: "", state: 1},
+      {name: "DuskbladeSQL", href: "#/app/duskbladeSQL", link: "", doc: "", pic: DuskbaldeSQLGround, state: 1},
     ],
   },
   {
     category: "Data Flow",
     apps: [
-      {name: "Sheenflow", href: "#/app/sheenflow", link: "", doc: "", pic: "", state: 1},
+      {name: "Sheenflow", href: "#/app/sheenflow", link: "", doc: "", pic: SheenflowGround, state: 1},
     ],
   },
   {
     category: "Data Observability",
     apps: [
-      {name: "Stealthward", href: "#/app/stealthward", link: "", doc: "", pic: "", state: 1},
+      {name: "Stealthward", href: "#/app/stealthward", link: "", doc: "", pic: StealthwardGround, state: 1},
     ],
   },
 ];
