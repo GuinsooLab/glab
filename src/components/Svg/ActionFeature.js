@@ -52,6 +52,7 @@ export default function ActionFeature() {
           <Button
             variant={"outlined"}
             className={classes.button}
+            onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}
           >
             Start For Free
           </Button>

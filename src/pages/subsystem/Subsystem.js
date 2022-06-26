@@ -42,7 +42,7 @@ export default function Subsystem() {
               <div>
                 <Divider className={classes.divider} />
                 <p className={classes.logoBody}>
-                  Powered by GuinsooLab
+                  {item.desc}
                 </p>
               </div>
               <div>
@@ -59,7 +59,7 @@ export default function Subsystem() {
           </Grid>
           <Grid item xs={6}>
             <div className={classes.pageRight}>
-              {/*<img src={item.pic} alt="logo" width={"100%"} />*/}
+              <img src={item.pic} alt="logo" height={"100%"} />
             </div>
           </Grid>
           <Grid item xs={1}>

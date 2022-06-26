@@ -53,6 +53,17 @@ const useStyles = makeStyles(theme => ({
     fontSize: 18,
     fontWeight: 450,
     color: theme.palette.text.hint,
+    backgroundImage: "-webkit-linear-gradient(right, #63d0ff, #ac72f0)",
+    "-webkit-background-clip": "text",
+    "-webkit-text-fill-color": "transparent",
+  },
+  logoBody2: {
+    fontSize: 18,
+    fontWeight: 450,
+    color: theme.palette.text.hint,
+    backgroundImage: "-webkit-linear-gradient(right, #ffd88d, #ec585d)",
+    "-webkit-background-clip": "text",
+    "-webkit-text-fill-color": "transparent",
   },
   buttonInfoToMore: {
     fontSize: 16,
@@ -102,7 +113,7 @@ export default function Feature1() {
               <p className={classes.logoBody}>
                 {sloganBody1}
               </p>
-              <p className={classes.logoBody}>
+              <p className={classes.logoBody2}>
                 {sloganBody2}
               </p>
             </div>

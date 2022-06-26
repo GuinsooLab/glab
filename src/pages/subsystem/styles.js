@@ -18,18 +18,17 @@ export default makeStyles((theme) => ({
   },
   paperLeft: {
     height: "90vh",
-    marginTop: theme.spacing(2),
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "start",
-    flexDirection: "column",
+    paddingTop: "15%",
+    position: "absolute",
+    zIndex: 999,
   },
   pageRight: {
     height: "100vh",
     padding: theme.spacing(1),
     display: "flex",
     justifyContent: "center",
-    alignItems: "center",
+    alignItems: "flex-end",
+    // overflow: "hidden",
   },
   smallLogo: {
     height: 23,

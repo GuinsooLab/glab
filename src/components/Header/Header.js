@@ -255,6 +255,7 @@ export default function Header() {
         <Button
           variant={"outlined"}
           className={classes.visitButton}
+          onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}
         >
           Start For Free
         </Button>
