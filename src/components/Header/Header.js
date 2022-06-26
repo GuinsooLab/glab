@@ -218,7 +218,7 @@ export default function Header() {
                     className={classes.solutionButton}
                     variant={"text"}
                     endIcon={<ArrowRightAlt />}
-                    onClick={() => window.open("https://ciusji.gitbook.io/irelia/", "_blank")}
+                    onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/solutions/guinsoolab-finance", "_blank")}
                   >
                     View all customer stories
                   </Button>
@@ -234,7 +234,7 @@ export default function Header() {
         </Card>
         <p
           className={classes.subTitle}
-          onClick={() => window.open("https://ciusji.gitbook.io/guinsooblog/", "_blank")}
+          onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/appendix/events", "_blank")}
         >
           Events
         </p>
