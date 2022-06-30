@@ -59,8 +59,8 @@ export default makeStyles((theme) => ({
   buttonInfoToMore: {
     fontSize: 16,
     marginTop: theme.spacing(10),
-    borderColor: "#ffffff",
-    color: "#ffffff",
+    borderColor: theme.palette.text.hint,
+    color: theme.palette.text.hint,
     paddingLeft: theme.spacing(3),
     paddingRight: theme.spacing(3),
     paddingTop: theme.spacing(1),
