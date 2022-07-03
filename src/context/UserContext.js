@@ -8,9 +8,10 @@ import DarksealLogo from "../assets/darkseal.svg";
 import WitdbLogo from "../assets/witdb.svg";
 import HurricanedbLogo from "../assets/hurricanedb.svg";
 import MortalmeshLogo from "../assets/mortalmesh.svg";
+import AnnoStoreLogo from "../assets/annaStore.svg";
 import DuskbladesqlLogo from "../assets/duskbladesql.svg";
 import SheenflowLogo from "../assets/sheenflow.svg";
-import StealthwardLogo from "../assets/stealward.svg";
+import StealthwardLogo from "../assets/stealthward.svg";
 import SpotrixGround from "../images/spotrix-ground.svg";
 import IreliaGround from "../images/irelia-ground.svg";
 import ElixirNoteGround from "../images/elixirnote-ground.svg";
@@ -32,6 +33,7 @@ const AppLogo = {
   witdb: WitdbLogo,
   hurricanedb: HurricanedbLogo,
   mortalmesh: MortalmeshLogo,
+  annastore: AnnoStoreLogo,
   duskbladesql: DuskbladesqlLogo,
   sheenflow: SheenflowLogo,
   stealthward: StealthwardLogo,
@@ -56,6 +58,7 @@ const Tools = [
     category: "Data Storage",
     apps: [
       {name: "MortalMesh", href: "#/app/mortalmesh", link: "", doc: "", pic: MortalmeshGround, state: 2},
+      {name: "AnnaStore", href: "#/app/annaStore", link: "", doc: "", pic: MortalmeshGround, state: 2},
     ],
   },
   {

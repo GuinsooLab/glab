@@ -13,7 +13,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import useStyles from "./styles";
 
 // pictures
-import GLabLogoFooter from "../../images/guinsoo-logo.svg";
+import GLabLogoFooter from "../../images/logo.svg";
 
 import { Apps, Tools, AppLogo } from "../../context/UserContext";
 
