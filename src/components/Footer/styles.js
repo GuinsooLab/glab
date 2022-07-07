@@ -10,7 +10,7 @@ export default makeStyles((theme) => ({
   logo: {
     display: "flex",
     marginTop: theme.spacing(3),
-    // alignItems: "center",
+    justifyContent: "center",
     [theme.breakpoints.down("md")]: {
       display: "none",
     },

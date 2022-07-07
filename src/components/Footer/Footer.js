@@ -13,7 +13,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import useStyles from "./styles";
 
 // pictures
-import GLabLogoFooter from "../../images/logo.svg";
+import GLabLogoFooter from "../../images/guinsoolab-footer.svg";
 
 import { Apps, Tools, AppLogo } from "../../context/UserContext";
 
@@ -40,7 +40,7 @@ export default function Footer() {
             <Grid item xs={2} className={classes.logo}>
               <img
                 src={GLabLogoFooter}
-                height={87}
+                height={37}
                 alt="guinsoo-logo-footer"
               />
             </Grid>
