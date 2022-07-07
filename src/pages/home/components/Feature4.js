@@ -44,16 +44,16 @@ export default function Feature4() {
         tip="Free & Open & Safe"
       />
       <Grid container className={classes.holoCover}>
-        <Grid item xs={2}>
+        <Grid item xs={1}>
         </Grid>
-        <Grid item xs={8}>
+        <Grid item xs={10}>
           <Grid container>
             <Grid item xs={12} className={classes.dataFlow}>
               <img src={DataFlowDiagram} width={"100%"} alt="data-flow-diagram"/>
             </Grid>
           </Grid>
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={1}>
         </Grid>
       </Grid>
     </div>
