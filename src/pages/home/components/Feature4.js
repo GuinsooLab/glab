@@ -29,6 +29,8 @@ const useStyles = makeStyles((theme) => ({
     height: "80vh",
     cursor: "pointer",
     padding: theme.spacing(2),
+    display: "flex",
+    alignItems: "center",
   }
 }));
 

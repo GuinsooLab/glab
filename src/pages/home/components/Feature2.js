@@ -9,7 +9,6 @@ import ElixirNoteBlackLogo from "../../../assets/elixirnote-black.svg";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    backgroundColor: "#f2f2f3",
     color: theme.palette.text.primary,
   },
   img: {
@@ -19,73 +18,81 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(2),
   },
   cardBody: {
-    textAlign: "center",
-    "&:hover": {
-      color: "white",
-      backgroundColor: theme.palette.primary.main,
-    }
+    marginTop: theme.spacing(10),
+    marginBottom: theme.spacing(5),
+    backgroundColor: "#f1f8ff",
+    padding: theme.spacing(2),
+    backgroundImage: 'url(' + require('../../../images/bg-feature-1.svg') + ')',
+    backgroundRepeat: "no-repeat",
+    backgroundSize: 1000,
+  },
+  cardBody2: {
+    marginTop: theme.spacing(10),
+    marginBottom: theme.spacing(5),
+    backgroundColor: "#eaebfc",
+    padding: theme.spacing(2),
+  },
+  cardBody3: {
+    marginBottom: theme.spacing(5),
+    backgroundColor: "#3d79ba",
+    padding: theme.spacing(2),
+    color: "#ffffff",
   },
   iconTitle: {
-    fontSize: 18,
+    fontSize: 16,
     fontWeight: 500,
   },
   title: {
-    fontSize: 22,
+    fontSize: 28,
     fontWeight: 600,
-    paddingTop: theme.spacing(5),
+    paddingTop: theme.spacing(1),
     width: "100%",
     overflow: "hidden",
     display: "block",
     whiteSpace: "nowrap",
     textOverflow: "ellipsis",
+    color: "#000000",
+  },
+  title3: {
+    fontSize: 28,
+    fontWeight: 600,
+    paddingTop: theme.spacing(1),
+    width: "100%",
+    overflow: "hidden",
+    display: "block",
+    whiteSpace: "nowrap",
+    textOverflow: "ellipsis",
+    color: "#ffffff",
   },
   content: {
     marginTop: theme.spacing(3),
     marginBottom: theme.spacing(5),
+    width: 400,
     lineHeight: 2,
     fontSize: "16px",
   },
-  homeFooter: {
+  productFooter: {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
     height: "15vh",
     textAlign: "center"
+  },
+  contentFooter: {
+    height: "70vh",
+    marginBottom: theme.spacing(10),
   }
 }));
-
-const ConfigData = [
-  {
-    id: 1,
-    title: "High Performance",
-    content: "Ensure predictable low latency for your most demanding applications.",
-  },
-  {
-    id: 2,
-    title: "Mission‑Critical Reliability",
-    content: "Ensure that your data is always correct, safe and continuously available.",
-  },
-  {
-    id: 3,
-    title: "Cypher & Bolt Compatible",
-    content: "Get started in seconds and embrace a rich ecosystem of tools.",
-  },
-  {
-    id: 4,
-    title: "Fair & Transparent Pricing",
-    content: "Always know what you will pay for with memory-based pricing in the cloud.",
-  },
-];
 
 export default function Feature2() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
-      <Grid container>
+    <div>
+      <Grid container className={classes.root}>
         <Grid item xs={1} />
         <Grid item xs={10}>
-          <Grid container className={classes.homeFooter}>
+          <Grid container className={classes.productFooter}>
             <Grid item xs={12}>
               <p className={classes.iconTitle}>TRUSTED BY APPS IN THE INDUSTRY</p>
             </Grid>
@@ -104,25 +111,36 @@ export default function Feature2() {
           </Grid>
         </Grid>
         <Grid item xs={1} />
+      </Grid>
+      <Grid container>
         <Grid item xs={1}>
         </Grid>
         <Grid item xs={10}>
-          <Grid container spacing={1}>
-            {
-              ConfigData.map(item => (
-                <Grid
-                  item
-                  xs={3}
-                  key={item.id}
-                  className={classes.cardBody}
-                >
-                  <div>
-                    <p className={classes.title}>{item.title}</p>
-                    <div className={classes.content}>{item.content}</div>
+          <Grid container className={classes.contentFooter}>
+            <Grid item xs={6} className={classes.cardBody}>
+              <div>
+                <p className={classes.title}>High Performance</p>
+                <div className={classes.content}>Ensure predictable low latency for your most demanding applications.</div>
+              </div>
+            </Grid>
+            <Grid item xs={6}>
+              <Grid container>
+                <Grid item xs={1} />
+                <Grid item xs={11}>
+                  <div className={classes.cardBody2}>
+                    <p className={classes.title}>Mission‑Critical Reliability</p>
+                    <div className={classes.content}>Ensure that your data is always correct, safe and continuously available.</div>
                   </div>
                 </Grid>
-              ))
-            }
+                <Grid item xs={1} />
+                <Grid item xs={11}>
+                  <div className={classes.cardBody3}>
+                    <p className={classes.title3}>Cypher & Bolt Compatible</p>
+                    <div className={classes.content}>Get started in seconds and embrace a rich ecosystem of tools.</div>
+                  </div>
+                </Grid>
+              </Grid>
+            </Grid>
           </Grid>
         </Grid>
         <Grid item xs={1}>

@@ -74,7 +74,6 @@ const SubSystemsInfo = [
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    paddingBottom: theme.spacing(10),
     backgroundColor: "#ffffff",
   },
   items: {
@@ -83,7 +82,7 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(5),
   },
   featureContainer: {
-    marginTop: theme.spacing(2),
+    marginBottom: theme.spacing(2),
   },
   appLogo: {
     // backgroundColor: theme.palette.secondary.main,

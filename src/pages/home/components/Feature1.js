@@ -51,19 +51,13 @@ const useStyles = makeStyles(theme => ({
   },
   logoBody: {
     fontSize: 18,
-    fontWeight: 450,
+    fontWeight: 500,
     color: theme.palette.text.hint,
-    backgroundImage: "-webkit-linear-gradient(right, #63d0ff, #ac72f0)",
-    "-webkit-background-clip": "text",
-    "-webkit-text-fill-color": "transparent",
   },
   logoBody2: {
     fontSize: 18,
-    fontWeight: 450,
+    fontWeight: 500,
     color: theme.palette.text.hint,
-    backgroundImage: "-webkit-linear-gradient(right, #ffd88d, #ec585d)",
-    "-webkit-background-clip": "text",
-    "-webkit-text-fill-color": "transparent",
   },
   buttonInfoToMore: {
     fontSize: 16,

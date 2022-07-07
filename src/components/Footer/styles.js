@@ -49,7 +49,7 @@ export default makeStyles((theme) => ({
   title22: {
     fontSize: 16,
     color: theme.palette.text.hint,
-    fontWeight: 800,
+    fontWeight: 400,
   },
   body2: {
     display: "flex",
