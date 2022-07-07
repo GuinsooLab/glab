@@ -19,7 +19,6 @@ const useStyles = makeStyles((theme) => ({
   },
   cardBody: {
     marginTop: theme.spacing(10),
-    marginBottom: theme.spacing(5),
     backgroundColor: "#f1f8ff",
     padding: theme.spacing(2),
     backgroundImage: 'url(' + require('../../../images/bg-feature-1.svg') + ')',
@@ -27,13 +26,14 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: 1000,
   },
   cardBody2: {
+    height: `calc(35vh - ${theme.spacing(5)}px)`,
     marginTop: theme.spacing(10),
-    marginBottom: theme.spacing(5),
+    marginBottom: theme.spacing(6),
     backgroundColor: "#eaebfc",
     padding: theme.spacing(2),
   },
   cardBody3: {
-    marginBottom: theme.spacing(5),
+    height: `calc(35vh - ${theme.spacing(5)}px)`,
     backgroundColor: "#3d79ba",
     padding: theme.spacing(2),
     color: "#ffffff",
