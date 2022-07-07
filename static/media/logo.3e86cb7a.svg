@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280px" height="280px" viewBox="0 0 280 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>guinsoolab</title>
+    <g id="guinsoolab" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#000000" x="0" y="0" width="280" height="280"></rect>
+        <g id="Group" transform="translate(147.000000, 150.000000)" fill="#FFFFFF">
+            <rect id="Rectangle" transform="translate(86.000000, 49.500000) scale(-1, 1) rotate(90.000000) translate(-86.000000, -49.500000) " x="63.5" y="27.5" width="45" height="44"></rect>
+            <rect id="Rectangle" x="0" y="0" width="108" height="44"></rect>
+        </g>
+    </g>
+</svg>

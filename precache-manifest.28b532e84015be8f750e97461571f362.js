@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe1e43eb7a60541de7a285fd36108d14",
+    "revision": "65441ab2a58c8d04a50f13fade942622",
     "url": "/glab/index.html"
   },
   {
-    "revision": "ee1f651d74ecca72243b",
-    "url": "/glab/static/js/2.59ccdf0c.chunk.js"
+    "revision": "10ae7f35b77241fce78c",
+    "url": "/glab/static/js/2.0e0b4e9b.chunk.js"
   },
   {
-    "revision": "9c62fb466899377421cf",
-    "url": "/glab/static/js/main.15dd61c7.chunk.js"
+    "revision": "644684dca2203c837fdb",
+    "url": "/glab/static/js/main.9d4a847b.chunk.js"
   },
   {
     "revision": "61752386bf41c5f2ff2b",
@@ -60,16 +60,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/glab/static/media/gdp-new.de4b7cc7.svg"
   },
   {
-    "revision": "aa43cfdd7be298de9f3cb60fb28789ef",
-    "url": "/glab/static/media/gusinsoo-ebook.aa43cfdd.png"
+    "revision": "9da8925297bf0c87401c2b37c6e992c1",
+    "url": "/glab/static/media/guinsoolab-footer.9da89252.svg"
   },
   {
-    "revision": "f7cb177b970c55ebca0fde25e494f2c7",
-    "url": "/glab/static/media/gusinsoo-finance.f7cb177b.png"
+    "revision": "5c64a1a1ee69c3f04ba3ef6b5acf7669",
+    "url": "/glab/static/media/gusinsoo-ebook.5c64a1a1.png"
   },
   {
-    "revision": "b15939fb7ee1484449e6831842a7203b",
-    "url": "/glab/static/media/gusinsoo-security.b15939fb.png"
+    "revision": "d887f1490bd7247db4031c0c904c70cc",
+    "url": "/glab/static/media/gusinsoo-finance.d887f149.png"
+  },
+  {
+    "revision": "d626b0f2215317113e29fd301e7f59b4",
+    "url": "/glab/static/media/gusinsoo-security.d626b0f2.png"
   },
   {
     "revision": "ba16a6d621b7791641512969ffe2352e",
@@ -96,8 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/glab/static/media/irelia.39aae173.svg"
   },
   {
-    "revision": "5b06e843ab0079bba07717184d395c55",
-    "url": "/glab/static/media/logo.5b06e843.svg"
+    "revision": "3e86cb7a0646ea15699c53c7cbc085c3",
+    "url": "/glab/static/media/logo.3e86cb7a.svg"
   },
   {
     "revision": "3c75289bd3489f6a7c6b5df924eefeac",
