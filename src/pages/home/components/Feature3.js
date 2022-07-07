@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import { Avatar } from "@material-ui/core";
+import { AvatarGroup } from "@material-ui/lab";
 
 // components
 import Title from "../../../components/Title";
@@ -15,7 +16,14 @@ import StorageIcon from "../../../images/toolsets/storage.svg";
 import FlowIcon from "../../../images/toolsets/flow.svg";
 import ProcessIcon from "../../../images/toolsets/process.svg";
 import ObserveIcon from "../../../images/toolsets/observe.svg";
-
+import DarksealDarkIcon from "../../../assets/darkseal-dark.jpg";
+import WitdbDarkIcon from "../../../assets/witdb-dark.jpg";
+import HurricanedbDarkIcon from "../../../assets/hurricanedb-dark.jpg";
+import MortalmeshDarkIcon from "../../../assets/mortalmesh-dark.jpg";
+import AnnastoreDarkIcon from "../../../assets/annaStore-dark.jpg";
+import DuskbladesqlDarkIcon from "../../../assets/duskbladesql-dark.jpg";
+import SheenflowDarkIcon from "../../../assets/sheenflow-dark.jpg";
+import StealwardDarkIcon from "../../../assets/stealthward-dark.jpg";
 
 const SubSystemsInfo = [
   {
@@ -26,6 +34,7 @@ const SubSystemsInfo = [
       "indexing data resources ...",
     link: "https://ciusji.gitbook.io/guinsoolab/products/data-discovery",
     icon: DiscoveryIcon,
+    subSystemIcons: [DarksealDarkIcon],
   },
   {
     id: 2,
@@ -34,6 +43,7 @@ const SubSystemsInfo = [
       "with your existing data pipelines but fast and consistent queries at high concurrency ...",
     link: "https://ciusji.gitbook.io/guinsoolab/products/query-engine",
     icon: QueryIcon,
+    subSystemIcons: [WitdbDarkIcon, HurricanedbDarkIcon],
   },
   {
     id: 3,
@@ -42,6 +52,7 @@ const SubSystemsInfo = [
       "only object storage suite available on every public cloud, every Kubernetes distribution, the private cloud ...",
     link: "https://ciusji.gitbook.io/guinsoolab/products/data-storage",
     icon: StorageIcon,
+    subSystemIcons: [MortalmeshDarkIcon, AnnastoreDarkIcon],
   },
   {
     id: 4,
@@ -51,6 +62,7 @@ const SubSystemsInfo = [
       "mid-query fault tolerance... ",
     link: "https://ciusji.gitbook.io/guinsoolab/products/process-engine",
     icon: ProcessIcon,
+    subSystemIcons: [DuskbladesqlDarkIcon],
   },
   {
     id: 5,
@@ -60,6 +72,7 @@ const SubSystemsInfo = [
       "to visualize pipelines ...",
     link: "https://ciusji.gitbook.io/guinsoolab/products/data-flow",
     icon: FlowIcon,
+    subSystemIcons: [SheenflowDarkIcon],
   },
   {
     id: 6,
@@ -68,6 +81,7 @@ const SubSystemsInfo = [
       "recommendations to drive more reliable performance in your modern data applications, wherever it’s deployed ...",
     link: "https://ciusji.gitbook.io/guinsoolab/products/data-observability",
     icon: ObserveIcon,
+    subSystemIcons: [StealwardDarkIcon],
   },
 ];
 
@@ -120,18 +134,15 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.hint,
   },
   learnMore: {
-    marginTop: theme.spacing(4),
+    marginTop: theme.spacing(2),
     display: "flex",
     paddingLeft: 0,
     paddingBottom: theme.spacing(1),
     paddingTop: theme.spacing(1),
     textTransform: "Capitalize",
-    fontWeight: 600,
     borderWidth: 2,
-    color: "#000000",
-    "&:hover": {
-      color: theme.palette.primary.main,
-    }
+    color: theme.palette.primary.main,
+    fontWeight: 600,
   },
   buttonLink: {
     marginTop: theme.spacing(5),
@@ -173,6 +184,11 @@ export default function Feature3() {
                     <p className={classes.featureLongDesc}>
                       {systemInfo.longDesc}
                     </p>
+                    <AvatarGroup max={5}>
+                      {systemInfo.subSystemIcons.map(subIcon => (
+                        <Avatar alt="sub-system-icon" style={{ borderColor: "#FFFFFF", width: "36px", height: "36px", marginTop: "8px" }} src={subIcon} />
+                      ))}
+                    </AvatarGroup>
                     <Button
                       endIcon={<ArrowRightAltIcon />}
                       className={classes.learnMore}
