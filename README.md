@@ -1,5 +1,7 @@
 <div align="center">
     <img src="./src/images/logo.svg" width="120" alt="logo" />
+    <br />
+    <br />
 </div>
 
 # GuinsooLab
@@ -11,13 +13,12 @@
 `GuinsooLab is the perfect calculation-container for developers, analyst and entrepreneurs who need a sleek,
 modern SaaS tool.`
 
-<br/>
+Click [here](https://guinsoolab.github.io/glab) to visit more.
 
-## Home Page
 
-[**GuinsooLab Home**](https://guinsoolab.github.io/glab)
+## Architecture
 
-<br/>
+![logo](./src/images/gdp-new.svg)
 
 
 ## Main Apps
