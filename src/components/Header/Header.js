@@ -74,8 +74,7 @@ export default function Header() {
             <Grid item xs={1} />
             <Grid item xs={2} className={classes.mainTitle}>BI Products</Grid>
             <Grid item xs={1} />
-            <Grid item xs={7} className={classes.mainTitle}>Platform Toolsets</Grid>
-            <Grid item xs={1} />
+            <Grid item xs={8} className={classes.mainTitle}>Platform Toolsets</Grid>
             {/* --- */}
             <Grid item xs={1} />
             <Grid item xs={2}>
@@ -99,7 +98,7 @@ export default function Header() {
             <Grid item xs={1}>
               <Divider orientation={"vertical"} />
             </Grid>
-            <Grid item xs={5}>
+            <Grid item xs={6}>
               {Tools.map(it => (
                 <Grid container alignItems={"center"} key={it.category}>
                   <Grid item xs={3}>
@@ -130,7 +129,7 @@ export default function Header() {
             <Grid item xs={2}>
               <img src={GLabSecurity} height={260} alt="ebook-for-security" />
             </Grid>
-            <Grid item xs={1} />
+            {/* --- */}
             <Grid item xs={12}>
               <Divider className={classes.divider} />
               <p className={classes.platformTag}>GuinsooLab 2020-2022</p>
