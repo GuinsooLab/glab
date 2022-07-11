@@ -18,7 +18,7 @@ export default makeStyles((theme) => ({
   },
   paperLeft: {
     height: "90vh",
-    paddingTop: "15%",
+    paddingTop: "18%",
     position: "absolute",
     zIndex: 999,
   },
