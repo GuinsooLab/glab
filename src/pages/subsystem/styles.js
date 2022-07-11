@@ -28,7 +28,6 @@ export default makeStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     alignItems: "flex-end",
-    // overflow: "hidden",
   },
   smallLogo: {
     height: 23,

@@ -93,9 +93,9 @@ export default function Feature1() {
   return (
     <div className={classes.root}>
       <Grid container className={classes.mainPart}>
-        <Grid item xs={2}>
+        <Grid item xs={2} md={2}>
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={3} md={4}>
           <div className={classes.paperLeft}>
             <div>
               <p className={classes.logoSlogan} id="slogan">
@@ -122,7 +122,7 @@ export default function Feature1() {
             </div>
           </div>
         </Grid>
-        <Grid item xs={7}>
+        <Grid item xs={7} md={6}>
           <div className={classes.pageRight}>
           </div>
         </Grid>
