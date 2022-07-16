@@ -26,7 +26,6 @@ export default makeStyles((theme) => ({
     height: "100vh",
     padding: theme.spacing(1),
     display: "flex",
-    justifyContent: "center",
     alignItems: "flex-end",
   },
   smallLogo: {

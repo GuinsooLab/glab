@@ -19,6 +19,7 @@ import DarksealGround from "../images/darkseal-ground.svg";
 import HuricanedbGround from "../images/huricanedb-ground.svg";
 import WitdbGround from "../images/witdb-ground.svg";
 import MortalmeshGround from "../images/mortalmesh-ground.svg";
+import AnnaStoreGround from "../images/annastore-ground.svg";
 import DuskbaldeSQLGround from "../images/duskbladesql-ground.svg";
 import SheenflowGround from "../images/sheenflow-ground.svg";
 import StealthwardGround from "../images/stealthward-ground.svg";
@@ -58,7 +59,7 @@ const Tools = [
     category: "Data Storage",
     apps: [
       {name: "MortalMesh", href: "#/app/mortalmesh", link: "", doc: "", pic: MortalmeshGround, state: 2},
-      {name: "AnnaStore", href: "#/app/annaStore", link: "", doc: "", pic: MortalmeshGround, state: 2},
+      {name: "AnnaStore", href: "#/app/annaStore", link: "", doc: "", pic: AnnaStoreGround, state: 2},
     ],
   },
   {

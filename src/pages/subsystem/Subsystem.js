@@ -57,12 +57,10 @@ export default function Subsystem() {
               </div>
             </div>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={7}>
             <div className={classes.pageRight}>
               <img src={item.pic} alt="logo" height={"100%"} />
             </div>
-          </Grid>
-          <Grid item xs={1}>
           </Grid>
         </Grid>
       </div>
