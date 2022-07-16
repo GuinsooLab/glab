@@ -17,7 +17,7 @@ export default makeStyles((theme) => ({
     },
     "& img": {
       marginTop: theme.spacing(2),
-      marginBottom: theme.spacing(2),
+      marginBottom: theme.spacing(4),
     }
   },
   footerPos: {

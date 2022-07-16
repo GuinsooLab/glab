@@ -44,7 +44,7 @@ export default function Footer() {
                 height={37}
                 alt="guinsoo-logo-footer"
               />
-              <img src={GLabBadge} height={60} alt="badge" />
+              <img src={GLabBadge} height={90} alt="badge" />
             </Grid>
             <Grid item xs={1}>
             </Grid>
