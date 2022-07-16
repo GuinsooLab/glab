@@ -1,9 +1,9 @@
 <div align="right">
     <img src="./src/images/guinsoolab_badge.png" width="60" alt="badge">
+    <br />
 </div>
 <div align="center">
     <img src="./src/images/logo.svg" width="120" alt="logo" />
-    <br />
     <br />
 </div>
 
