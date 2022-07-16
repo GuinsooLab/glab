@@ -6,6 +6,7 @@ import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 
 // styles
 import useStyles from "./styles";
+import GitHubRepo from "../../images/github-repo.svg";
 
 // global data
 import { Tools, Apps } from "../../context/UserContext";
@@ -35,6 +36,9 @@ export default function Subsystem() {
           <Grid item xs={3}>
             <div className={classes.paperLeft}>
               <div>
+                <img src={item.logo} width={40} alt="logo" />
+              </div>
+              <div>
                 <p className={classes.logoSlogan2} id="slogan">
                   {item.name}
                 </p>
@@ -50,7 +54,7 @@ export default function Subsystem() {
                   variant={"outlined"}
                   endIcon={<ArrowRightAltIcon />}
                   className={classes.buttonInfoToMore}
-                  onClick={() => window.open(item.link, "_self")}
+                  onClick={() => window.open(item.doc, "_self")}
                 >
                   Get Started
                 </Button>
@@ -63,6 +67,15 @@ export default function Subsystem() {
             </div>
           </Grid>
         </Grid>
+      </div>
+      <div className={classes.githubRepo}>
+        <img
+          src={GitHubRepo}
+          width={24}
+          height={24}
+          alt="github-repo"
+          onClick={() => window.open(item.link, "_blank")}
+        />
       </div>
     </div>
   );

@@ -45,39 +45,103 @@ const Tools = [
   {
     category: "Data Discovery",
     apps: [
-      {name: "Darkseal", href: "#/app/darkseal", link: "", doc: "", pic: DarksealGround, state: 1},
+      {
+        name: "Darkseal",
+        href: "#/app/darkseal",
+        link: "https://github.com/GuinsooLab/darkseal",
+        doc: "https://ciusji.gitbook.io/guinsoolab/products/data-discovery",
+        pic: DarksealGround,
+        logo: DarksealLogo,
+        state: 1,
+      },
     ],
   },
   {
     category: "Query Engine",
     apps: [
-      {name: "WitDB", href: "#/app/witDB", link: "", doc: "", pic: WitdbGround, state: 1},
-      {name: "HurricaneDB", href: "#/app/hurricaneDB", link: "", doc: "", pic: HuricanedbGround, state: 1},
+      {
+        name: "WitDB",
+        href: "#/app/witDB",
+        link: "https://github.com/GuinsooLab/witdb",
+        doc: "https://ciusji.gitbook.io/guinsoolab/products/query-engine/witdb",
+        pic: WitdbGround,
+        logo: WitdbLogo,
+        state: 1,
+      },
+      {
+        name: "HurricaneDB",
+        href: "#/app/hurricaneDB",
+        link: "https://github.com/GuinsooLab/hurricanedb",
+        doc: "https://ciusji.gitbook.io/guinsoolab/products/query-engine/hurricanedb",
+        pic: HuricanedbGround,
+        logo: HurricanedbLogo,
+        state: 1,
+      },
     ],
   },
   {
     category: "Data Storage",
     apps: [
-      {name: "MortalMesh", href: "#/app/mortalmesh", link: "", doc: "", pic: MortalmeshGround, state: 2},
-      {name: "AnnaStore", href: "#/app/annaStore", link: "", doc: "", pic: AnnaStoreGround, state: 2},
+      {
+        name: "MortalMesh",
+        href: "#/app/mortalmesh",
+        link: "https://github.com/GuinsooLab/mortalmesh",
+        doc: "https://ciusji.gitbook.io/guinsoolab/products/data-storage/mortalmesh",
+        pic: MortalmeshGround,
+        logo: MortalmeshLogo,
+        state: 2,
+      },
+      {
+        name: "AnnaStore",
+        href: "#/app/annaStore",
+        link: "https://github.com/GuinsooLab/annastore",
+        doc: "https://ciusji.gitbook.io/guinsoolab/products/data-storage/annastore",
+        pic: AnnaStoreGround,
+        logo: AnnoStoreLogo,
+        state: 2,
+      },
     ],
   },
   {
     category: "Process Engine",
     apps: [
-      {name: "DuskbladeSQL", href: "#/app/duskbladeSQL", link: "", doc: "", pic: DuskbaldeSQLGround, state: 1},
+      {
+        name: "DuskbladeSQL",
+        href: "#/app/duskbladeSQL",
+        link: "https://github.com/GuinsooLab/duskbladesql",
+        doc: "https://ciusji.gitbook.io/guinsoolab/products/process-engine",
+        pic: DuskbaldeSQLGround,
+        logo: DuskbladesqlLogo,
+        state: 1,
+      },
     ],
   },
   {
     category: "Data Flow",
     apps: [
-      {name: "Sheenflow", href: "#/app/sheenflow", link: "", doc: "", pic: SheenflowGround, state: 1},
+      {
+        name: "Sheenflow",
+        href: "#/app/sheenflow",
+        link: "https://github.com/GuinsooLab/sheenflow",
+        doc: "https://ciusji.gitbook.io/guinsoolab/products/data-flow",
+        pic: SheenflowGround,
+        logo: SheenflowLogo,
+        state: 1,
+      },
     ],
   },
   {
     category: "Data Observability",
     apps: [
-      {name: "Stealthward", href: "#/app/stealthward", link: "", doc: "", pic: StealthwardGround, state: 1},
+      {
+        name: "Stealthward",
+        href: "#/app/stealthward",
+        link: "https://github.com/GuinsooLab/stealthward",
+        doc: "https://ciusji.gitbook.io/guinsoolab/products/data-observability",
+        pic: StealthwardGround,
+        logo: StealthwardLogo,
+        state: 1,
+      },
     ],
   },
 ];
@@ -86,9 +150,33 @@ const Apps = [
   {
     category: "BI Products",
     apps: [
-      {name: "Spotrix", href: "#/app/spotrix", link: "https://github.com/Spotrix/spotrix", doc: "", pic: SpotrixGround, state: 1, desc: "Easy for users to visualize data"},
-      {name: "Irelia", href: "#/app/irelia", link: "https://github.com/ElixirNote/irelia", doc: "", pic: IreliaGround, state: 1, desc: "Find true power in your tables"},
-      {name: "ElixirNote", href: "#/app/elixirnote", link: "https://github.com/ElixirNote/elixirnote", doc: "", pic: ElixirNoteGround, state: 1, desc: "Agile data science notebook for teams"},
+      {
+        name: "Spotrix",
+        href: "#/app/spotrix",
+        link: "https://github.com/Spotrix/spotrix",
+        doc: "",
+        pic: SpotrixGround,
+        state: 1,
+        desc: "Easy for users to visualize data",
+      },
+      {
+        name: "Irelia",
+        href: "#/app/irelia",
+        link: "https://github.com/ElixirNote/irelia",
+        doc: "",
+        pic: IreliaGround,
+        state: 1,
+        desc: "Find true power in your tables",
+      },
+      {
+        name: "ElixirNote",
+        href: "#/app/elixirnote",
+        link: "https://github.com/ElixirNote/elixirnote",
+        doc: "",
+        pic: ElixirNoteGround,
+        state: 1,
+        desc: "Agile data science notebook for teams",
+      },
     ],
   },
 ];

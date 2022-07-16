@@ -103,5 +103,10 @@ export default makeStyles((theme) => ({
         marginLeft: theme.spacing(1),
       }
     }
+  },
+  githubRepo: {
+    position: "absolute",
+    right: 32,
+    top: 96,
   }
 }));
