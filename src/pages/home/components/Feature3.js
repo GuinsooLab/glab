@@ -57,8 +57,8 @@ const SubSystemsInfo = [
   {
     id: 4,
     title: "Process Engine",
-    longDesc: "Includes a cost-based optimizer, columnar storage and code generation to make queries fast. At the same " +
-      "time, it scales to thousands of nodes and multi hour queries using the process engine, which provides full " +
+    longDesc: "Includes a cost-based optimizer, columnar storage and code generation to make queries fast. " +
+      "It scales to thousands of nodes and multi hour queries using the process engine, which provides full " +
       "mid-query fault tolerance... ",
     link: "https://ciusji.gitbook.io/guinsoolab/products/process-engine",
     icon: ProcessIcon,

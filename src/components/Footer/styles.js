@@ -9,11 +9,16 @@ export default makeStyles((theme) => ({
   },
   logo: {
     display: "flex",
+    flexDirection: "column",
     marginTop: theme.spacing(3),
-    justifyContent: "center",
+    alignItems: "center",
     [theme.breakpoints.down("md")]: {
       display: "none",
     },
+    "& img": {
+      marginTop: theme.spacing(2),
+      marginBottom: theme.spacing(2),
+    }
   },
   footerPos: {
     marginTop: theme.spacing(4),

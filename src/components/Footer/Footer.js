@@ -14,6 +14,7 @@ import useStyles from "./styles";
 
 // pictures
 import GLabLogoFooter from "../../images/guinsoolab-footer.svg";
+import GLabBadge from "../../images/_badge.png";
 
 import { Apps, Tools, AppLogo } from "../../context/UserContext";
 
@@ -43,6 +44,7 @@ export default function Footer() {
                 height={37}
                 alt="guinsoo-logo-footer"
               />
+              <img src={GLabBadge} height={60} alt="badge" />
             </Grid>
             <Grid item xs={1}>
             </Grid>
