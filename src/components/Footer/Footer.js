@@ -14,7 +14,7 @@ import useStyles from "./styles";
 
 // pictures
 import GLabLogoFooter from "../../images/guinsoolab-footer.svg";
-import GLabBadge from "../../images/_badge.png";
+import GLabBadge from "../../images/guinsoolab_badge.png";
 
 import { Apps, Tools, AppLogo } from "../../context/UserContext";
 
