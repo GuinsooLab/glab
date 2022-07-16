@@ -34,7 +34,13 @@ const SubSystemsInfo = [
       "indexing data resources ...",
     link: "https://ciusji.gitbook.io/guinsoolab/products/data-discovery",
     icon: DiscoveryIcon,
-    subSystemIcons: [DarksealDarkIcon],
+    subSystemIcons: [
+      {
+        icon: DarksealDarkIcon,
+        name: "Darkseal",
+        href: "#/app/darkseal",
+      }
+    ],
   },
   {
     id: 2,
@@ -43,7 +49,18 @@ const SubSystemsInfo = [
       "with your existing data pipelines but fast and consistent queries at high concurrency ...",
     link: "https://ciusji.gitbook.io/guinsoolab/products/query-engine",
     icon: QueryIcon,
-    subSystemIcons: [WitdbDarkIcon, HurricanedbDarkIcon],
+    subSystemIcons: [
+      {
+        icon: WitdbDarkIcon,
+        name: "WitDB",
+        href: "#/app/witDB",
+      },
+      {
+        icon: HurricanedbDarkIcon,
+        name: "HurricaneDB",
+        href: "#/app/hurricaneDB",
+      }
+    ],
   },
   {
     id: 3,
@@ -52,7 +69,18 @@ const SubSystemsInfo = [
       "only object storage suite available on every public cloud, every Kubernetes distribution, the private cloud ...",
     link: "https://ciusji.gitbook.io/guinsoolab/products/data-storage",
     icon: StorageIcon,
-    subSystemIcons: [MortalmeshDarkIcon, AnnastoreDarkIcon],
+    subSystemIcons: [
+      {
+        icon: MortalmeshDarkIcon,
+        name: "MortalMesh",
+        href: "#/app/mortalmesh",
+      },
+      {
+        icon: AnnastoreDarkIcon,
+        name: "AnnaStore",
+        href: "#/app/annaStore",
+      }
+    ],
   },
   {
     id: 4,
@@ -62,7 +90,13 @@ const SubSystemsInfo = [
       "mid-query fault tolerance... ",
     link: "https://ciusji.gitbook.io/guinsoolab/products/process-engine",
     icon: ProcessIcon,
-    subSystemIcons: [DuskbladesqlDarkIcon],
+    subSystemIcons: [
+      {
+        icon: DuskbladesqlDarkIcon,
+        name: "DuskbladeSQL",
+        href: "#/app/duskbladeSQL",
+      }
+    ],
   },
   {
     id: 5,
@@ -72,7 +106,13 @@ const SubSystemsInfo = [
       "to visualize pipelines ...",
     link: "https://ciusji.gitbook.io/guinsoolab/products/data-flow",
     icon: FlowIcon,
-    subSystemIcons: [SheenflowDarkIcon],
+    subSystemIcons: [
+      {
+        icon: SheenflowDarkIcon,
+        name: "Sheenflow",
+        href: "#/app/sheenflow",
+      }
+    ],
   },
   {
     id: 6,
@@ -81,7 +121,13 @@ const SubSystemsInfo = [
       "recommendations to drive more reliable performance in your modern data applications, wherever it’s deployed ...",
     link: "https://ciusji.gitbook.io/guinsoolab/products/data-observability",
     icon: ObserveIcon,
-    subSystemIcons: [StealwardDarkIcon],
+    subSystemIcons: [
+      {
+        icon: StealwardDarkIcon,
+        name: "Stealthward",
+        href: "#/app/stealthward",
+      }
+    ],
   },
 ];
 
@@ -155,6 +201,15 @@ const useStyles = makeStyles((theme) => ({
       color: "white",
     },
   },
+  avatarIcon: {
+    borderColor: "#FFFFFF",
+    width: "36px",
+    height: "36px",
+    marginTop: "8px",
+    "&:hover": {
+      borderColor: theme.palette.primary.main,
+    }
+  }
 }));
 
 export default function Feature3() {
@@ -185,8 +240,14 @@ export default function Feature3() {
                       {systemInfo.longDesc}
                     </p>
                     <AvatarGroup max={5}>
-                      {systemInfo.subSystemIcons.map(subIcon => (
-                        <Avatar alt="sub-system-icon" style={{ borderColor: "#FFFFFF", width: "36px", height: "36px", marginTop: "8px" }} src={subIcon} />
+                      {systemInfo.subSystemIcons.map(subIconItem => (
+                        <Avatar
+                          key={subIconItem.name}
+                          alt="sub-system-icon"
+                          className={classes.avatarIcon}
+                          src={subIconItem.icon}
+                          onClick={() => window.open(subIconItem.href)}
+                        />
                       ))}
                     </AvatarGroup>
                     <Button
