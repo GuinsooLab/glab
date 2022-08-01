@@ -152,7 +152,7 @@ const Apps = [
     apps: [
       {
         name: "Spotrix",
-        href: "#/app/spotrix",
+        href: "https://spotrix.github.io/spotrix-web/",
         link: "https://github.com/Spotrix/spotrix",
         doc: "https://ciusji.gitbook.io/spotrix/",
         pic: SpotrixGround,
@@ -162,7 +162,7 @@ const Apps = [
       },
       {
         name: "Irelia",
-        href: "#/app/irelia",
+        href: "https://ireliatable.github.io/irelia-web/",
         link: "https://github.com/ElixirNote/irelia",
         doc: "https://ciusji.gitbook.io/irelia/",
         pic: IreliaGround,
@@ -172,7 +172,7 @@ const Apps = [
       },
       {
         name: "ElixirNote",
-        href: "#/app/elixirnote",
+        href: "https://elixirnote.github.io/elixir-web/",
         link: "https://github.com/ElixirNote/elixirnote",
         doc: "https://ciusji.gitbook.io/elixirnote/",
         pic: ElixirNoteGround,
