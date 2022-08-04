@@ -19,9 +19,9 @@ modern SaaS tool.`
 Click [here](https://guinsoolab.github.io/glab) to visit more.
 
 
-## Architecture
+## Ecosystem
 
-![logo](./src/images/gdp-new.svg)
+![logo](./src/images/guinsoo-ecosystem.svg)
 
 
 ## Main Apps
