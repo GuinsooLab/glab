@@ -115,7 +115,7 @@ export default function Feature1() {
               <Button
                 variant={"outlined"}
                 className={classes.buttonInfoToMore}
-                onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}
+                onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/", "_blank")}
               >
                 Learn More
               </Button>
