@@ -68,7 +68,7 @@ const useStyles = makeStyles(theme => ({
     paddingRight: theme.spacing(3),
     paddingTop: theme.spacing(1),
     paddingBottom: theme.spacing(1),
-    borderRadius: 4,
+    borderRadius: 0,
     "&:hover": {
       color: "white",
       borderColor: "white",
