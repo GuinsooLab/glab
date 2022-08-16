@@ -124,7 +124,7 @@ export default makeStyles((theme) => ({
     paddingRight: theme.spacing(1),
     paddingTop: 4,
     paddingBottom: 4,
-    borderRadius: 4,
+    borderRadius: 0,
     "&:hover, &:focus": {
       backgroundColor: "white",
       // color: theme.palette.primary.main,
@@ -139,6 +139,7 @@ export default makeStyles((theme) => ({
     marginBottom: theme.spacing(2),
     backgroundColor: "#ffffff",
     color: "#000000",
+    borderRadius: 0,
     textTransform: "Capitalize",
     "&:hover": {
       cursor: "not-allowed",

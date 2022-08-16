@@ -118,6 +118,7 @@ export default makeStyles(theme => {
         textTransform: "Capitalize",
       },
       backgroundColor: "#000000",
+      borderRadius: 0,
       color: "#ffffff",
       "&:hover": {
         backgroundColor: "#ffffff",
