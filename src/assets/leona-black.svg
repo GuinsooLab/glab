@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1573px" height="450px" viewBox="0 0 1573 450" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>loena-black</title>
+    <g id="guinsoolab-logos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="loena-black">
+            <g id="Group-2">
+                <circle id="Oval" fill="#000000" cx="225" cy="225" r="225"></circle>
+                <g id="Group" transform="translate(251.100000, 222.900000) rotate(-45.000000) translate(-251.100000, -222.900000) translate(131.100000, 102.900000)" fill="#FFFFFF">
+                    <circle id="Oval" cx="60" cy="60" r="60"></circle>
+                    <circle id="Oval" cx="60" cy="180" r="60"></circle>
+                    <polygon id="Path" points="180 -8.2071544e-13 60 -8.2071544e-13 -2.94181623e-13 60 -2.94181623e-13 240 60 240 120 180 120 60"></polygon>
+                    <circle id="Oval" cx="180" cy="60" r="60"></circle>
+                </g>
+            </g>
+            <text id="Leona" font-family="Helvetica" font-size="360" font-weight="normal" fill="#000000">
+                <tspan x="570.962891" y="349">Leona</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

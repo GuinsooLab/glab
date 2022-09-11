@@ -5,6 +5,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import SpotrixBlackLogo from "../../../assets/spotrix-black.svg";
 import IreliaBlackLogo from "../../../assets/irelia-black.svg";
 import ElixirNoteBlackLogo from "../../../assets/elixirnote-black.svg";
+import JhinBoardBlackLogo from "../../../assets/jhin-black.svg";
+import LeonaLogBlackLogo from "../../../assets/leona-black.svg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -96,17 +98,20 @@ export default function Feature2() {
             <Grid item xs={12}>
               <p className={classes.iconTitle}>TRUSTED BY APPS IN THE INDUSTRY</p>
             </Grid>
-            <Grid item xs={3}>
-              <img src={SpotrixBlackLogo} width={"30%"} alt="spotrix-logo" />
+            <Grid item xs={2}>
+              <img src={SpotrixBlackLogo} width={"60%"} alt="spotrix-logo" />
             </Grid>
-            <Grid item xs={3}>
-              <img src={IreliaBlackLogo} width={"30%"} alt="irelia-logo" />
+            <Grid item xs={2}>
+              <img src={IreliaBlackLogo} width={"50%"} alt="irelia-logo" />
             </Grid>
-            <Grid item xs={3}>
-              <img src={ElixirNoteBlackLogo} width={"40%"} alt="elixirnote-logo" />
+            <Grid item xs={2}>
+              <img src={ElixirNoteBlackLogo} width={"60%"} alt="elixirnote-logo" />
             </Grid>
-            <Grid item xs={3}>
-              <p className={classes.iconTitle}>...</p>
+            <Grid item xs={2}>
+              <img src={JhinBoardBlackLogo} width={"60%"} alt="jhinboard-logo" />
+            </Grid>
+            <Grid item xs={2}>
+              <img src={LeonaLogBlackLogo} width={"50%"} alt="leonalog-logo" />
             </Grid>
           </Grid>
         </Grid>
