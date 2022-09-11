@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52c5c7ce0e6072513a71f2c111032deb",
+    "revision": "8f8d6355ab80981472fd64fbb4f7a5e1",
     "url": "/glab/index.html"
   },
   {
-    "revision": "38ef921eb10279498e5a",
-    "url": "/glab/static/js/2.46d3b0b9.chunk.js"
+    "revision": "ee58f062f8612139a364",
+    "url": "/glab/static/js/2.fdace1e4.chunk.js"
   },
   {
-    "revision": "ff68c7f44ec5fa6d9050",
-    "url": "/glab/static/js/main.212dea41.chunk.js"
+    "revision": "7d06a64ea41fbbad3185",
+    "url": "/glab/static/js/main.79eff6d1.chunk.js"
   },
   {
     "revision": "61752386bf41c5f2ff2b",
@@ -114,6 +114,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "39aae1738cc7d37705636b88bf293d01",
     "url": "/glab/static/media/irelia.39aae173.svg"
+  },
+  {
+    "revision": "b5ad2a097d6933a16ff21ee1e3f66907",
+    "url": "/glab/static/media/jhin-black.b5ad2a09.svg"
+  },
+  {
+    "revision": "263d3181323b07719e3982615186e927",
+    "url": "/glab/static/media/leona-black.263d3181.svg"
   },
   {
     "revision": "3e86cb7a0646ea15699c53c7cbc085c3",
