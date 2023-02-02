@@ -1,9 +1,9 @@
 <div align="right">
-    <img src="./src/images/guinsoolab_badge.png" width="60" alt="badge">
+    <img src="https://raw.githubusercontent.com/GuinsooLab/glab/main/src/images/guinsoolab_badge.png" width="60" alt="badge">
     <br />
 </div>
 <div align="center">
-    <img src="./src/images/logo.svg" width="120" alt="logo" />
+    <img src="https://raw.githubusercontent.com/GuinsooLab/glab/main/src/images/logo.svg" width="120" alt="logo" />
     <br />
 </div>
 
@@ -69,3 +69,5 @@ This is maintained by [cius.ji](https://github.com/ciusji).
 ## License
 
 [MIT License](./LICENSE)
+
+<img src="https://raw.githubusercontent.com/GuinsooLab/glab/main/src/images/guinsoolab-group.svg" width="120" alt="license" />
