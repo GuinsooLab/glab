@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17679c7073c43246cc083b507c8fbb6f",
+    "revision": "6029e0ca157f5356d39f72d6872aeb0c",
     "url": "/glab/index.html"
   },
   {
-    "revision": "913941e3f35644d1ec5d",
-    "url": "/glab/static/js/2.350969eb.chunk.js"
+    "revision": "ad6e7e9a82f3bb47bfa6",
+    "url": "/glab/static/js/2.5585d8f7.chunk.js"
   },
   {
-    "revision": "e5baea9573902db9d6b8",
-    "url": "/glab/static/js/main.88f1da80.chunk.js"
+    "revision": "b594c1400e30511cc2a7",
+    "url": "/glab/static/js/main.00888955.chunk.js"
   },
   {
     "revision": "61752386bf41c5f2ff2b",
@@ -136,6 +136,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/glab/static/media/main-ground.3c75289b.svg"
   },
   {
+    "revision": "96c503bcb6ee484211edbdc7461ac331",
+    "url": "/glab/static/media/morgana-black.96c503bc.svg"
+  },
+  {
     "revision": "1dc8f789b15a92bb830f1f3c24b9c037",
     "url": "/glab/static/media/morgana.1dc8f789.svg"
   },
@@ -190,6 +194,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a6000a276b99d87334360cd7337977dd",
     "url": "/glab/static/media/storage.a6000a27.svg"
+  },
+  {
+    "revision": "0d3e0526ff7037f88fa4e7ec66d10a10",
+    "url": "/glab/static/media/taric-black.0d3e0526.svg"
   },
   {
     "revision": "47f397b377eb03f303b0d310c2963c2e",
