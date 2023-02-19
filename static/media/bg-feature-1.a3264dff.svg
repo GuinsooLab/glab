@@ -43,7 +43,6 @@
     </defs>
     <g id="bg-feature-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="graphic-d31a42c16763ac79a45d37cbdf7614b2" transform="translate(898.527361, 485.650176) scale(-1, 1) rotate(35.000000) translate(-898.527361, -485.650176) translate(400.027361, 114.343964)">
-            <polygon id="Path" fill-opacity="0.7" fill="url(#linearGradient-1)" fill-rule="nonzero" transform="translate(238.119189, 527.791205) scale(-1, 1) rotate(45.000000) translate(-238.119189, -527.791205) " points="53.6380419 458.156198 438.05227 423.921203 422.600337 597.426212 38.1861086 631.661206"></polygon>
             <polygon id="Path" fill-opacity="0.7" fill="url(#linearGradient-2)" fill-rule="nonzero" points="305.440512 97.9430804 241.440512 66.6932928 241.440512 146.443505 305.440512 177.693293"></polygon>
             <polygon id="Path" fill-opacity="0.55" fill="url(#linearGradient-3)" fill-rule="nonzero" points="306.201537 98.6632121 370.201537 67.5092808 370.201537 156.35535 306.201537 187.509281"></polygon>
             <path d="M498.952446,481 C774.267095,480.637065 997.250192,372.669878 997,239.845694 C996.750711,107.021509 773.3622,-0.360013086 498.048876,3.56467999e-13 C222.734228,0.362934516 -0.248869525,108.330122 -4.413778e-13,241.154306 C0.250611341,373.978491 223.639123,481.360013 498.952446,481 Z" id="Path" fill-opacity="0.6" fill="url(#radialGradient-4)" fill-rule="nonzero"></path>
