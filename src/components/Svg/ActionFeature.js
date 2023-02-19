@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/styles";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 
-import EBook from "../../images/gusinsoo-ebook.png"
+import EBook from "../../images/platform-ebook.png"
 
 
 const useStyles = makeStyles(theme => ({
@@ -25,7 +25,7 @@ const useStyles = makeStyles(theme => ({
   },
   button: {
     color: "#000000",
-    borderRadius: 4,
+    borderRadius: 0,
     textTransform: "Capitalize",
     "&:hover": {
       color: "#ffffff",
@@ -36,7 +36,12 @@ const useStyles = makeStyles(theme => ({
     height: "45vh",
     backgroundImage: 'url(' + require('../../images/hero-right.svg') + ')',
     backgroundRepeat: "no-repeat",
-  }
+  },
+  glabOverviewImg: {
+    height: 280,
+    border: '1px solid #ebebeb',
+    borderRadius: 4
+  },
 }));
 
 export default function ActionFeature() {
@@ -58,7 +63,7 @@ export default function ActionFeature() {
           </Button>
         </Grid>
         <Grid item xs={2}>
-          <img src={EBook} height={260} alt="ebook-for-platform" />
+          <img src={EBook} className={classes.glabOverviewImg} alt="ebook-for-platform" />
         </Grid>
         <Grid item xs={2} className={classes.rightPart} />
       </Grid>

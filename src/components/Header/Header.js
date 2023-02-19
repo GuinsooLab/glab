@@ -16,14 +16,15 @@ import useStyles from "./styles";
 
 // pictures
 import GLabLogo from "../../images/logo.svg";
-import GLabFinance from "../../images/gusinsoo-finance.png";
-import GLabSecurity from "../../images/gusinsoo-security.png";
+import GLabSolutions from "../../images/gusinsoo-solutions.png";
+import GLabOverview from "../../images/platform-ebook.png";
 
-import { Apps, Tools, AppLogo } from "../../context/UserContext";
+import { Apps, Tools, AppLogo, Security, Monitor } from "../../context/UserContext";
 
 
 export default function Header() {
   const classes = useStyles();
+  const thisYear = new Date().getFullYear()
 
   const [appMenu, setAppMenu] = useState(null);
   const [solutionMenu, setSolutionMenu] = useState(null);
@@ -71,33 +72,8 @@ export default function Header() {
           className={classes.headerMenu}
         >
           <Grid container>
-            <Grid item xs={1} />
-            <Grid item xs={2} className={classes.mainTitle}>BI Products</Grid>
-            <Grid item xs={1} />
-            <Grid item xs={8} className={classes.mainTitle}>Platform Toolsets</Grid>
             {/* --- */}
-            <Grid item xs={1} />
-            <Grid item xs={2}>
-              {Apps.map(tt => (
-                <Grid container spacing={2}>
-                  {tt.apps.map(mm => (
-                    <Grid item xs={12} key={mm.name}>
-                      <p
-                        className={classes.productTitle}
-                        onClick={() => window.open(mm.href, "_blank")}
-                      >
-                        <img src={AppLogo[mm.name.toLowerCase()]} alt="app-logo" />
-                        &nbsp;&nbsp;{mm.name}
-                      </p>
-                      <p className={classes.productDesc}>{mm.desc}</p>
-                    </Grid>
-                  ))}
-                </Grid>
-              ))}
-            </Grid>
-            <Grid item xs={1}>
-              <Divider orientation={"vertical"} />
-            </Grid>
+            <Grid item xs={2} />
             <Grid item xs={6}>
               {Tools.map(it => (
                 <Grid container alignItems={"center"} key={it.category}>
@@ -126,13 +102,16 @@ export default function Header() {
                 </Grid>
               ))}
             </Grid>
-            <Grid item xs={2}>
-              <img src={GLabSecurity} height={260} alt="ebook-for-security" />
+            <Grid item>
+              <Divider orientation={"vertical"} />
+            </Grid>
+            <Grid item xs={3} className={classes.glabOverviewGrid}>
+              <img src={GLabOverview} className={classes.glabOverviewImg} alt="guinsoolab-platform-overview" />
             </Grid>
             {/* --- */}
             <Grid item xs={12}>
               <Divider className={classes.divider} />
-              <p className={classes.platformTag}>GuinsooLab 2020-2022</p>
+              <p className={classes.platformTag}>GuinsooLab 2020-{thisYear}</p>
             </Grid>
           </Grid>
         </Card>
@@ -148,94 +127,75 @@ export default function Header() {
           className={classes.headerMenu}
         >
           <Grid container>
-            <Grid item xs={1} />
-            <Grid item xs={2} className={classes.mainTitle} />
-            <Grid item xs={1} />
-            <Grid item xs={7} className={classes.mainTitle}>Solutions</Grid>
-            <Grid item xs={1} />
             {/* --- */}
             <Grid item xs={1} />
-            <Grid item xs={2}>
+            <Grid item xs={3}>
               <Grid container spacing={2}>
                 <Grid item xs={12}>
-                  <img src={GLabFinance} height={260} alt="ebook-for-finance" />
+                  <img src={GLabSolutions} className={classes.glabOverviewImg} alt="ebook-for-finance" />
                 </Grid>
               </Grid>
             </Grid>
             <Grid item xs={1}>
               <Divider orientation={"vertical"} />
             </Grid>
-            <Grid item xs={7}>
+            <Grid item xs={6}>
               <Grid container spacing={2} className={classes.solutionPart}>
                 <Grid item xs={5}>
-                  <p className={classes.solutionName}>Private Market Intelligence</p>
-                  <span className={classes.solutionDetail}>
-                    Gain actionable insight on the flow of capital across VC, PE and M&A
-                  </span>
+                  <p className={classes.productTitle}>BUSINESS INTELLIGENCE</p>
+                  {Apps.map(it => (
+                    it.apps.map(app => (
+                      <p className={classes.toolName} onClick={() => window.open(app.href, "_target")}>
+                        <img src={AppLogo[app.name.toLowerCase()]} alt="app-logo" />
+                        &nbsp;&nbsp;{app.name}
+                      </p>
+                    ))
+                  ))}
                 </Grid>
                 <Grid item xs={5}>
-                  <p className={classes.solutionName}>Fundraising</p>
-                  <span className={classes.solutionDetail}>
-                    Raise a fund efficiently with data-informed peer groups, benchmarks and investors
-                  </span>
+                  <p className={classes.productTitle}>SECURITY & MONITOR</p>
+                  {Security.map(it => (
+                    it.apps.map(app => (
+                      <p className={classes.toolName} onClick={() => window.open(app.href, "_target")}>
+                        <img src={AppLogo[app.name.toLowerCase()]} alt="app-logo" />
+                        &nbsp;&nbsp;{app.name}
+                      </p>
+                    ))
+                  ))}
+                  {Monitor.map(it => (
+                    it.apps.map(app => (
+                      <p className={classes.toolName} onClick={() => window.open(app.href, "_target")}>
+                        <img src={AppLogo[app.name.toLowerCase()]} alt="app-logo" />
+                        &nbsp;&nbsp;{app.name}
+                      </p>
+                    ))
+                  ))}
                 </Grid>
                 <Grid item xs={2} />
+
                 <Grid item xs={5}>
-                  <p className={classes.solutionName}>Deal Sourcing</p>
-                  <span className={classes.solutionDetail}>
-                    Discover companies that are a strategic fit, seeking funding or primed for acquisition
-                  </span>
-                </Grid>
-                <Grid item xs={5}>
-                  <p className={classes.solutionName}>Due Diligence</p>
-                  <span className={classes.solutionDetail}>
-                    Create the perfect pitch using valuable intel on companies, funds and financial sponsors
-                  </span>
-                </Grid>
-                <Grid item xs={2} />
-                <Grid item xs={5}>
-                  <p className={classes.solutionName}>Business Development</p>
-                  <span className={classes.solutionDetail}>
-                    Grow your business by targeting opportunities within the private and public markets
-                  </span>
-                </Grid>
-                <Grid item xs={5}>
-                  <p className={classes.solutionName}>Networking</p>
-                  <span className={classes.solutionDetail}>
-                    See how 1.9 million pros operate across the industry and grow your connections
-                  </span>
-                </Grid>
-                <Grid item xs={2} />
-                <Grid item xs={5}>
-                  <p className={classes.solutionName}>Deal Execution</p>
-                  <span className={classes.solutionDetail}>
-                    Build data-backed comps, buyer and investor lists with technology designed to save time
-                  </span>
-                </Grid>
-                <Grid item xs={12}>
-                  <Button
-                    className={classes.solutionButton}
-                    variant={"text"}
-                    endIcon={<ArrowRightAlt />}
-                    onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/solutions/guinsoolab-finance", "_blank")}
+                  <p
+                    onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/solutions/guinsoolab-console", "_target")}
+                    className={classes.toolName}
                   >
-                    View all customer stories
-                  </Button>
+                    VIEW ALL CUSTOMER STORIES
+                    <ArrowRightAlt />
+                  </p>
                 </Grid>
               </Grid>
             </Grid>
             <Grid item xs={1} />
             <Grid item xs={12}>
               <Divider className={classes.divider} />
-              <p className={classes.platformTag}>GuinsooLab 2020-2022</p>
+              <p className={classes.platformTag}>GuinsooLab 2020-{thisYear}</p>
             </Grid>
           </Grid>
         </Card>
         <p
           className={classes.subTitle}
-          onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/appendix/events", "_blank")}
+          onClick={() => window.open("#/app/customer", "_self")}
         >
-          Events
+          Customer
         </p>
         <div className={classes.grow} />
 
@@ -247,14 +207,14 @@ export default function Header() {
         </p>
         <p
           className={classes.subTitle}
-          onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/appendix/support", "_blank")}
+          onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}
         >
           Support
         </p>
         <Button
           variant={"outlined"}
           className={classes.visitButton}
-          onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}
+          onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/platform-documentation", "_blank")}
         >
           Start For Free
         </Button>

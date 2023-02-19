@@ -5,9 +5,6 @@ import Divider from "@material-ui/core/Divider";
 import Button from "@material-ui/core/Button";
 import InputBase from "@material-ui/core/InputBase";
 import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import TwitterIcon from '@material-ui/icons/Twitter';
 
 // styles
 import useStyles from "./styles";
@@ -16,12 +13,14 @@ import useStyles from "./styles";
 import GLabLogoFooter from "../../images/guinsoolab-footer.svg";
 import GLabBadge from "../../images/guinsoolab_badge.png";
 
-import { Apps, Tools, AppLogo } from "../../context/UserContext";
+import { Apps, Tools, AppLogo, Monitor, Security } from "../../context/UserContext";
 
 export default function Footer() {
   const classes = useStyles();
   let platformToolsets = [];
   let biProducts = [];
+  let monitorApps= [];
+  let securityApps = [];
   Tools.forEach(it => {
     it.apps.map(tt => (
       platformToolsets.push({ ...tt })
@@ -32,6 +31,17 @@ export default function Footer() {
       biProducts.push({ ...tt })
     ))
   });
+  Monitor.forEach(it => {
+    it.apps.map(tt => (
+      monitorApps.push({ ...tt})
+    ))
+  });
+  Security.forEach(it => {
+    it.apps.map(tt => {
+      securityApps.push({ ...tt})
+    })
+  });
+
 
   return (
     <>
@@ -71,25 +81,30 @@ export default function Footer() {
                   }
                 </Grid>
                 <Grid item xs={3} className={classes.footerBody}>
-                  <b className={classes.title2}>Community</b>
-                  <p className={classes.body22} onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}>
-                    <GitHubIcon />&nbsp;&nbsp;GitHub
-                  </p>
-                  <p className={classes.body22} onClick={() => window.open("https://www.linkedin.com/in/guinsoolab100/", "_blank")}>
-                    <LinkedInIcon />&nbsp;&nbsp;LinkedIn
-                  </p>
-                  <p className={classes.body22}>
-                    <FacebookIcon />&nbsp;&nbsp;Facebook
-                  </p>
-                  <p className={classes.body22}>
-                    <TwitterIcon />&nbsp;&nbsp;Twitter
-                  </p>
+                  <b className={classes.title2}>Security & Monitor</b>
+                  {securityApps.map(it => (
+                    <p key={it.name} className={classes.body2} onClick={() => window.open(it.href, "_blank")}>
+                      <img src={AppLogo[it.name.toLowerCase()]} alt="app-logo" />
+                      &nbsp;&nbsp;{it.name}
+                    </p>
+                  ))
+                  }
+                  {monitorApps.map(it => (
+                    <p key={it.name} className={classes.body2} onClick={() => window.open(it.href, "_blank")}>
+                      <img src={AppLogo[it.name.toLowerCase()]} alt="app-logo" />
+                      &nbsp;&nbsp;{it.name}
+                    </p>
+                  ))
+                  }
                 </Grid>
                 <Grid item xs={3} className={classes.footerBody}>
                   <b className={classes.title2}>About</b>
                   <p className={classes.body2}>About GuinsooLab</p>
                   <p className={classes.body2}>Careers</p>
                   <p className={classes.body2}>Contact</p>
+                  <p className={classes.body22} onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}>
+                    <GitHubIcon />&nbsp;&nbsp;GitHub
+                  </p>
                 </Grid>
                 <Grid item xs={12}>
                   <Grid container spacing={0} className={classes.footerBody2}>
