@@ -2,10 +2,9 @@
 <svg width="700px" height="700px" viewBox="0 0 700 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>irelia</title>
     <g id="irelia" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect fill="#1C507F" x="0" y="0" width="700" height="700"></rect>
-        <g id="Group" transform="translate(146.000000, 134.000000)" fill="#FFFFFF">
-            <polygon id="Path-8" points="201.033227 0 7.23309932e-15 221.99781 0 443 145.642988 443 145.642988 157.975278 409 157.975278 409 0"></polygon>
-            <polygon id="Path-9" points="291.51155 185 171 311.258157 291.51155 443 409 311.258157"></polygon>
+        <g transform="translate(111.000000, 91.000000)" fill-rule="nonzero">
+            <polygon id="Path-8" fill="#235DFF" points="234.948368 0 8.45335324e-15 259.58209 0 518 170.213566 518 170.213566 184.720528 478 184.720528 478 0"></polygon>
+            <polygon id="Path-9" fill="#3BE3B2" points="340.765592 216 200 363.790556 340.765592 518 478 363.790556"></polygon>
         </g>
     </g>
 </svg>

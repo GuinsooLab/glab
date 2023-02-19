@@ -1,9 +1,15 @@
 import React from "react";
 
-// logos
+// Logos
 import SpotrixLogo from "../assets/spotrix.svg";
 import IreliaLogo from "../assets/irelia.svg";
 import ElixirNoteLogo from "../assets/elixirnote.svg";
+import MorganaLogo from "../assets/morgana.svg";
+import TaricLogo from "../assets/taric.svg";
+import JhinLogo from "../assets/jhin.svg";
+import LeonaLogo from "../assets/leona.svg";
+
+// Products
 import DarksealLogo from "../assets/darkseal.svg";
 import WitdbLogo from "../assets/witdb.svg";
 import HurricanedbLogo from "../assets/hurricanedb.svg";
@@ -12,9 +18,7 @@ import AnnoStoreLogo from "../assets/annaStore.svg";
 import DuskbladesqlLogo from "../assets/duskbladesql.svg";
 import SheenflowLogo from "../assets/sheenflow.svg";
 import StealthwardLogo from "../assets/stealthward.svg";
-import SpotrixGround from "../images/spotrix-ground.svg";
-import IreliaGround from "../images/irelia-ground.svg";
-import ElixirNoteGround from "../images/elixirnote-ground.svg";
+// Background
 import DarksealGround from "../images/darkseal-ground.svg";
 import HuricanedbGround from "../images/huricanedb-ground.svg";
 import WitdbGround from "../images/witdb-ground.svg";
@@ -30,6 +34,13 @@ const AppLogo = {
   spotrix: SpotrixLogo,
   irelia: IreliaLogo,
   elixirnote: ElixirNoteLogo,
+  taric: TaricLogo,
+  jhin: JhinLogo,
+
+  morgana: MorganaLogo,
+
+  leona: LeonaLogo,
+
   darkseal: DarksealLogo,
   witdb: WitdbLogo,
   hurricanedb: HurricanedbLogo,
@@ -43,7 +54,7 @@ const AppLogo = {
 
 const Tools = [
   {
-    category: "Data Discovery",
+    category: "DATA DISCOVERY",
     apps: [
       {
         name: "Darkseal",
@@ -57,7 +68,7 @@ const Tools = [
     ],
   },
   {
-    category: "Query Engine",
+    category: "QUERY ENGINE",
     apps: [
       {
         name: "WitDB",
@@ -80,7 +91,7 @@ const Tools = [
     ],
   },
   {
-    category: "Data Storage",
+    category: "DATA STORAGE",
     apps: [
       {
         name: "MortalMesh",
@@ -98,12 +109,12 @@ const Tools = [
         doc: "https://ciusji.gitbook.io/annastore",
         pic: AnnaStoreGround,
         logo: AnnoStoreLogo,
-        state: 2,
+        state: 1,
       },
     ],
   },
   {
-    category: "Process Engine",
+    category: "PROCESS ENGINE",
     apps: [
       {
         name: "DuskbladeSQL",
@@ -117,7 +128,7 @@ const Tools = [
     ],
   },
   {
-    category: "Data Flow",
+    category: "DATA FLOW",
     apps: [
       {
         name: "Sheenflow",
@@ -131,7 +142,7 @@ const Tools = [
     ],
   },
   {
-    category: "Data Observability",
+    category: "DATA OBSERVABILITY",
     apps: [
       {
         name: "Stealthward",
@@ -140,7 +151,7 @@ const Tools = [
         doc: "https://ciusji.gitbook.io/stealthward",
         pic: StealthwardGround,
         logo: StealthwardLogo,
-        state: 1,
+        state: 2,
       },
     ],
   },
@@ -152,37 +163,72 @@ const Apps = [
     apps: [
       {
         name: "Spotrix",
-        href: "https://spotrix.github.io/spotrix-web/",
+        href: "https://ciusji.gitbook.io/spotrix/",
         link: "https://github.com/Spotrix/spotrix",
         doc: "https://ciusji.gitbook.io/spotrix/",
-        pic: SpotrixGround,
-        logo: SpotrixLogo,
         state: 1,
-        desc: "Easy for users to visualize data",
       },
       {
         name: "Irelia",
-        href: "https://ireliatable.github.io/irelia-web/",
+        href: "https://ciusji.gitbook.io/irelia/",
         link: "https://github.com/ElixirNote/irelia",
         doc: "https://ciusji.gitbook.io/irelia/",
-        pic: IreliaGround,
-        logo: IreliaLogo,
         state: 1,
-        desc: "Find true power in your tables",
       },
       {
         name: "ElixirNote",
-        href: "https://elixirnote.github.io/elixir-web/",
+        href: "https://ciusji.gitbook.io/elixirnote/",
         link: "https://github.com/ElixirNote/elixirnote",
         doc: "https://ciusji.gitbook.io/elixirnote/",
-        pic: ElixirNoteGround,
-        logo: ElixirNoteLogo,
         state: 1,
-        desc: "Agile data science notebook for teams",
+      },
+      {
+        name: "Taric",
+        href: "https://ciusji.gitbook.io/taric/",
+        link: "https://github.com/Taricx/taric",
+        doc: "https://ciusji.gitbook.io/taric/",
+        state: 1,
+      },
+      {
+        name: "Jhin",
+        href: "https://ciusji.gitbook.io/jhinboard/",
+        link: "https://github.com/JhinBoard/jhin",
+        doc: "https://ciusji.gitbook.io/jhinboard/",
+        state: 1,
       },
     ],
   },
 ];
 
+const Security = [
+  {
+    category: "Security",
+    apps: [
+      {
+        name: "Morgana",
+        href: "https://ciusji.gitbook.io/morgana/",
+        link: "https://github.com/MorganaToken/morgana-core",
+        doc: "https://ciusji.gitbook.io/morgana/",
+        logo: "",
+        state: 1,
+        desc: "",
+      },
+    ]
+  }];
 
-export { Tools, Apps, AppLogo };
+const Monitor = [
+  {
+    category: "Monitor",
+    apps: [
+      {
+        name: "Leona",
+        href: "https://ciusji.gitbook.io/leona",
+        link: "https://github.com/LeonaLog/leona",
+        doc: "https://ciusji.gitbook.io/leona",
+        state: 1,
+      },
+    ]
+  }];
+
+
+export { Tools, Apps, AppLogo, Security, Monitor };

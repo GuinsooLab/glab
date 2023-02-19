@@ -57,8 +57,10 @@ export default makeStyles(theme => {
     productTitle: {
       display: "flex",
       alignItems: "center",
-      color: "#000000",
+      color: theme.palette.text.secondary,
+      fontWeight: "bolder",
       fontSize: 12,
+      paddingLeft: 0,
       "&:hover": {
         cursor: "pointer",
       },
@@ -124,6 +126,18 @@ export default makeStyles(theme => {
         backgroundColor: "#ffffff",
         color: "#000000",
       }
+    },
+    glabOverviewGrid: {
+      width: "100%",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      padding: "32px 48px",
+    },
+    glabOverviewImg: {
+      height: 280,
+      border: '1px solid #ebebeb',
+      borderRadius: 4
     },
     divider: {
       marginTop: theme.spacing(1),

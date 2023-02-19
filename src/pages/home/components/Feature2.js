@@ -23,22 +23,33 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(10),
     backgroundColor: "#f1f8ff",
     padding: theme.spacing(2),
-    backgroundImage: 'url(' + require('../../../images/bg-feature-1.svg') + ')',
+    backgroundImage: 'url(' + require('../../../images/guinsoolab-platform-overview.png') + ')',
     backgroundRepeat: "no-repeat",
-    backgroundSize: 1000,
+    backgroundPosition: "bottom right",
+    backgroundSize: 600,
+    border: "1px solid #f2f2f3",
   },
   cardBody2: {
     height: `calc(35vh - ${theme.spacing(5)}px)`,
     marginTop: theme.spacing(10),
     marginBottom: theme.spacing(6),
-    backgroundColor: "#eaebfc",
+    backgroundImage: 'url(' + require('../../../images/darkseal-ground.svg') + ')',
+    backgroundSize: 1100,
+    backgroundPosition: "bottom right",
+    backgroundRepeat: "no-repeat",
     padding: theme.spacing(2),
+    border: "1px solid #f2f2f3",
+    color: "#fff",
   },
   cardBody3: {
     height: `calc(35vh - ${theme.spacing(5)}px)`,
-    backgroundColor: "#3d79ba",
+    backgroundImage: 'url(' + require('../../../images/bg-feature-1.svg') + ')',
+    backgroundSize: 400,
+    backgroundPosition: "bottom right",
+    backgroundRepeat: "no-repeat",
     padding: theme.spacing(2),
-    color: "#ffffff",
+    color: "#000",
+    border: "1px solid #f2f2f3",
   },
   iconTitle: {
     fontSize: 16,
@@ -55,7 +66,7 @@ const useStyles = makeStyles((theme) => ({
     textOverflow: "ellipsis",
     color: "#000000",
   },
-  title3: {
+  title2: {
     fontSize: 28,
     fontWeight: 600,
     paddingTop: theme.spacing(1),
@@ -64,7 +75,7 @@ const useStyles = makeStyles((theme) => ({
     display: "block",
     whiteSpace: "nowrap",
     textOverflow: "ellipsis",
-    color: "#ffffff",
+    color: "#fff",
   },
   content: {
     marginTop: theme.spacing(3),
@@ -105,7 +116,7 @@ export default function Feature2() {
               <img src={IreliaBlackLogo} width={"50%"} alt="irelia-logo" />
             </Grid>
             <Grid item xs={2}>
-              <img src={ElixirNoteBlackLogo} width={"60%"} alt="elixirnote-logo" />
+              <img src={ElixirNoteBlackLogo} width={"70%"} alt="elixirnote-logo" />
             </Grid>
             <Grid item xs={2}>
               <img src={JhinBoardBlackLogo} width={"60%"} alt="jhinboard-logo" />
@@ -133,14 +144,14 @@ export default function Feature2() {
                 <Grid item xs={1} />
                 <Grid item xs={11}>
                   <div className={classes.cardBody2}>
-                    <p className={classes.title}>Mission‑Critical Reliability</p>
+                    <p className={classes.title2}>Mission‑Critical Reliability</p>
                     <div className={classes.content}>Ensure that your data is always correct, safe and continuously available.</div>
                   </div>
                 </Grid>
                 <Grid item xs={1} />
                 <Grid item xs={11}>
                   <div className={classes.cardBody3}>
-                    <p className={classes.title3}>Cypher & Bolt Compatible</p>
+                    <p className={classes.title}>Cypher & Bolt Compatible</p>
                     <div className={classes.content}>Get started in seconds and embrace a rich ecosystem of tools.</div>
                   </div>
                 </Grid>
