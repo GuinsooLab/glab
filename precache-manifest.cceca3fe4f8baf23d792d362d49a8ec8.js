@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6029e0ca157f5356d39f72d6872aeb0c",
+    "revision": "17a354c6527e3f026d1afee0ef71b1bb",
     "url": "/glab/index.html"
   },
   {
-    "revision": "ad6e7e9a82f3bb47bfa6",
-    "url": "/glab/static/js/2.5585d8f7.chunk.js"
+    "revision": "0a5b0e258b5aa63e64e3",
+    "url": "/glab/static/js/2.01198ae6.chunk.js"
   },
   {
-    "revision": "b594c1400e30511cc2a7",
-    "url": "/glab/static/js/main.00888955.chunk.js"
+    "revision": "3869786e477c371729b0",
+    "url": "/glab/static/js/main.8273f863.chunk.js"
   },
   {
     "revision": "61752386bf41c5f2ff2b",
@@ -66,10 +66,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0924d5afac41cc2395e81a8434a6219c",
     "url": "/glab/static/media/gdp-new.0924d5af.svg"
-  },
-  {
-    "revision": "82d499d97e21e31113d4537ff2616f9f",
-    "url": "/glab/static/media/github-repo.82d499d9.svg"
   },
   {
     "revision": "9da8925297bf0c87401c2b37c6e992c1",
