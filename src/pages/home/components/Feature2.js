@@ -7,6 +7,8 @@ import IreliaBlackLogo from "../../../assets/irelia-black.svg";
 import ElixirNoteBlackLogo from "../../../assets/elixirnote-black.svg";
 import JhinBoardBlackLogo from "../../../assets/jhin-black.svg";
 import LeonaLogBlackLogo from "../../../assets/leona-black.svg";
+import TaricBlackLogo from "../../../assets/taric-black.svg";
+import MorganaBlackLogo from "../../../assets/morgana-black.svg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -123,6 +125,12 @@ export default function Feature2() {
             </Grid>
             <Grid item xs={2}>
               <img src={LeonaLogBlackLogo} width={"50%"} alt="leonalog-logo" />
+            </Grid>
+            <Grid item xs={2}>
+              <img src={TaricBlackLogo} width={"50%"} alt="taric-logo" />
+            </Grid>
+            <Grid item xs={2}>
+              <img src={MorganaBlackLogo} width={"90%"} alt="morgana-logo" />
             </Grid>
           </Grid>
         </Grid>

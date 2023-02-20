@@ -64,6 +64,8 @@ const Tools = [
         pic: DarksealGround,
         logo: DarksealLogo,
         state: 1,
+        mainColor: "#346DDB",
+        desc: "A Single place to Discover, Collaborate, and Get your data right."
       },
     ],
   },
@@ -78,6 +80,8 @@ const Tools = [
         pic: WitdbGround,
         logo: WitdbLogo,
         state: 1,
+        mainColor: "#3EFC92",
+        desc: "A fast distributed SQL query engine."
       },
       {
         name: "HurricaneDB",
@@ -87,6 +91,8 @@ const Tools = [
         pic: HuricanedbGround,
         logo: HurricanedbLogo,
         state: 1,
+        mainColor: "#D48FB6",
+        desc: "A real-time distributed OLAP engine."
       },
     ],
   },
@@ -101,6 +107,8 @@ const Tools = [
         pic: MortalmeshGround,
         logo: MortalmeshLogo,
         state: 2,
+        mainColor: "#2D8DFE",
+        desc: "An framework for building a lakehouse architecture."
       },
       {
         name: "AnnaStore",
@@ -110,6 +118,8 @@ const Tools = [
         pic: AnnaStoreGround,
         logo: AnnoStoreLogo,
         state: 1,
+        mainColor: "#346DDB",
+        desc: "High performance OSS storage platform."
       },
     ],
   },
@@ -124,6 +134,8 @@ const Tools = [
         pic: DuskbaldeSQLGround,
         logo: DuskbladesqlLogo,
         state: 1,
+        mainColor: "#6D56FD",
+        desc: "A streaming database for real-time applications."
       },
     ],
   },
@@ -138,6 +150,8 @@ const Tools = [
         pic: SheenflowGround,
         logo: SheenflowLogo,
         state: 1,
+        mainColor: "#8323EF",
+        desc: "A next-generation orchestration platform for data assets."
       },
     ],
   },
@@ -152,6 +166,8 @@ const Tools = [
         pic: StealthwardGround,
         logo: StealthwardLogo,
         state: 2,
+        mainColor: "#6C55FD",
+        desc: "dbt native framework built to observe modern data stack."
       },
     ],
   },

@@ -10,7 +10,7 @@ const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
     width: "100vw",
-    height: "45vh",
+    height: "65vh",
     backgroundColor: "#f2f2f3",
     color: theme.palette.text.primary,
   },
@@ -33,9 +33,10 @@ const useStyles = makeStyles(theme => ({
     },
   },
   rightPart: {
-    height: "45vh",
+    height: "65vh",
     backgroundImage: 'url(' + require('../../images/hero-right.svg') + ')',
     backgroundRepeat: "no-repeat",
+    backgroundPosition: "bottom right",
   },
   glabOverviewImg: {
     height: 280,
