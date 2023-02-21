@@ -8,7 +8,7 @@ import ElixirNoteBlackLogo from "../../../assets/elixirnote-black.svg";
 import JhinBoardBlackLogo from "../../../assets/jhin-black.svg";
 import LeonaLogBlackLogo from "../../../assets/leona-black.svg";
 import TaricBlackLogo from "../../../assets/taric-black.svg";
-import MorganaBlackLogo from "../../../assets/morgana-black.svg";
+// import MorganaBlackLogo from "../../../assets/morgana-black.svg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
