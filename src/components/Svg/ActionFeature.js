@@ -24,19 +24,21 @@ const useStyles = makeStyles(theme => ({
     color: theme.palette.text.primary,
   },
   button: {
-    color: "#000000",
+    background: "#000000",
     borderRadius: 0,
+    color: "#ffffff",
     textTransform: "Capitalize",
     "&:hover": {
-      color: "#ffffff",
-      backgroundColor: "#000000",
+      color: "#000",
+      backgroundColor: theme.palette.primary.main,
     },
   },
   rightPart: {
     height: "65vh",
     backgroundImage: 'url(' + require('../../images/hero-right.svg') + ')',
+    // backgroundImage: 'url(' + require('../../images/gradient-background.svg') + ')',
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "bottom right",
+    backgroundPosition: "right",
   },
   glabOverviewImg: {
     height: 280,
@@ -56,7 +58,8 @@ export default function ActionFeature() {
           <p className={classes.title}>Ready to get started?</p>
           <p className={classes.body}>Try the data platform for free.</p>
           <Button
-            variant={"outlined"}
+            variant={"contained"}
+            disableElevation
             className={classes.button}
             onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}
           >
