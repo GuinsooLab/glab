@@ -12,12 +12,12 @@ const useStyles = makeStyles(theme => ({
     width: "100vw",
     height: "65vh",
     backgroundColor: "#f2f2f3",
-    color: theme.palette.text.primary,
+    color: "#000",
   },
   title: {
-    fontSize: 38,
+    fontSize: 42,
     fontWeight: 800,
-    marginBottom: theme.spacing(4),
+    marginBottom: theme.spacing(10),
   },
   body: {
     fontSize: 16,
