@@ -1,39 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17a354c6527e3f026d1afee0ef71b1bb",
+    "revision": "e7b2f4311fc3fde82c7f6455bef1cfd5",
     "url": "/glab/index.html"
   },
   {
-    "revision": "0a5b0e258b5aa63e64e3",
-    "url": "/glab/static/js/2.01198ae6.chunk.js"
+    "revision": "f5b35bc53cdfe97e17f5",
+    "url": "/glab/static/js/2.a27ba467.chunk.js"
   },
   {
-    "revision": "3869786e477c371729b0",
-    "url": "/glab/static/js/main.8273f863.chunk.js"
+    "revision": "e4ab8345189460f2cc62",
+    "url": "/glab/static/js/main.da58e9bd.chunk.js"
   },
   {
     "revision": "61752386bf41c5f2ff2b",
     "url": "/glab/static/js/runtime~main.f96971e2.js"
   },
   {
+    "revision": "c91a48344b8d1fe8d484599896eeb476",
+    "url": "/glab/static/media/Cover-Image-Water.c91a4834.jpg"
+  },
+  {
     "revision": "de3f44f8014b7180fb0d94c0a9972933",
     "url": "/glab/static/media/annaStore.de3f44f8.svg"
   },
   {
-    "revision": "62baad4ebed557c9566e6e99e58dfce4",
-    "url": "/glab/static/media/annastore-ground.62baad4e.svg"
-  },
-  {
     "revision": "a3264dfff7e16f929efdc9ff2b8fdf2a",
-    "url": "/glab/static/media/bg-feature-1.a3264dff.svg"
+    "url": "/glab/static/media/bg-feature-circle.a3264dff.svg"
   },
   {
     "revision": "7a3cb9320cced24bf0e8b4502ca2b1fd",
     "url": "/glab/static/media/customer-image.7a3cb932.webp"
-  },
-  {
-    "revision": "15423bfc56a152e7ca5056f5e1451245",
-    "url": "/glab/static/media/darkseal-ground.15423bfc.svg"
   },
   {
     "revision": "885b1cfff740aea676e8969a1e404441",
@@ -42,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "59d151af40a4ef1073eacdfdad0221d5",
     "url": "/glab/static/media/discovery.59d151af.svg"
-  },
-  {
-    "revision": "564f3bbf32bd834639191e7ef2fbdda3",
-    "url": "/glab/static/media/duskbladesql-ground.564f3bbf.svg"
   },
   {
     "revision": "19c2d7632c3d89e2c8047738367b2f2e",
@@ -72,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/glab/static/media/guinsoolab-footer.9da89252.svg"
   },
   {
-    "revision": "067c208697f1fab78b4b94056bc57119",
-    "url": "/glab/static/media/guinsoolab-platform-overview.067c2086.png"
+    "revision": "ff572050157954796c3cabdd9a8dbd09",
+    "url": "/glab/static/media/guinsoolab-platform-overview.ff572050.png"
   },
   {
     "revision": "8b4dd990222be8c11a1ef950983a8adf",
@@ -90,10 +82,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ba16a6d621b7791641512969ffe2352e",
     "url": "/glab/static/media/hero-right.ba16a6d6.svg"
-  },
-  {
-    "revision": "1891d6255dfd56da1efb93bb376fd87e",
-    "url": "/glab/static/media/huricanedb-ground.1891d625.svg"
   },
   {
     "revision": "9d485b1b1ef662b38bbe6de58277cc3c",
@@ -140,10 +128,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/glab/static/media/morgana.1dc8f789.svg"
   },
   {
-    "revision": "e987153fb28ad688417f34bf6ffc004a",
-    "url": "/glab/static/media/mortalmesh-ground.e987153f.svg"
-  },
-  {
     "revision": "6b034e4df842c2bf3338e53c91a411e6",
     "url": "/glab/static/media/mortalmesh.6b034e4d.svg"
   },
@@ -164,10 +148,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/glab/static/media/query.9cf8f82a.svg"
   },
   {
-    "revision": "ea4111cdd3248fc37bbca570f666862e",
-    "url": "/glab/static/media/sheenflow-ground.ea4111cd.svg"
-  },
-  {
     "revision": "ff58b7d6abf107edccebfd2eb3369c2b",
     "url": "/glab/static/media/sheenflow.ff58b7d6.svg"
   },
@@ -178,10 +158,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a5b72d0681416d35447ed2430bdc484a",
     "url": "/glab/static/media/spotrix.a5b72d06.svg"
-  },
-  {
-    "revision": "a62c2cbd6e5fdd40fb5a041e43c074e5",
-    "url": "/glab/static/media/stealthward-ground.a62c2cbd.svg"
   },
   {
     "revision": "27fdf100b11a60d8b9ae3d6c8bd77f3d",
@@ -198,10 +174,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "47f397b377eb03f303b0d310c2963c2e",
     "url": "/glab/static/media/taric.47f397b3.svg"
-  },
-  {
-    "revision": "82e8e2f4fd2f581c70481f915f69edce",
-    "url": "/glab/static/media/witdb-ground.82e8e2f4.svg"
   },
   {
     "revision": "4f48b6d6495b9c1188e7c85044c60322",
