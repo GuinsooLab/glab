@@ -15,6 +15,7 @@ import Header from "../Header";
 import Home from "../../pages/home";
 import About from "../../pages/about";
 import Customer from "../../pages/customer";
+import Security from "../../pages/security";
 import Subsystem from "../../pages/subsystem";
 
 import { UserRoleContext } from "../../context/UserContext";
@@ -36,8 +37,9 @@ function Layout() {
         <Header ctx={{role, handleSetRole}}/>
         <Switch>
           <Route path="/app/home" component={Home} />
-          <Route path="/app/about" component={About} />
           <Route path="/app/customer" component={Customer} />
+          <Route path="/app/security" component={Security} />
+          <Route path="/app/about" component={About} />
           <Route path="/app/:name" component={Subsystem} />
         </Switch>
       </UserRoleContext.Provider>

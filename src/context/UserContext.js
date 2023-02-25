@@ -105,7 +105,7 @@ const Tools = [
         doc: "https://ciusji.gitbook.io/annastore",
         logo: AnnoStoreLogo,
         state: 1,
-        mainColor: "#346DDB",
+        mainColor: "#33C89B",
         desc: "High performance OSS storage platform."
       },
     ],

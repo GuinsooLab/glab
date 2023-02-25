@@ -198,6 +198,12 @@ export default function Header() {
         >
           Customer
         </p>
+        <p
+          className={classes.subTitle}
+          onClick={() => window.open("#/app/security", "_self")}
+        >
+          Security
+        </p>
         <div className={classes.grow} />
 
         <p

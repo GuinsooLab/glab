@@ -9,7 +9,7 @@ import useStyles from "./styles";
 
 import CustomerImg from "../../images/customer-image.webp";
 
-export default function About() {
+export default function Customer() {
   const classes = useStyles();
 
   return (
