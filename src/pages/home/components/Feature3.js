@@ -145,11 +145,11 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: theme.spacing(2),
   },
   appLogo: {
-    backgroundColor: theme.palette.primary.main,
+    backgroundColor: "#000",
     borderRadius: 4,
     marginLeft: theme.spacing(1),
     marginTop: theme.spacing(1),
-    padding: 10,
+    padding: 5,
     "& img": {
       width: 32,
     }
