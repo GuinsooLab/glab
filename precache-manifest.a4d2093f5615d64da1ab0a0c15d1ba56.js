@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1121b1c54f231b5979bbdadbc17a22c0",
+    "revision": "af48513e3e0e6c33bbc2f7659a765d8b",
     "url": "/glab/index.html"
   },
   {
-    "revision": "1872db732e68c7302b0d",
-    "url": "/glab/static/js/2.923fe1ac.chunk.js"
+    "revision": "fbc9bc16fdc453a14633",
+    "url": "/glab/static/js/2.fd182aba.chunk.js"
   },
   {
-    "revision": "5f504fb52a2272801352",
-    "url": "/glab/static/js/main.22aebef4.chunk.js"
+    "revision": "0110f5d423d31f9386e7",
+    "url": "/glab/static/js/main.d8d16aea.chunk.js"
   },
   {
     "revision": "61752386bf41c5f2ff2b",
@@ -60,12 +60,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/glab/static/media/gdp-new.0924d5af.svg"
   },
   {
+    "revision": "ee4456e81159a762fe186ce2e017abef",
+    "url": "/glab/static/media/gradientBlobs.ee4456e8.svg"
+  },
+  {
     "revision": "9da8925297bf0c87401c2b37c6e992c1",
     "url": "/glab/static/media/guinsoolab-footer.9da89252.svg"
   },
   {
     "revision": "ff572050157954796c3cabdd9a8dbd09",
     "url": "/glab/static/media/guinsoolab-platform-overview.ff572050.png"
+  },
+  {
+    "revision": "1671be894458d5a8292c8ac3a02dd2bb",
+    "url": "/glab/static/media/guinsoolab-security.1671be89.svg"
   },
   {
     "revision": "8b4dd990222be8c11a1ef950983a8adf",
