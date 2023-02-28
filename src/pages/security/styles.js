@@ -55,6 +55,6 @@ export default makeStyles((theme) => ({
   content: {
     fontSize: 15,
     textAlign: "center",
-    color: "#fff",
+    color: theme.palette.text.secondary,
   },
 }));
