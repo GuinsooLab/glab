@@ -7,6 +7,8 @@ import IreliaBlackLogo from "../../../assets/irelia-black.svg";
 import ElixirNoteBlackLogo from "../../../assets/elixirnote-black.svg";
 import JhinBoardBlackLogo from "../../../assets/jhin-black.svg";
 import LeonaLogBlackLogo from "../../../assets/leona-black.svg";
+import TaricBlackLogo from "../../../assets/taric-black.svg";
+// import MorganaBlackLogo from "../../../assets/morgana-black.svg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -26,15 +28,15 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage: 'url(' + require('../../../images/guinsoolab-platform-overview.png') + ')',
     backgroundRepeat: "no-repeat",
     backgroundPosition: "bottom right",
-    backgroundSize: 600,
+    backgroundSize: "90%",
     border: "1px solid #f2f2f3",
   },
   cardBody2: {
     height: `calc(35vh - ${theme.spacing(5)}px)`,
     marginTop: theme.spacing(10),
     marginBottom: theme.spacing(6),
-    backgroundImage: 'url(' + require('../../../images/darkseal-ground.svg') + ')',
-    backgroundSize: 1100,
+    backgroundImage: 'url(' + require('../../../images/Cover-Image-Water.jpg') + ')',
+    backgroundSize: "100%",
     backgroundPosition: "bottom right",
     backgroundRepeat: "no-repeat",
     padding: theme.spacing(2),
@@ -43,8 +45,8 @@ const useStyles = makeStyles((theme) => ({
   },
   cardBody3: {
     height: `calc(35vh - ${theme.spacing(5)}px)`,
-    backgroundImage: 'url(' + require('../../../images/bg-feature-1.svg') + ')',
-    backgroundSize: 400,
+    backgroundImage: 'url(' + require('../../../images/bg-feature-circle.svg') + ')',
+    backgroundSize: "80%",
     backgroundPosition: "bottom right",
     backgroundRepeat: "no-repeat",
     padding: theme.spacing(2),
@@ -124,6 +126,12 @@ export default function Feature2() {
             <Grid item xs={2}>
               <img src={LeonaLogBlackLogo} width={"50%"} alt="leonalog-logo" />
             </Grid>
+            <Grid item xs={2}>
+              <img src={TaricBlackLogo} width={"50%"} alt="taric-logo" />
+            </Grid>
+            {/*<Grid item xs={2}>*/}
+            {/*  <img src={MorganaBlackLogo} width={"90%"} alt="morgana-logo" />*/}
+            {/*</Grid>*/}
           </Grid>
         </Grid>
         <Grid item xs={1} />

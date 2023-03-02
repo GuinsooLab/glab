@@ -51,6 +51,7 @@ export default function Header() {
     <AppBar
       id="attr"
       position="fixed"
+      elevation={0}
       className={classes.appBar}>
       <Toolbar className={classes.toolbar}>
         <img
@@ -86,7 +87,7 @@ export default function Header() {
                         app.state >= 1 ?
                           <p
                             className={classes.toolName}
-                            onClick={() => window.open(app.href, "_blank")}
+                            onClick={() => window.open(app.href, "_self")}
                           >
                             <img src={AppLogo[app.name.toLowerCase()]} alt="app-logo" />
                             &nbsp;&nbsp;{app.name}
@@ -196,6 +197,12 @@ export default function Header() {
           onClick={() => window.open("#/app/customer", "_self")}
         >
           Customer
+        </p>
+        <p
+          className={classes.subTitle}
+          onClick={() => window.open("#/app/security", "_self")}
+        >
+          Security
         </p>
         <div className={classes.grow} />
 

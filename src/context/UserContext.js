@@ -18,15 +18,7 @@ import AnnoStoreLogo from "../assets/annaStore.svg";
 import DuskbladesqlLogo from "../assets/duskbladesql.svg";
 import SheenflowLogo from "../assets/sheenflow.svg";
 import StealthwardLogo from "../assets/stealthward.svg";
-// Background
-import DarksealGround from "../images/darkseal-ground.svg";
-import HuricanedbGround from "../images/huricanedb-ground.svg";
-import WitdbGround from "../images/witdb-ground.svg";
-import MortalmeshGround from "../images/mortalmesh-ground.svg";
-import AnnaStoreGround from "../images/annastore-ground.svg";
-import DuskbaldeSQLGround from "../images/duskbladesql-ground.svg";
-import SheenflowGround from "../images/sheenflow-ground.svg";
-import StealthwardGround from "../images/stealthward-ground.svg";
+
 
 export const UserRoleContext = React.createContext(undefined);
 
@@ -61,9 +53,10 @@ const Tools = [
         href: "#/app/darkseal",
         link: "https://github.com/GuinsooLab/darkseal",
         doc: "https://ciusji.gitbook.io/darkseal",
-        pic: DarksealGround,
         logo: DarksealLogo,
         state: 1,
+        mainColor: "#346DDB",
+        desc: "A Single place to Discover, Collaborate, and Get your data right."
       },
     ],
   },
@@ -75,18 +68,20 @@ const Tools = [
         href: "#/app/witDB",
         link: "https://github.com/GuinsooLab/witdb",
         doc: "https://ciusji.gitbook.io/witdb",
-        pic: WitdbGround,
         logo: WitdbLogo,
         state: 1,
+        mainColor: "#3EFC92",
+        desc: "A fast distributed SQL query engine."
       },
       {
         name: "HurricaneDB",
         href: "#/app/hurricaneDB",
         link: "https://github.com/GuinsooLab/hurricanedb",
         doc: "https://ciusji.gitbook.io/hurricanedb",
-        pic: HuricanedbGround,
         logo: HurricanedbLogo,
         state: 1,
+        mainColor: "#D48FB6",
+        desc: "A real-time distributed OLAP engine."
       },
     ],
   },
@@ -98,18 +93,20 @@ const Tools = [
         href: "#/app/mortalmesh",
         link: "https://github.com/GuinsooLab/mortalmesh",
         doc: "https://ciusji.gitbook.io/mortalmesh",
-        pic: MortalmeshGround,
         logo: MortalmeshLogo,
         state: 2,
+        mainColor: "#2D8DFE",
+        desc: "An framework for building a lakehouse architecture."
       },
       {
         name: "AnnaStore",
         href: "#/app/annaStore",
         link: "https://github.com/GuinsooLab/annastore",
         doc: "https://ciusji.gitbook.io/annastore",
-        pic: AnnaStoreGround,
         logo: AnnoStoreLogo,
         state: 1,
+        mainColor: "#33C89B",
+        desc: "High performance OSS storage platform."
       },
     ],
   },
@@ -121,9 +118,10 @@ const Tools = [
         href: "#/app/duskbladeSQL",
         link: "https://github.com/GuinsooLab/duskbladesql",
         doc: "https://ciusji.gitbook.io/duskbladesql",
-        pic: DuskbaldeSQLGround,
         logo: DuskbladesqlLogo,
         state: 1,
+        mainColor: "#6D56FD",
+        desc: "A streaming database for real-time applications."
       },
     ],
   },
@@ -135,9 +133,10 @@ const Tools = [
         href: "#/app/sheenflow",
         link: "https://github.com/GuinsooLab/sheenflow",
         doc: "https://ciusji.gitbook.io/sheenflow",
-        pic: SheenflowGround,
         logo: SheenflowLogo,
         state: 1,
+        mainColor: "#8323EF",
+        desc: "A next-generation orchestration platform for data assets."
       },
     ],
   },
@@ -149,9 +148,10 @@ const Tools = [
         href: "#/app/stealthward",
         link: "https://github.com/GuinsooLab/stealthward",
         doc: "https://ciusji.gitbook.io/stealthward",
-        pic: StealthwardGround,
         logo: StealthwardLogo,
         state: 2,
+        mainColor: "#6C55FD",
+        desc: "dbt native framework built to observe modern data stack."
       },
     ],
   },
