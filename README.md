@@ -3,7 +3,7 @@
     <br />
 </div>
 <div align="center">
-    <img src="https://raw.githubusercontent.com/GuinsooLab/glab/main/src/images/logo.svg" width="120" alt="logo" />
+    <img src="https://raw.githubusercontent.com/GuinsooLab/glab/main/src/images/logo.svg" width="100" alt="logo" />
     <br />
 </div>
 
