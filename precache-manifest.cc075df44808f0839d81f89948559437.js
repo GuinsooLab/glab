@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3cc22e0c0062f7d6ae0edc8d69673e5",
+    "revision": "1983e3e6588189fb463947fa0c4c9247",
     "url": "/glab/index.html"
   },
   {
-    "revision": "b5df548723a9898a1b89",
-    "url": "/glab/static/js/2.b1895c29.chunk.js"
+    "revision": "a690b2aaf0da73e20779",
+    "url": "/glab/static/js/2.386f626b.chunk.js"
   },
   {
-    "revision": "043eda2da975a4262b15",
-    "url": "/glab/static/js/main.7804727a.chunk.js"
+    "revision": "ff61291a64ff210cfce5",
+    "url": "/glab/static/js/main.eafea65e.chunk.js"
   },
   {
     "revision": "61752386bf41c5f2ff2b",
@@ -96,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/glab/static/media/irelia-black.abd92452.svg"
   },
   {
-    "revision": "f8cfbdd2a1e28c3724fce9ae768ad54c",
-    "url": "/glab/static/media/irelia.f8cfbdd2.svg"
+    "revision": "96c128ccf1591b9ca191aca992800c44",
+    "url": "/glab/static/media/irelia.96c128cc.svg"
   },
   {
     "revision": "a04a7f33434bf4ef8f235367dc0d4187",
@@ -120,12 +120,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/glab/static/media/logo.3e86cb7a.svg"
   },
   {
+    "revision": "be6db1a9c642e9614acb423569b4de49",
+    "url": "/glab/static/media/luden.be6db1a9.svg"
+  },
+  {
     "revision": "3c75289bd3489f6a7c6b5df924eefeac",
     "url": "/glab/static/media/main-ground.3c75289b.svg"
   },
   {
-    "revision": "1dc8f789b15a92bb830f1f3c24b9c037",
-    "url": "/glab/static/media/morgana.1dc8f789.svg"
+    "revision": "023436a0fb6b056ec68169c2861c7e1f",
+    "url": "/glab/static/media/morganax.023436a0.svg"
   },
   {
     "revision": "6b034e4df842c2bf3338e53c91a411e6",
