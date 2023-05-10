@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1983e3e6588189fb463947fa0c4c9247",
+    "revision": "3cccbb5a5b30449140ec0121ce115681",
     "url": "/glab/index.html"
   },
   {
-    "revision": "a690b2aaf0da73e20779",
-    "url": "/glab/static/js/2.386f626b.chunk.js"
+    "revision": "601ab7a9c27c1f4ca923",
+    "url": "/glab/static/js/2.e7f421c5.chunk.js"
   },
   {
-    "revision": "ff61291a64ff210cfce5",
-    "url": "/glab/static/js/main.eafea65e.chunk.js"
+    "revision": "d8a992c3760c711bc84b",
+    "url": "/glab/static/js/main.dda8f2f7.chunk.js"
   },
   {
     "revision": "61752386bf41c5f2ff2b",
@@ -172,12 +172,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/glab/static/media/storage.c7f57601.svg"
   },
   {
-    "revision": "0d3e0526ff7037f88fa4e7ec66d10a10",
-    "url": "/glab/static/media/taric-black.0d3e0526.svg"
+    "revision": "80b7ef58f0243e3a045f0b20163d4a0f",
+    "url": "/glab/static/media/taric-black.80b7ef58.svg"
   },
   {
-    "revision": "47f397b377eb03f303b0d310c2963c2e",
-    "url": "/glab/static/media/taric.47f397b3.svg"
+    "revision": "2e703b2787620db28759d3e5a82ab3bd",
+    "url": "/glab/static/media/taric.2e703b27.svg"
   },
   {
     "revision": "4f48b6d6495b9c1188e7c85044c60322",

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>taric</title>
+    <g id="taric" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#2CB373" x="0" y="0" width="600" height="600"></rect>
+        <g id="Group" transform="translate(132.016700, 90.467658)" fill="#FFFFFF">
+            <polygon id="Path-22" points="2.73405452e-17 0 2.73405452e-17 164.54314 167.841303 82.2715702 167.841303 0"></polygon>
+            <polygon id="Path-28" points="336.369817 0 167.841303 82.2715702 167.841303 251.240257 -3.28913203e-15 335.248257 167.841303 419 336.369817 335.248257"></polygon>
+        </g>
+    </g>
+</svg>
