@@ -15,7 +15,7 @@ const useStyles = makeStyles(theme => ({
     color: "#000",
   },
   title: {
-    fontSize: 42,
+    fontSize: 46,
     fontWeight: 800,
     marginBottom: theme.spacing(10),
   },
@@ -53,8 +53,8 @@ export default function ActionFeature() {
   return (
     <div>
       <Grid container alignItems={"center"} justify={"center"} className={classes.root}>
-        <Grid item xs={3} />
-        <Grid item xs={5}>
+        <Grid item xs={2} />
+        <Grid item xs={6}>
           <p className={classes.title}>Ready to get started?</p>
           <p className={classes.body}>Try the data platform for free.</p>
           <Button

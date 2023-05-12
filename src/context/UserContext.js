@@ -4,7 +4,7 @@ import React from "react";
 import SpotrixLogo from "../assets/spotrix.svg";
 import IreliaLogo from "../assets/irelia.svg";
 import ElixirNoteLogo from "../assets/elixirnote.svg";
-import MorganaLogo from "../assets/morgana.svg";
+import MorganaLogo from "../assets/morganax.svg";
 import TaricLogo from "../assets/taric.svg";
 import JhinLogo from "../assets/jhin.svg";
 import LeonaLogo from "../assets/leona.svg";
@@ -18,6 +18,7 @@ import AnnoStoreLogo from "../assets/annaStore.svg";
 import DuskbladesqlLogo from "../assets/duskbladesql.svg";
 import SheenflowLogo from "../assets/sheenflow.svg";
 import StealthwardLogo from "../assets/stealthward.svg";
+import LudenLogo from "../assets/luden.svg";
 
 
 export const UserRoleContext = React.createContext(undefined);
@@ -32,6 +33,7 @@ const AppLogo = {
   morgana: MorganaLogo,
 
   leona: LeonaLogo,
+  luden: LudenLogo,
 
   darkseal: DarksealLogo,
   witdb: WitdbLogo,
@@ -225,6 +227,13 @@ const Monitor = [
         href: "https://ciusji.gitbook.io/leona",
         link: "https://github.com/LeonaLog/leona",
         doc: "https://ciusji.gitbook.io/leona",
+        state: 1,
+      },
+      {
+        name: "Luden",
+        href: "https://ciusji.gitbook.io/luden",
+        link: "https://github.com/GuinsooLab/luden",
+        doc: "https://ciusji.gitbook.io/luden",
         state: 1,
       },
     ]

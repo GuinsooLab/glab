@@ -214,7 +214,7 @@ export default function Header() {
         </p>
         <p
           className={classes.subTitle}
-          onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}
+          onClick={() => window.open("#/app/support", "_self")}
         >
           Support
         </p>

@@ -5,6 +5,7 @@ import Divider from "@material-ui/core/Divider";
 import Button from "@material-ui/core/Button";
 import InputBase from "@material-ui/core/InputBase";
 import GitHubIcon from '@material-ui/icons/GitHub';
+import RssFeedIcon from '@material-ui/icons/RssFeed';
 
 // styles
 import useStyles from "./styles";
@@ -37,9 +38,9 @@ export default function Footer() {
     ))
   });
   Security.forEach(it => {
-    it.apps.map(tt => {
+    it.apps.map(tt =>
       securityApps.push({ ...tt})
-    })
+    )
   });
 
 
@@ -104,6 +105,9 @@ export default function Footer() {
                   <p className={classes.body2}>Contact</p>
                   <p className={classes.body22} onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}>
                     <GitHubIcon />&nbsp;&nbsp;GitHub
+                  </p>
+                  <p className={classes.body22} onClick={() => window.open("https://ciusji.medium.com", "_blank")}>
+                    <RssFeedIcon />&nbsp;&nbsp;Medium
                   </p>
                 </Grid>
                 <Grid item xs={12}>
