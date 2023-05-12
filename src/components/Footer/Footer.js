@@ -38,9 +38,9 @@ export default function Footer() {
     ))
   });
   Security.forEach(it => {
-    it.apps.map(tt => {
+    it.apps.map(tt =>
       securityApps.push({ ...tt})
-    })
+    )
   });
 
 
