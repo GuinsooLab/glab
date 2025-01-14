@@ -20,10 +20,10 @@ export default function Security() {
       <Grid container className={classes.fg}>
         <Grid item xs={1} />
         <Grid item xs={6} className={classes.leftPart}>
-          <p className={classes.capital}>GuinsooLab Security</p>
-          <p className={classes.title}>MorganaToken</p>
+          <p className={classes.capital}>MGDC Security</p>
+          <p className={classes.title}>MegaToken</p>
           <span className={classes.content}>
-            Users authenticate with Morgana rather than individual applications.
+            Users authenticate with MegaToken rather than individual applications.
           </span>
           <span className={classes.content}>
             Open Source Identity and Access Management.
@@ -32,7 +32,7 @@ export default function Security() {
             color={"primary"}
             disableElevation
             variant={"contained"}
-            onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/solutions/guinsoolab-security", "_blank")}
+            onClick={() => window.open("https://ciusji.gitbook.io/megarobodata/data-platform/data-security/megatoken", "_blank")}
             style={{textTransform: "Capitalize", fontWeight: "bold", borderRadius: 0, marginTop: 50,}}
           >
             Start For Free

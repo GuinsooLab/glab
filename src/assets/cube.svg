@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="133px" viewBox="0 0 112 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Cube</title>
+    <g id="Mage-Data-Center" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bigdata-ecosystem" transform="translate(-2037, -105)" fill-rule="nonzero">
+            <g id="Group" transform="translate(101, 81)">
+                <g id="Cube" transform="translate(1936, 24)">
+                    <polygon id="Path" fill="#FF6492" points="111.182482 33.1301072 55.591241 0 55.591241 22.9232874 111.182482 55.9108281"></polygon>
+                    <polygon id="Path" fill="#141446" points="112 56.8791548 95.2681122 66.9235668 56.2166749 43.6480651 33.9029735 56.8973071 17.1678832 47.5871064 56.2264217 23.7197453"></polygon>
+                    <polygon id="Path" fill="#A14474" points="34.3357664 56.8205341 17.1678832 47.4394905 17.1678832 66.9235668"></polygon>
+                    <polygon id="Path" fill="#141446" points="0.817518248 99.3577333 56.4089927 66.0764332 112 99.3577333 56.4089927 133"></polygon>
+                    <polygon id="Path" fill="#FF6492" points="111.182482 75.836238 55.591241 41.5095541 55.591241 65.5724729 111.182482 99.1146497"></polygon>
+                    <polygon id="Path" fill="#7A77FF" points="16.6743696 66.1954462 16.6743696 46.8733258 55.591241 23.0247313 55.591241 0 0 33.27672 0 99.1146497 55.5815296 66.1954462 55.5815296 42.5797864"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

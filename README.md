@@ -7,13 +7,13 @@
     <br />
 </div>
 
-# GuinsooLab
+# Mega Data Center
 
 [![tag](https://img.shields.io/github/v/tag/GuinsooLab/glab)](https://github.com/GuinsooLab/glab/releases/tag/v1.0.0)
 [![size](https://img.shields.io/github/repo-size/GuinsooLab/glab)](https://github.com/GuinsooLab/glab)
 [![license](https://img.shields.io/github/license/GuinsooLab/glab)](https://github.com/GuinsooLab/glab/blob/main/LICENSE)
 
-`GuinsooLab is the perfect calculation-container for developers, analyst and entrepreneurs who need a sleek,
+`MGDC(Mega Data Center) is the perfect calculation-container for developers, analyst and entrepreneurs who need a sleek,
 modern SaaS tool.`
 
 Click [here](https://guinsoolab.github.io/glab) to visit more.
@@ -62,7 +62,7 @@ to drive more reliable performance in your modern data applications, wherever it
 
 ## Appendix
 
-© **GuinsooLab**. All right reserved. GLab and GLab feature logo are trademarks of Guinsoo.
+© **GuinsooLab**. All right reserved. MegaData and MegaDataLab feature logo are trademarks of Megarobo.
 This is maintained by [cius.ji](https://github.com/ciusji).
 
 

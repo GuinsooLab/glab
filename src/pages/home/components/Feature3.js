@@ -32,7 +32,7 @@ const SubSystemsInfo = [
     longDesc: "Data discovery is a data discovery and metadata engine for improving the productivity of data " +
       "analysts, data scientists and engineers when interacting with data. It does that today by " +
       "indexing data resources ...",
-    link: "https://ciusji.gitbook.io/guinsoolab/products/data-discovery",
+    link: "https://ciusji.gitbook.io/megarobodata/data-platform/data-discovery",
     icon: DiscoveryIcon,
     subSystemIcons: [
       {
@@ -47,7 +47,7 @@ const SubSystemsInfo = [
     title: "Query Engine",
     longDesc: "Mixed real-time and ad-hoc database to power modern analytics applications. It's Easy integration " +
       "with your existing data pipelines but fast and consistent queries at high concurrency ...",
-    link: "https://ciusji.gitbook.io/guinsoolab/products/query-engine",
+    link: "https://ciusji.gitbook.io/megarobodata/data-platform/query-engine",
     icon: QueryIcon,
     subSystemIcons: [
       {
@@ -67,7 +67,7 @@ const SubSystemsInfo = [
     title: "Data Storage",
     longDesc: "Data Storage offers high-performance, S3 compatible object storage. Native to Kubernetes, also is the " +
       "only object storage suite available on every public cloud, every Kubernetes distribution, the private cloud ...",
-    link: "https://ciusji.gitbook.io/guinsoolab/products/data-storage",
+    link: "https://ciusji.gitbook.io/megarobodata/data-platform/data-storage",
     icon: StorageIcon,
     subSystemIcons: [
       {
@@ -88,7 +88,7 @@ const SubSystemsInfo = [
     longDesc: "Includes a cost-based optimizer, columnar storage and code generation to make queries fast. " +
       "It scales to thousands of nodes and multi hour queries using the process engine, which provides full " +
       "mid-query fault tolerance... ",
-    link: "https://ciusji.gitbook.io/guinsoolab/products/process-engine",
+    link: "https://ciusji.gitbook.io/megarobodata/data-platform/process-engine",
     icon: ProcessIcon,
     subSystemIcons: [
       {
@@ -104,7 +104,7 @@ const SubSystemsInfo = [
     longDesc: "Scheduler executes your tasks on an array of workers while following the specified dependencies. Rich " +
       "command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy " +
       "to visualize pipelines ...",
-    link: "https://ciusji.gitbook.io/guinsoolab/products/data-flow",
+    link: "https://ciusji.gitbook.io/megarobodata/data-platform/data-flow",
     icon: FlowIcon,
     subSystemIcons: [
       {
@@ -119,7 +119,7 @@ const SubSystemsInfo = [
     title: "Data Observability",
     longDesc: "Removes the blind spots in your data pipelines, providing full-stack visibility and AI-powered " +
       "recommendations to drive more reliable performance in your modern data applications, wherever it’s deployed ...",
-    link: "https://ciusji.gitbook.io/guinsoolab/products/data-observability",
+    link: "https://ciusji.gitbook.io/megarobodata/data-platform/data-observability",
     icon: ObserveIcon,
     subSystemIcons: [
       {
@@ -219,8 +219,8 @@ export default function Feature3() {
   return (
     <div className={classes.root}>
       <Title
-        name="GuinsooLab Ecosystem"
-        tip={"Better Together, GuinsooLab stack"}
+        name="Mega Data Ecosystem"
+        tip={"Better Together, Mega Data Stack"}
       />
       <Grid container>
         <Grid item xs={1}>

@@ -16,8 +16,8 @@ import useStyles from "./styles";
 
 // pictures
 import GLabLogo from "../../images/logo.svg";
-import GLabSolutions from "../../images/gusinsoo-solutions.png";
-import GLabOverview from "../../images/platform-ebook.png";
+import GLabSolutions from "../../images/genetic-algorithm.svg";
+import GLabOverview from "../../images/double-helix.svg";
 
 import { Apps, Tools, AppLogo, Security, Monitor } from "../../context/UserContext";
 
@@ -107,12 +107,12 @@ export default function Header() {
               <Divider orientation={"vertical"} />
             </Grid>
             <Grid item xs={3} className={classes.glabOverviewGrid}>
-              <img src={GLabOverview} className={classes.glabOverviewImg} alt="guinsoolab-platform-overview" />
+              <img src={GLabOverview} className={classes.glabOverviewImg} alt="mgdc-platform-overview" />
             </Grid>
             {/* --- */}
             <Grid item xs={12}>
               <Divider className={classes.divider} />
-              <p className={classes.platformTag}>GuinsooLab 2020-{thisYear}</p>
+              <p className={classes.platformTag}>Mega Data Center 2024-{thisYear}</p>
             </Grid>
           </Grid>
         </Card>
@@ -133,7 +133,7 @@ export default function Header() {
             <Grid item xs={3}>
               <Grid container spacing={2}>
                 <Grid item xs={12}>
-                  <img src={GLabSolutions} className={classes.glabOverviewImg} alt="ebook-for-finance" />
+                  <img src={GLabSolutions} className={classes.glabSolutionImg} alt="ebook-for-finance" />
                 </Grid>
               </Grid>
             </Grid>
@@ -176,7 +176,7 @@ export default function Header() {
 
                 <Grid item xs={5}>
                   <p
-                    onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/solutions/guinsoolab-console", "_target")}
+                    onClick={() => window.open("https://ciusji.gitbook.io/megarobodata/mgdc-introduction", "_target")}
                     className={classes.toolName}
                   >
                     VIEW ALL CUSTOMER STORIES
@@ -188,7 +188,7 @@ export default function Header() {
             <Grid item xs={1} />
             <Grid item xs={12}>
               <Divider className={classes.divider} />
-              <p className={classes.platformTag}>GuinsooLab 2020-{thisYear}</p>
+              <p className={classes.platformTag}>Mega Data Center 2024-{thisYear}</p>
             </Grid>
           </Grid>
         </Card>
@@ -208,7 +208,7 @@ export default function Header() {
 
         <p
           className={classes.subTitle}
-          onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/", "_blank")}
+          onClick={() => window.open("https://ciusji.gitbook.io/megarobodata/appendix/resources", "_blank")}
         >
           Resources
         </p>
@@ -221,7 +221,7 @@ export default function Header() {
         <Button
           variant={"outlined"}
           className={classes.visitButton}
-          onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/platform-documentation", "_blank")}
+          onClick={() => window.open("https://ciusji.gitbook.io/megarobodata", "_blank")}
         >
           Start For Free
         </Button>

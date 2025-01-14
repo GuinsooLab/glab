@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/styles";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 
-import EBook from "../../images/platform-ebook.png"
+import EBook from "../../images/gene-sequencing.svg"
 
 
 const useStyles = makeStyles(theme => ({
@@ -36,14 +36,13 @@ const useStyles = makeStyles(theme => ({
   rightPart: {
     height: "65vh",
     backgroundImage: 'url(' + require('../../images/hero-right.svg') + ')',
-    // backgroundImage: 'url(' + require('../../images/gradient-background.svg') + ')',
     backgroundRepeat: "no-repeat",
     backgroundPosition: "right",
   },
   glabOverviewImg: {
-    height: 280,
-    border: '1px solid #ebebeb',
-    borderRadius: 4
+    height: 190,
+    // border: '1px solid #ebebeb',
+    // borderRadius: 4
   },
 }));
 
@@ -61,7 +60,7 @@ export default function ActionFeature() {
             variant={"contained"}
             disableElevation
             className={classes.button}
-            onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}
+            onClick={() => window.open("https://ciusji.gitbook.io/megarobodata/mgdc-introduction", "_blank")}
           >
             Start For Free
           </Button>

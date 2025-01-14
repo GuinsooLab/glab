@@ -85,7 +85,7 @@ const useStyles = makeStyles(theme => ({
 export default function Feature1() {
   const classes = useStyles();
 
-  const defaultSystemName = "GuinsooLab";
+  const defaultSystemName = "Data Center";
 
   const sloganBody1 = "One Platform"
   const sloganBody2 = "Limitless Possibilities"
@@ -115,7 +115,7 @@ export default function Feature1() {
               <Button
                 variant={"outlined"}
                 className={classes.buttonInfoToMore}
-                onClick={() => window.open("https://ciusji.gitbook.io/guinsoolab/", "_blank")}
+                onClick={() => window.open("https://ciusji.gitbook.io/megarobodata", "_blank")}
               >
                 Learn More
               </Button>

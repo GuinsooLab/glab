@@ -135,9 +135,10 @@ export default makeStyles(theme => {
       padding: "32px 48px",
     },
     glabOverviewImg: {
-      height: 280,
-      border: '1px solid #ebebeb',
-      borderRadius: 4
+      height: 210,
+    },
+    glabSolutionImg: {
+      height: 170,
     },
     divider: {
       marginTop: theme.spacing(1),

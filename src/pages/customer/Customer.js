@@ -21,8 +21,8 @@ export default function Customer() {
             <Grid item xs={6} className={classes.leftPart}>
               <p className={classes.capital}>Customer success</p>
               <p className={classes.title}>Accelerate time to value</p>
-              <p className={classes.content}>Get the most out of GuinsooLab products by partnering with our Customer Success team.</p>
-              <p className={classes.content}>At GuinsooLab, we are passionate about our customer's journey to value and success. We provide a best-in-class customer experience, delivered through proactive education, enablement, and proven best-practices.</p>
+              <p className={classes.content}>Get the most out of MGDC products by partnering with our Customer Success team.</p>
+              <p className={classes.content}>At MGDC, we are passionate about our customer's journey to value and success. We provide a best-in-class customer experience, delivered through proactive education, enablement, and proven best-practices.</p>
             </Grid>
             <Grid item xs={6} className={classes.rightPart}>
               <img src={CustomerImg} width={500} alt="customer-img" />
@@ -39,7 +39,7 @@ export default function Customer() {
               <Grid container className={classes.bottomContent}>
                 <Grid xs={1} />
                 <Grid xs={10}>
-                  <p>GuinsooLab offers a range of customer success and support options to fit the needs and budget of every business. Our capabilities include:</p>
+                  <p>MGDC offers a range of customer success and support options to fit the needs and budget of every business. Our capabilities include:</p>
                 </Grid>
                 <Grid xs={1} />
               </Grid>

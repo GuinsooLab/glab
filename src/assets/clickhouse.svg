@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="137px" viewBox="0 0 144 137" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Clickhouse</title>
+    <g id="Mage-Data-Center" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bigdata-ecosystem" transform="translate(-1120, -786)" fill-rule="nonzero">
+            <g id="Group" transform="translate(101, 81)">
+                <g id="Clickhouse" transform="translate(1019, 705)">
+                    <polygon id="Path" fill="#E52421" points="0 118.90566 17.3793103 118.90566 17.3793103 137 0 137"></polygon>
+                    <path d="M111.895687,0 L111.895687,131.830189 L95.9375147,131.830189 L95.9375147,0 L111.895687,0 Z M79.9791716,0 L79.9791716,131.830189 L64.0208284,131.830189 L64.0208284,0 L79.9791716,0 Z M144,53.5438801 L144,78.2861328 L128.041828,78.2861328 L128.041828,53.5438801 L144,53.5438801 Z M47.8748587,0 L47.8748587,131.830189 L31.9165155,131.830189 L31.9165155,0 L47.8748587,0 Z M15.9582919,0 L15.9582919,115.399688 L0,115.399688 L0,0 L15.9582919,0 Z" id="Shape" fill="#FFCC03"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

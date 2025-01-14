@@ -40,7 +40,7 @@ export default function Feature4() {
   return (
     <div className={classes.root}>
       <Title
-        name="GuinsooLab Platform"
+        name="Mega Data Platform"
         tip="Free & Open & Safe"
       />
       <Grid container className={classes.holoCover}>

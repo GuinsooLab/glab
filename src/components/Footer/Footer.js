@@ -11,8 +11,8 @@ import RssFeedIcon from '@material-ui/icons/RssFeed';
 import useStyles from "./styles";
 
 // pictures
-import GLabLogoFooter from "../../images/guinsoolab-footer.svg";
-import GLabBadge from "../../images/guinsoolab_badge.png";
+import GLabLogoFooter from "../../images/mega_data_logo_footer.svg";
+import GLabBadge from "../../images/lab-badge.png";
 
 import { Apps, Tools, AppLogo, Monitor, Security } from "../../context/UserContext";
 
@@ -52,7 +52,7 @@ export default function Footer() {
             <Grid item xs={2} className={classes.logo}>
               <img
                 src={GLabLogoFooter}
-                height={37}
+                height={43}
                 alt="guinsoo-logo-footer"
               />
               <img src={GLabBadge} height={90} alt="badge" />
@@ -100,19 +100,19 @@ export default function Footer() {
                 </Grid>
                 <Grid item xs={3} className={classes.footerBody}>
                   <b className={classes.title2}>About</b>
-                  <p className={classes.body2}>About GuinsooLab</p>
+                  <p className={classes.body2}>About MGDC</p>
                   <p className={classes.body2}>Careers</p>
                   <p className={classes.body2}>Contact</p>
-                  <p className={classes.body22} onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}>
+                  <p className={classes.body22} onClick={() => window.open("https://github.com/MegaroboData", "_blank")}>
                     <GitHubIcon />&nbsp;&nbsp;GitHub
                   </p>
-                  <p className={classes.body22} onClick={() => window.open("https://ciusji.medium.com", "_blank")}>
+                  <p className={classes.body22} onClick={() => window.open("https://medium.com/@megarobo", "_blank")}>
                     <RssFeedIcon />&nbsp;&nbsp;Medium
                   </p>
                 </Grid>
                 <Grid item xs={12}>
                   <Grid container spacing={0} className={classes.footerBody2}>
-                    <Grid item xs={3} className={classes.title22}>Subscribe For GuinsooLab</Grid>
+                    <Grid item xs={3} className={classes.title22}>Subscribe for Megarobo</Grid>
                     <Grid item xs={9}>
                       <InputBase fullWidth className={classes.input} placeholder={"Enter email address"} />
                     </Grid>
@@ -129,26 +129,26 @@ export default function Footer() {
           {/* copyright */}
           <Grid container className={classes.copyright}>
             <Grid item xs={12}>
-              <p>© GuinsooLab. All right reserved.</p>
+              <p>© Megarobo. All right reserved.</p>
             </Grid>
             <Grid item xs={12}>
-              <p>GuinsooLab, Guinsoo, and the Guinsoo feather logo are either
-                registered trademarks or trademarks of the GuinsooLab.<br/> All other products or name
-                brands are trademarks of their respective holders, including the Guinsoolab, and
-                Guinsoo resources.
+              <p>Mega, MegaLab, and the MGDC feather logo are either
+                registered trademarks or trademarks of the MegaRobo.<br/> All other products or name
+                brands are trademarks of their respective holders, including the MegaRobo, and
+                Mega resources.
               </p>
             </Grid>
             <Grid item xs={12} className={classes.footerItem}>
               <p>
-                <span onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}>Security</span>
+                <span onClick={() => window.open("https://github.com/MegaroboData", "_blank")}>Security</span>
                 &nbsp;&nbsp;|&nbsp;&nbsp;
-                <span onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}>Donate</span>
+                <span onClick={() => window.open("https://github.com/MegaroboData", "_blank")}>Donate</span>
                 &nbsp;&nbsp;|&nbsp;&nbsp;
-                <span onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}>Thanks</span>
+                <span onClick={() => window.open("https://github.com/MegaroboData", "_blank")}>Thanks</span>
                 &nbsp;&nbsp;|&nbsp;&nbsp;
-                <span onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}>Events</span>
+                <span onClick={() => window.open("https://github.com/MegaroboData", "_blank")}>Events</span>
                 &nbsp;&nbsp;|&nbsp;&nbsp;
-                <span onClick={() => window.open("https://github.com/GuinsooLab", "_blank")}>License</span>
+                <span onClick={() => window.open("https://github.com/MegaroboData", "_blank")}>License</span>
               </p>
             </Grid>
           </Grid>

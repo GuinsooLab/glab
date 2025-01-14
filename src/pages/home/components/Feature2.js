@@ -2,13 +2,19 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 
-import SpotrixBlackLogo from "../../../assets/spotrix-black.svg";
-import IreliaBlackLogo from "../../../assets/irelia-black.svg";
-import ElixirNoteBlackLogo from "../../../assets/elixirnote-black.svg";
-import JhinBoardBlackLogo from "../../../assets/jhin-black.svg";
-import LeonaLogBlackLogo from "../../../assets/leona-black.svg";
-import TaricBlackLogo from "../../../assets/taric-black.svg";
-// import MorganaBlackLogo from "../../../assets/morgana-black.svg";
+// Big-data ecosystem
+import AirflowLogo from "../../../assets/airflow.svg";
+import BigQueryLogo from "../../../assets/bigquery.svg";
+import ClickhouseLogo from "../../../assets/clickhouse.svg";
+import CubeLogo from "../../../assets/cube.svg";
+import DagsterLogo from "../../../assets/dagster.svg";
+import DatabricksLogo from "../../../assets/databricks.svg";
+import DremioLogo from "../../../assets/dremio.svg";
+import DruidLogo from "../../../assets/druid.svg";
+import DuckdbLogo from "../../../assets/duckdb.svg";
+import ElasticsearchLogo from "../../../assets/elasticsearch.svg";
+import HiveLogo from "../../../assets/hive.svg";
+import PostgresqlLogo from "../../../assets/postgresql.svg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -25,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(10),
     backgroundColor: "#f1f8ff",
     padding: theme.spacing(2),
-    backgroundImage: 'url(' + require('../../../images/guinsoolab-platform-overview.png') + ')',
+    backgroundImage: 'url(' + require('../../../images/lab-platform-overview.png') + ')',
     backgroundRepeat: "no-repeat",
     backgroundPosition: "bottom right",
     backgroundSize: "90%",
@@ -109,29 +115,44 @@ export default function Feature2() {
         <Grid item xs={10}>
           <Grid container className={classes.productFooter}>
             <Grid item xs={12}>
-              <p className={classes.iconTitle}>TRUSTED BY APPS IN THE INDUSTRY</p>
+              <p className={classes.iconTitle}>POWERED BY PROJECTS IN THE OPENSOURCE</p>
             </Grid>
-            <Grid item xs={2}>
-              <img src={SpotrixBlackLogo} width={"60%"} alt="spotrix-logo" />
+            <Grid item xs={1}>
+              <img src={AirflowLogo} width={"20%"} alt="Airflow-logo" />
             </Grid>
-            <Grid item xs={2}>
-              <img src={IreliaBlackLogo} width={"50%"} alt="irelia-logo" />
+            <Grid item xs={1}>
+              <img src={BigQueryLogo} width={"20%"} alt="BigQuery-logo" />
             </Grid>
-            <Grid item xs={2}>
-              <img src={ElixirNoteBlackLogo} width={"70%"} alt="elixirnote-logo" />
+            <Grid item xs={1}>
+              <img src={ClickhouseLogo} width={"20%"} alt="Clickhouse-logo" />
             </Grid>
-            <Grid item xs={2}>
-              <img src={JhinBoardBlackLogo} width={"60%"} alt="jhinboard-logo" />
+            <Grid item xs={1}>
+              <img src={CubeLogo} width={"20%"} alt="Cube-logo" />
             </Grid>
-            <Grid item xs={2}>
-              <img src={LeonaLogBlackLogo} width={"50%"} alt="leonalog-logo" />
+            <Grid item xs={1}>
+              <img src={DagsterLogo} width={"20%"} alt="Dagster-logo" />
             </Grid>
-            <Grid item xs={2}>
-              <img src={TaricBlackLogo} width={"50%"} alt="taric-logo" />
+            <Grid item xs={1}>
+              <img src={DatabricksLogo} width={"20%"} alt="Databricks-logo" />
             </Grid>
-            {/*<Grid item xs={2}>*/}
-            {/*  <img src={MorganaBlackLogo} width={"90%"} alt="morgana-logo" />*/}
-            {/*</Grid>*/}
+            <Grid item xs={1}>
+              <img src={PostgresqlLogo} width={"20%"} alt="Postgresql-logo" />
+            </Grid>
+            <Grid item xs={1}>
+              <img src={DremioLogo} width={"20%"} alt="Dremio-logo" />
+            </Grid>
+            <Grid item xs={1}>
+              <img src={DruidLogo} width={"20%"} alt="Druid-logo" />
+            </Grid>
+            <Grid item xs={1}>
+              <img src={DuckdbLogo} width={"20%"} alt="Duckdb-logo" />
+            </Grid>
+            <Grid item xs={1}>
+              <img src={ElasticsearchLogo} width={"20%"} alt="Elasticsearch-logo" />
+            </Grid>
+            <Grid item xs={1}>
+              <img src={HiveLogo} width={"20%"} alt="Hive-logo" />
+            </Grid>
           </Grid>
         </Grid>
         <Grid item xs={1} />

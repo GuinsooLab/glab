@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="200px" height="201px" viewBox="0 0 200 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>mega_data_logo</title>
+    <title>mega_data_logo_footer</title>
     <g id="Mage-Data-Center" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="mega_data_logo" transform="translate(0, 0.7)">
-            <rect id="Rectangle" fill="#050505" x="0" y="0" width="200" height="200"></rect>
-            <g id="Group" transform="translate(27, 47.3)" fill="#FFFFFF" fill-rule="nonzero">
+        <g id="mega_data_logo_footer" transform="translate(0, 0.7)">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="200" height="200"></rect>
+            <g id="Group" transform="translate(27, 47.3)" fill="#050505" fill-rule="nonzero">
                 <polygon id="Path" points="73.5 42.4658385 110.085202 21.068323 110.085202 63.5341615 128.542601 74.068323 128.542601 10.5341615 147 0 147 106 91.9573991 74.068323 91.9573991 53 73.5 63.5341615 55.0426009 53 55.0426009 74.068323 36.5852018 84.931677 36.5852018 42.4658385 36.5852018 42.4658385 18.4573991 31.931677 18.4573991 95.4658385 0 106 0 0"></polygon>
             </g>
         </g>
